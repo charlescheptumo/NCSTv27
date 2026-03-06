@@ -5,6 +5,7 @@ Page 59105 "Approved DIR Planning  list"
     Editable = false;
     PageType = List;
     SourceTable = Planning;
+    ApplicationArea = All;
 
     layout
     {

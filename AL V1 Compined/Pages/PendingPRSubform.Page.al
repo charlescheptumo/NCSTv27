@@ -9,6 +9,7 @@ Page 50083 "Pending PR Subform"
     PageType = ListPart;
     SourceTable = "Purchase Line";
     SourceTableView = where("Document Type" = filter("Purchase Requisition"));
+    ApplicationArea = All;
 
     layout
     {

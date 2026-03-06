@@ -3,6 +3,7 @@ Page 75052 "Bid Evaluation Template Card"
 {
     PageType = Card;
     SourceTable = "Bid Scoring Template";
+    ApplicationArea = All;
 
     layout
     {

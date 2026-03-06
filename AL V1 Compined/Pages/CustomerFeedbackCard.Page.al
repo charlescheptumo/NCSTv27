@@ -4,6 +4,7 @@ Page 56201 "Customer Feedback Card"
     Caption = 'Customer Feedback';
     PageType = Card;
     SourceTable = "Customer FeedbackS";
+    ApplicationArea = All;
 
     layout
     {

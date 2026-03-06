@@ -3,6 +3,7 @@ Page 75085 "Vendor Special Group Entry"
 {
     PageType = List;
     SourceTable = "Vendor Special Group Entry";
+    ApplicationArea = All;
 
     layout
     {

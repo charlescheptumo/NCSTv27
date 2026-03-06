@@ -9,6 +9,7 @@ Page 69059 "Internal Requisitions"
     SourceTableView = where("Document Type" = const("Store Requisition"),
                             Status = filter(Open | "Pending Approval"),
                             "Beneficiary City" = const('No'));
+    ApplicationArea = All;
 
     layout
     {

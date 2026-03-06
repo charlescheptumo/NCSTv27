@@ -3,6 +3,7 @@ Page 75246 "Tender Addendum Notice Card"
 {
     PageType = Card;
     SourceTable = "Tender Addendum Notice";
+    ApplicationArea = All;
 
     layout
     {

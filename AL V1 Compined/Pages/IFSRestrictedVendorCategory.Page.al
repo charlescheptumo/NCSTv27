@@ -3,6 +3,7 @@ Page 75128 "IFS Restricted Vendor Category"
 {
     PageType = List;
     SourceTable = "IFS Restricted Vendor Category";
+    ApplicationArea = All;
 
     layout
     {

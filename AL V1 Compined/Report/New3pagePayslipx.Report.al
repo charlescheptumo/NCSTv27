@@ -3,6 +3,7 @@ Report 69035 "New 3 page Payslipx"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/New 3 page Payslipx.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

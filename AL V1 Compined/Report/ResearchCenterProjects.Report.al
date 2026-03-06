@@ -4,6 +4,7 @@ Report 65012 "Research Center Projects"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Research Center Projects.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

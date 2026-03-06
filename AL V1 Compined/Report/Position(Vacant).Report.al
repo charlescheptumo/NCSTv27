@@ -5,6 +5,7 @@ Report 69128 "Position (Vacant)"
     RDLCLayout = './Layouts/Position (Vacant).rdlc';
     Caption = 'HR Jobs (Vacant)';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

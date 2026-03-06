@@ -4,6 +4,7 @@ Page 69240 "HR Job Responsiblities Lines"
     CardPageID = "hr job responsibilities card";
     PageType = List;
     SourceTable = "HR Job Responsiblities";
+    ApplicationArea = All;
 
     layout
     {

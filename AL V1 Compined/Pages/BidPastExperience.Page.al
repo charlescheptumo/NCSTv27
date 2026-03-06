@@ -3,6 +3,7 @@ Page 75143 "Bid Past Experience"
 {
     PageType = List;
     SourceTable = "Bid Past Experience";
+    ApplicationArea = All;
 
     layout
     {

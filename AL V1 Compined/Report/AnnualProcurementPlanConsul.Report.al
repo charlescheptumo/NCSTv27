@@ -4,6 +4,7 @@ Report 70016 "Annual Procurement Plan Consul"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Annual Procurement Plan Consul.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

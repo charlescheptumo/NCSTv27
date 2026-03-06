@@ -4,6 +4,7 @@ Page 75214 "EOI Card"
     Caption = 'Expression of Interest(EOI)';
     PageType = Card;
     SourceTable = "Request For Information";
+    ApplicationArea = All;
 
     layout
     {
@@ -300,7 +301,7 @@ Page 75214 "EOI Card"
                     PromotedCategory = Category8;
                     RunObject = Page "Purch. Comment Sheet";
                     RunPageLink = "Document Type" = field("Document Type"),
-                                 // "No." = field("No. of Submission"),
+                                  // "No." = field("No. of Submission"),
                                   "Document Line No." = const(0);
                     ToolTip = 'View or add comments for the record.';
                 }

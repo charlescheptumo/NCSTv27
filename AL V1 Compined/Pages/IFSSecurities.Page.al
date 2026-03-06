@@ -3,6 +3,7 @@ Page 75126 "IFS Securities"
 {
     PageType = List;
     SourceTable = "IFS Securities";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Report 65016 "Daily Work Ticket"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Daily Work Ticket.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

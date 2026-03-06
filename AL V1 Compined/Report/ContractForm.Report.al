@@ -3,6 +3,7 @@ Report 70046 "Contract Form"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Contract Form.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

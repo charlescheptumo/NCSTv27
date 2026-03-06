@@ -5,6 +5,7 @@ Page 57097 "Direct Voucher Header"
     PageType = Card;
     SourceTable = "Receipts Header1";
     SourceTableView = where(Posted = const(false));
+    ApplicationArea = All;
 
     layout
     {
@@ -176,5 +177,5 @@ Page 57097 "Direct Voucher Header"
 
     }
     var
-    PaymentPost: codeunit "Payments-Post";
+        PaymentPost: codeunit "Payments-Post";
 }

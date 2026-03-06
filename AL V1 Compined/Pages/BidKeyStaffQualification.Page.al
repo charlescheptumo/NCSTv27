@@ -3,6 +3,7 @@ Page 75141 "Bid Key Staff Qualification"
 {
     PageType = List;
     SourceTable = "Bid Key Staff Qualification";
+    ApplicationArea = All;
 
     layout
     {

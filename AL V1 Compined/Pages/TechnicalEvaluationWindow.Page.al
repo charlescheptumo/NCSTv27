@@ -5,6 +5,7 @@ Page 70085 "Technical Evaluation Window"
     SourceTable = "Bidder Mandatory Requirements";
     SourceTableView = where(Finacial = const(false),
                             Technical = const(true));
+    ApplicationArea = All;
 
     layout
     {

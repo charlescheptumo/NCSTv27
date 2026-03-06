@@ -5,6 +5,7 @@ Page 65076 "Researcher Statistics"
     PageType = Card;
     SourceTable = Resource;
     SourceTableView = where("Researcher?" = const(true));
+    ApplicationArea = All;
 
     layout
     {

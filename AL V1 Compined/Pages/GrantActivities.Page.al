@@ -4,6 +4,7 @@ Page 65134 "Grant Activities"
     Caption = 'Activities';
     PageType = CardPart;
     SourceTable = "Grants Cue";
+    ApplicationArea = All;
 
     layout
     {

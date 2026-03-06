@@ -3,6 +3,7 @@ Page 69033 "Approved Salary Voucher"
 {
     PageType = Card;
     SourceTable = "Payroll Header";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Report 57011 "Staff Claim"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Staff Claim.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

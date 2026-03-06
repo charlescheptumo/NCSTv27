@@ -6,6 +6,7 @@ Page 65040 "Project Research Team List"
     Editable = false;
     PageType = List;
     SourceTable = "Project Research Team";
+    ApplicationArea = All;
 
     layout
     {

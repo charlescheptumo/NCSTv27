@@ -4,6 +4,7 @@ Page 69044 "Payroll Activities"
     Caption = 'Activities';
     PageType = CardPart;
     SourceTable = "Job Cue";
+    ApplicationArea = All;
 
     layout
     {

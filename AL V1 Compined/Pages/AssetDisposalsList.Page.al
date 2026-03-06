@@ -4,6 +4,7 @@ Page 70102 "Asset Disposals List"
     CardPageID = "Asset Disposal Card";
     PageType = List;
     SourceTable = "Asset Disposal";
+    ApplicationArea = All;
 
     layout
     {

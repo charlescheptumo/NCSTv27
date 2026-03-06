@@ -4,6 +4,7 @@ Report 69015 "New Employees"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/New Employees.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

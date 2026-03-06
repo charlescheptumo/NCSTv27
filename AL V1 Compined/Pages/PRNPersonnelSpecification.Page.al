@@ -3,6 +3,7 @@ Page 75240 "PRN Personnel Specification"
 {
     PageType = List;
     SourceTable = "PRN Personnel Specification";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75161 "Bid Evaluation Score Entry"
 {
     PageType = ListPart;
     SourceTable = "Bid Evaluation Score Entry";
+    ApplicationArea = All;
 
     layout
     {

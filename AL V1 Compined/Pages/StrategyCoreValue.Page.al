@@ -3,6 +3,7 @@ Page 80026 "Strategy Core Value"
 {
     PageType = List;
     SourceTable = "Strategy Core Value";
+    ApplicationArea = All;
 
     layout
     {

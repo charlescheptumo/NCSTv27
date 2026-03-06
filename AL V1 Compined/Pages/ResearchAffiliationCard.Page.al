@@ -3,6 +3,7 @@ Page 65026 "Research Affiliation Card"
 {
     PageType = Card;
     SourceTable = "Research Output Affiliations";
+    ApplicationArea = All;
 
     layout
     {

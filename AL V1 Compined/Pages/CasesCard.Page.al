@@ -6,6 +6,7 @@ Page 69505 "Cases Card"
     PageType = Card;
     SourceTable = "Cases Management";
     SourceTableView = where(Status = filter(Open));
+    ApplicationArea = All;
 
     layout
     {
@@ -455,7 +456,7 @@ Page 69505 "Cases Card"
         CustCare: Record "General Equiries.";
         AssignedReas: Record "Cases Management";
         lineno: Integer;
-       // notifymail: Codeunit "SMTP Mail";
+        // notifymail: Codeunit "SMTP Mail";
         Asmember: Boolean;
         EmploymentInfoEditable: Boolean;
         EmployedEditable: Boolean;

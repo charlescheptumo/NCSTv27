@@ -5,6 +5,7 @@ Report 99098 "Vendor Report"
     RDLCLayout = './Layouts/Vendor Report.rdlc';
     Caption = 'Vendor Report';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

@@ -4,6 +4,7 @@ Page 57053 "All Imprest Memos"
     CardPageID = "Posted Imprest Memo";
     PageType = List;
     SourceTable = "Imprest Memo";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Report 56241 "ICT Helpdesk All Issues"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/ICT Helpdesk All Issues.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

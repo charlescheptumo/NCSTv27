@@ -3,6 +3,7 @@ Page 70125 "Self Service  Role Center"
 {
     Caption = 'Role Center';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {

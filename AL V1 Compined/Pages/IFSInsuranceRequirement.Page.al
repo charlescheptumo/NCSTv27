@@ -3,6 +3,7 @@ Page 75127 "IFS Insurance Requirement"
 {
     PageType = List;
     SourceTable = "IFS Insurance Requirement";
+    ApplicationArea = All;
 
     layout
     {

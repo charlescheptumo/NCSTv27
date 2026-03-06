@@ -3,6 +3,7 @@ Page 75148 "Bid Litigation History"
 {
     PageType = List;
     SourceTable = "Bid Litigation History";
+    ApplicationArea = All;
 
     layout
     {

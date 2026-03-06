@@ -3,6 +3,7 @@ Report 69059 "Post Project Payroll"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Post Project Payroll.rdlc';
+    ApplicationArea = All;
 
     dataset
     {
@@ -66,7 +67,7 @@ Report 69059 "Post Project Payroll"
             }
             dataitem(Projects; Job)
             {
-                DataItemLink = "No."= field(Code);
+                DataItemLink = "No." = field(Code);
                 DataItemTableView = where(exchequer = const(false));
                 RequestFilterFields = "No.";
                 column(ReportForNavId_3; 3)

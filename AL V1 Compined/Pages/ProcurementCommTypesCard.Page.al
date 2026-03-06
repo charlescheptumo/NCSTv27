@@ -3,6 +3,7 @@ Page 75233 "Procurement Comm Types Card"
 {
     PageType = Card;
     SourceTable = "Procurement Committee Types";
+    ApplicationArea = All;
 
     layout
     {

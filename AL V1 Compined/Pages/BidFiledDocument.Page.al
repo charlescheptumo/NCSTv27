@@ -3,6 +3,7 @@ Page 75153 "Bid Filed Document"
 {
     PageType = List;
     SourceTable = "Bid Filed Document";
+    ApplicationArea = All;
 
     layout
     {

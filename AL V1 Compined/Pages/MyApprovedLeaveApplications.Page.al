@@ -7,6 +7,7 @@ Page 69072 "My Approved Leave Applications"
     PageType = List;
     SourceTable = "HR Leave Application";
     SourceTableView = where(Status = const(Released));
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Report 69049 "Send PDF Payslips"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Send PDF Payslips.rdlc';
     UsageCategory = Tasks;
+    ApplicationArea = All;
 
     dataset
     {

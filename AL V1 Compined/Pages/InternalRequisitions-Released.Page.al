@@ -12,6 +12,7 @@ Page 69060 "Internal Requisitions-Released"
                             "Fully Issued" = const(false),
                             "Requisition Type" = filter("Internal Use" | "Stock Replenishment" | "Technical Installation" | "Technical Maintenance"),
                             "Beneficiary City" = const('No'));
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Report 75000 "Update Purchase status"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Update Purchase status.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

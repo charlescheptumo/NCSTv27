@@ -3,6 +3,7 @@ Page 70108 "Disposal Plan Header"
 {
     PageType = Card;
     SourceTable = "Annual Disposal plan Header";
+    ApplicationArea = All;
 
     layout
     {

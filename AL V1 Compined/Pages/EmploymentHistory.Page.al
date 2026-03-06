@@ -3,6 +3,7 @@ Page 69122 "Employment History"
 {
     PageType = List;
     SourceTable = "Employment History";
+    ApplicationArea = All;
 
     layout
     {

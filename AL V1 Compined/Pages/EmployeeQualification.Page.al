@@ -3,6 +3,7 @@ Page 69120 "Employee Qualification"
 {
     PageType = List;
     SourceTable = "Employee Qualification";
+    ApplicationArea = All;
 
     layout
     {

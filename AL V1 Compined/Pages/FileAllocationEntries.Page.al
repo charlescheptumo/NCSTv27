@@ -6,6 +6,7 @@ Page 59130 "File Allocation Entries"
     InsertAllowed = false;
     PageType = List;
     SourceTable = "File Allocation Entries";
+    ApplicationArea = All;
 
     layout
     {

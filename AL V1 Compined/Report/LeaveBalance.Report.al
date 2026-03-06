@@ -3,6 +3,7 @@ Report 69120 "Leave Balance"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Leave Balance.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

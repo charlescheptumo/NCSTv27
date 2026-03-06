@@ -3,6 +3,7 @@ Report 57012 "Warrant Voucher"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Warrant Voucher.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

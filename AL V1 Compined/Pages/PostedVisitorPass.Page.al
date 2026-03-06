@@ -8,6 +8,7 @@ Page 56069 "Posted Visitor Pass"
     PageType = Card;
     SourceTable = "Visitors Pass";
     SourceTableView = where(Status = filter(Released));
+    ApplicationArea = All;
 
     layout
     {

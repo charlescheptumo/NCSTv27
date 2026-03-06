@@ -6,6 +6,7 @@ Page 69273 "Medical Claim Header"
     Editable = true;
     PageType = Card;
     SourceTable = "Medical Claim Header1";
+    ApplicationArea = All;
 
     layout
     {

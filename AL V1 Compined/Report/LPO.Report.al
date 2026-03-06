@@ -3,6 +3,7 @@ Report 70028 LPO
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/LPO.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -6,6 +6,7 @@ Page 70066 "Technical Evaluation"
     PageType = List;
     SourceTable = "Quotations Evaluation";
     SourceTableView = where(created = const(false));
+    ApplicationArea = All;
 
     layout
     {
@@ -84,7 +85,7 @@ Page 70066 "Technical Evaluation"
                     filecu: Codeunit "File Management";
                     rec5: Record "Procurement Request";
                 begin
-               //     filename := filecu.OpenFileDialog('Select Technical File(s)', 'Technical File', '*.PDF|*.*');
+                    //     filename := filecu.OpenFileDialog('Select Technical File(s)', 'Technical File', '*.PDF|*.*');
                     if filename <> '' then begin
                         if filecu.GetExtension(filename) <> 'pdf' then begin
                             Error('You can Only Attach PDF Files!!!');
@@ -94,7 +95,7 @@ Page 70066 "Technical Evaluation"
                         torpath.TestField(torpath."RFQ Documents Path");
                         rec5.Reset;
                         rec5.Get(Rec."Ref No.");
-                //        filecu.CopyClientFile(filename, torpath."RFQ Documents Path" + Rec."Ref No." + '_' + filecu.GetFileName(filename), true);
+                        //        filecu.CopyClientFile(filename, torpath."RFQ Documents Path" + Rec."Ref No." + '_' + filecu.GetFileName(filename), true);
                         Message('File Selected Successfully!');
                         rec5."Technical Minutes" := torpath."RFQ Documents Path" + Rec."Ref No." + '_' + filecu.GetFileName(filename);
                         rec5.Modify;

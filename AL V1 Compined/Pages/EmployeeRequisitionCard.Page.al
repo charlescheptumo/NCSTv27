@@ -6,6 +6,7 @@ Page 69236 "Employee Requisition Card"
     PageType = Card;
     PromotedActionCategories = 'New,Process,Report,Functions,Job';
     SourceTable = "Employee Requisitions";
+    ApplicationArea = All;
 
     layout
     {

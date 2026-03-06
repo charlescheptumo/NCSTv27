@@ -3,6 +3,7 @@ Page 57105 "Casual Labours"
 {
     PageType = List;
     SourceTable = "Casual Labours";
+    ApplicationArea = All;
 
     layout
     {

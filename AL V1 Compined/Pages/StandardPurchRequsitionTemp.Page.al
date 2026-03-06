@@ -3,6 +3,7 @@ Page 75234 "Standard Purch Requsition Temp"
 {
     PageType = Card;
     SourceTable = "Purchase Requisition Template";
+    ApplicationArea = All;
 
     layout
     {

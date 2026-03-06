@@ -4,6 +4,7 @@ Page 65006 "Research Infrastructure Card"
     Editable = false;
     PageType = Card;
     SourceTable = "Research Center Infrastructure";
+    ApplicationArea = All;
 
     layout
     {

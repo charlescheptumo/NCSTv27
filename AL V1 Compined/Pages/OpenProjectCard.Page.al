@@ -7,6 +7,7 @@ Page 65102 "Open Project Card"
     RefreshOnActivate = true;
     SourceTable = Job;
     SourceTableView = where(Status = const(Open));
+    ApplicationArea = All;
 
     layout
     {
@@ -963,7 +964,7 @@ Page 65102 "Open Project Card"
 
     trigger OnInit()
     begin
-       //cc//     JobSimplificationAvailable := Rec.IsJobSimplificationAvailable;
+        //cc//     JobSimplificationAvailable := Rec.IsJobSimplificationAvailable;
     end;
 
     trigger OnNewRecord(BelowxRec: Boolean)

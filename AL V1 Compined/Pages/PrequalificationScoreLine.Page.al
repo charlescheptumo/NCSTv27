@@ -3,6 +3,7 @@ Page 75188 "Prequalification Score Line"
 {
     PageType = ListPart;
     SourceTable = "Prequalification Score Line";
+    ApplicationArea = All;
 
     layout
     {

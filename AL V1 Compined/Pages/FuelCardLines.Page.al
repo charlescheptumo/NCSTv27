@@ -3,6 +3,7 @@ Page 59029 "Fuel Card Lines"
 {
     PageType = ListPart;
     SourceTable = "Vehicle Fuel Card Lines";
+    ApplicationArea = All;
 
     layout
     {

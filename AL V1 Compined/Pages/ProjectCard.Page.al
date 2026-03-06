@@ -6,6 +6,7 @@ Page 65060 "Project Card"
     PromotedActionCategories = 'New,Process,Report,Prices';
     RefreshOnActivate = true;
     SourceTable = Job;
+    ApplicationArea = All;
 
     layout
     {

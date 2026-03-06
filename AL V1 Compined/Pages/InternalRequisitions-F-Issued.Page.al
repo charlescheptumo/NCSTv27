@@ -10,6 +10,7 @@ Page 69061 "Internal Requisitions-F-Issued"
                             Status = const(Released),
                             "Fully Issued" = const(true),
                             "Requisition Type" = filter(<> "Stock Return"));
+    ApplicationArea = All;
 
     layout
     {

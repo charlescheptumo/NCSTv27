@@ -4,6 +4,7 @@ Page 70137 "Evaluation RFP"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Procurement Request";
+    ApplicationArea = All;
 
     layout
     {
@@ -828,7 +829,7 @@ Page 70137 "Evaluation RFP"
 
                     NoSuppliers := NoSuppliers + 1;
                     //    SMTPMail.CreateMessage(SenderName, SenderAddress, Recipients, Subject, Body, true);
-                  //  FileName := FileMangement.ServerTempFileName('.pdf');         //FileName:='Payslip.pdf';
+                    //  FileName := FileMangement.ServerTempFileName('.pdf');         //FileName:='Payslip.pdf';
                     SupplierSelect2.Reset;
                     SupplierSelect2.SetRange(SupplierSelect2."Supplier Name", SupplierSelect."Supplier Name");
                     if SupplierSelect2.Find('-') then

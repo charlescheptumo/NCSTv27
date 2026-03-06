@@ -7,6 +7,7 @@ Page 56221 "ICT Helpdesk Resolved card"
     PageType = Card;
     SourceTable = "ICT Helpdesk";
     SourceTableView = where(Status = filter(Resolved));
+    ApplicationArea = All;
 
     layout
     {

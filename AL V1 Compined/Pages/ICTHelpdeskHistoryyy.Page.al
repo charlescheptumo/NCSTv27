@@ -7,6 +7,7 @@ Page 56080 "ICT Helpdesk Historyyy"
     PageType = Card;
     SourceTable = "ICT Helpdesk";
     SourceTableView = where(Status = filter(Closed));
+    ApplicationArea = All;
 
     layout
     {
@@ -274,7 +275,7 @@ Page 56080 "ICT Helpdesk Historyyy"
     var
         Employee: Record Employee;
         Body: Text[250];
-      //  SMTP: Codeunit "SMTP Mail";
+        //  SMTP: Codeunit "SMTP Mail";
         Email2: Text[250];
         CInfo: Record "Company Information";
         Category: Record "ICT Helpdesk Category";

@@ -3,6 +3,7 @@ Page 69048 "Salary Scale"
 {
     PageType = List;
     SourceTable = "Salary Mapping";
+    ApplicationArea = All;
 
     layout
     {

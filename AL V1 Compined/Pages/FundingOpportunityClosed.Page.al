@@ -8,6 +8,7 @@ Page 65058 "Funding Opportunity Closed"
     ModifyAllowed = false;
     PageType = Card;
     SourceTable = "Funding Opportunity";
+    ApplicationArea = All;
 
     layout
     {

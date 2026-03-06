@@ -3,6 +3,7 @@ Page 69181 "Employee Discplinary Documents"
 {
     PageType = List;
     SourceTable = Documents;
+    ApplicationArea = All;
 
     layout
     {

@@ -8,6 +8,7 @@ Page 65045 "Grant Funding Application List"
     SourceTable = "Grant Funding Application";
     SourceTableView = where("Application Status" = const("Not Started"),
                             "Approval Status" = filter(Open | "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {

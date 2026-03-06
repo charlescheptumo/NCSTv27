@@ -3,6 +3,7 @@ Page 57068 "Petty Cash Surrender Lines"
 {
     PageType = ListPart;
     SourceTable = "Petty Cash Lines";
+    ApplicationArea = All;
 
     layout
     {

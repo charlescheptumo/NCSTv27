@@ -5,6 +5,7 @@ Page 65005 "Research Center Programs List"
     Editable = false;
     PageType = List;
     SourceTable = "Research Center Programs";
+    ApplicationArea = All;
 
     layout
     {

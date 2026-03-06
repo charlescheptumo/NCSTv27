@@ -3,6 +3,7 @@ Page 75275 "Final Evaluation Report Card"
 {
     PageType = Card;
     SourceTable = "Bid Tabulation Header";
+    ApplicationArea = All;
 
     layout
     {

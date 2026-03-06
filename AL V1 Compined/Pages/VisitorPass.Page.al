@@ -3,6 +3,7 @@ Page 56064 "Visitor Pass"
 {
     PageType = Card;
     SourceTable = "Visitors Pass";
+    ApplicationArea = All;
 
     layout
     {

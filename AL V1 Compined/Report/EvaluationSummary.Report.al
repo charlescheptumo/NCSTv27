@@ -3,6 +3,7 @@ Report 70041 "Evaluation Summary"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Evaluation Summary.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

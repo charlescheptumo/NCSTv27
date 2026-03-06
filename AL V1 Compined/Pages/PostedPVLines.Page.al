@@ -7,6 +7,7 @@ Page 57044 "Posted PV Lines"
     ModifyAllowed = false;
     PageType = ListPart;
     SourceTable = "PV Lines";
+    ApplicationArea = All;
 
     layout
     {

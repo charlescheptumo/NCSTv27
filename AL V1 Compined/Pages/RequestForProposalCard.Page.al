@@ -5,6 +5,7 @@ Page 70034 "Request For Proposal Card"
     PageType = Card;
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const(RFP));
+    ApplicationArea = All;
 
     layout
     {
@@ -457,7 +458,7 @@ Page 70034 "Request For Proposal Card"
                     //  SMTPMail.CreateMessage(SenderName, SenderAddress, Recipients, Subject, Body, true);
 
                     //Report.SaveAsPdf(Report::"Request for Quotation", FileName, SupplierSelect);
-                  //  FileName := FileMangement.ServerTempFileName('.pdf');
+                    //  FileName := FileMangement.ServerTempFileName('.pdf');
                     //   SMTPMail.AddAttachment(FileName, '');
 
                     //   SMTPMail.Send();

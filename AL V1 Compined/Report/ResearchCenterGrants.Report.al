@@ -4,6 +4,7 @@ Report 65011 "Research Center Grants"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Research Center Grants.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

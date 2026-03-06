@@ -7,6 +7,7 @@ Page 70019 "Released PR List"
     SourceTableView = where("Requisition Type" = const("Purchase Requisition"),
                             Posted = const(false),
                             Status = const(Released));
+    ApplicationArea = All;
 
     layout
     {

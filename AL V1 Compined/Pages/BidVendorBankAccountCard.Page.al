@@ -4,6 +4,7 @@ Page 75147 "Bid Vendor Bank Account Card"
     Caption = 'Bid Vendor Bank Account Card';
     PageType = Card;
     SourceTable = "Bid Vendor Bank Account";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Page 70043 "Request for EOI Lines"
     AutoSplitKey = true;
     PageType = ListPart;
     SourceTable = "Procurement Request Lines";
+    ApplicationArea = All;
 
     layout
     {

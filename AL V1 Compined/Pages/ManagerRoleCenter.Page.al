@@ -3,6 +3,7 @@ Page 69086 "Manager Role Center"
 {
     Caption = 'Role Center';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {
@@ -19,7 +20,7 @@ Page 69086 "Manager Role Center"
                 systempart(Control1901420308; Outlook)
                 {
                 }
-              
+
             }
             group(Control1900724708)
             {

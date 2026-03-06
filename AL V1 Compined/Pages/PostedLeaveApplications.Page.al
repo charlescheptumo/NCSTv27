@@ -7,6 +7,7 @@ Page 69073 "Posted Leave Applications"
     PageType = List;
     SourceTable = 69205;
     SourceTableView = where(Status = filter(Released));
+    ApplicationArea = All;
 
     layout
     {

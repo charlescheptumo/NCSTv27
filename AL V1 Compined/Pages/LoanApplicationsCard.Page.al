@@ -3,6 +3,7 @@ Page 69012 "Loan Applications Card"
 {
     Editable = true;
     SourceTable = "Loan Application";
+    ApplicationArea = All;
 
     layout
     {

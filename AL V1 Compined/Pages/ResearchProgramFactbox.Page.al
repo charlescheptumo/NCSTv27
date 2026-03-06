@@ -3,6 +3,7 @@ Page 65069 "Research Program Factbox"
 {
     PageType = CardPart;
     SourceTable = "Research Program";
+    ApplicationArea = All;
 
     layout
     {

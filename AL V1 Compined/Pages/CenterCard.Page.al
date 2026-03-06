@@ -4,6 +4,7 @@ Page 80021 "Center Card"
     Caption = 'Center Card';
     PageType = Card;
     SourceTable = "Responsibility Center";
+    ApplicationArea = All;
 
     layout
     {

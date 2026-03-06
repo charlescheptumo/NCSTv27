@@ -7,6 +7,7 @@ Page 75333 "IFP Opening Register"
     SourceTable = "Bid Opening Register";
     SourceTableView = where(Type = const(Technical),
                             "Tender Number" = const('1'));
+    ApplicationArea = All;
 
     layout
     {

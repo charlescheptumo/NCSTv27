@@ -3,6 +3,7 @@ Page 57150 "Standing Imprest Lines"
 {
     PageType = ListPart;
     SourceTable = "PV Lines";
+    ApplicationArea = All;
 
     layout
     {

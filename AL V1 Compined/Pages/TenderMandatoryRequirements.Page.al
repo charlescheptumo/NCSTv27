@@ -3,6 +3,7 @@ Page 70022 "Tender Mandatory Requirements"
 {
     PageType = Card;
     SourceTable = "Tender Mandatory Requirements";
+    ApplicationArea = All;
 
     layout
     {

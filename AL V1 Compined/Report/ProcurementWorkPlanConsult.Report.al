@@ -4,6 +4,7 @@ Report 70019 "Procurement Work Plan Consult"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Procurement Work Plan Consult.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

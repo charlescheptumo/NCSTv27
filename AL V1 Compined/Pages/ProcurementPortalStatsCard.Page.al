@@ -3,6 +3,7 @@ Page 70154 "Procurement Portal Stats Card"
 {
     PageType = Card;
     SourceTable = "Eprocurement Statistics";
+    ApplicationArea = All;
 
     layout
     {

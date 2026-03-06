@@ -8,6 +8,7 @@ Page 69235 "Posted Leave Application"
     PromotedActionCategories = 'New,Process,Report,Functions,Comments';
     SourceTable = "HR Leave Application";
     SourceTableView = where(Posted = const(true));
+    ApplicationArea = All;
 
     layout
     {

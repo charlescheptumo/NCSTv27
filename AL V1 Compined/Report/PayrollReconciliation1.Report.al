@@ -3,6 +3,7 @@ Report 69029 "Payroll Reconciliation1"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Payroll Reconciliation1.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

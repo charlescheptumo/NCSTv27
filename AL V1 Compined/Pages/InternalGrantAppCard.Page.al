@@ -3,6 +3,7 @@ Page 59053 "Internal Grant App Card"
 {
     PageType = Card;
     SourceTable = "Internal Grants Application";
+    ApplicationArea = All;
 
     layout
     {

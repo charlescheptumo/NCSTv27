@@ -5,6 +5,7 @@ Report 99096 "Store Requisition1"
     RDLCLayout = './Layouts/Store Requisition1.rdlc';
     Caption = 'Store Requisition';
     PreviewMode = PrintLayout;
+    ApplicationArea = All;
 
     dataset
     {

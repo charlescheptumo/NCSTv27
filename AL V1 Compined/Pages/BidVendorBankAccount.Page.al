@@ -7,6 +7,7 @@ Page 75146 "Bid Vendor Bank Account"
     Editable = false;
     PageType = List;
     SourceTable = "Bid Vendor Bank Account";
+    ApplicationArea = All;
 
     layout
     {

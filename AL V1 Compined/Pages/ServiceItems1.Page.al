@@ -5,7 +5,8 @@ Page 69064 "Service Items1"
     Editable = false;
     PageType = List;
     SourceTable = "Document Approval Delegation";
-   // SourceTableView = where(Field108 = const(False));
+    ApplicationArea = All;
+    // SourceTableView = where(Field108 = const(False));
 
     layout
     {

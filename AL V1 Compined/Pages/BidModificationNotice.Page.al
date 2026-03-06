@@ -3,6 +3,7 @@ Page 75154 "Bid Modification Notice"
 {
     PageType = List;
     SourceTable = "Bid Modification Notice";
+    ApplicationArea = All;
 
     layout
     {

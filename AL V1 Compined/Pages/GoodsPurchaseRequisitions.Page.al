@@ -10,6 +10,7 @@ Page 75068 "Goods Purchase Requisitions"
     SourceTableView = where("Document Type" = const("Purchase Requisition"),
                             Status = filter(Open | "Pending Approval"),
                             "Requisition Product Group" = const(Goods));
+    ApplicationArea = All;
 
     layout
     {

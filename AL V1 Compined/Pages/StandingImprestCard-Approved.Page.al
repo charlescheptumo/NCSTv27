@@ -5,6 +5,7 @@ Page 57141 "Standing Imprest Card-Approved"
     SourceTable = "Imprest Memo";
     SourceTableView = where(Status = filter(Released),
                             Posted = const(false));
+    ApplicationArea = All;
 
     layout
     {

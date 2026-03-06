@@ -3,6 +3,7 @@ Page 69083 "HR Admin Role Center"
 {
     Caption = 'Role Center';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {
@@ -323,7 +324,7 @@ Page 69083 "HR Admin Role Center"
                     Promoted = true;
                     PromotedCategory = Process;
                     PromotedIsBig = true;
-                 //   RunObject = XMLport 69025;
+                    //   RunObject = XMLport 69025;
                 }
                 action("Import Posting Group")
                 {
@@ -332,7 +333,7 @@ Page 69083 "HR Admin Role Center"
                     Image = Import;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
                     //PromotedCategory = Process;
-                  //  RunObject = XMLport 69020;
+                    //  RunObject = XMLport 69020;
                 }
             }
             group("Payroll Processing")

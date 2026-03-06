@@ -3,6 +3,7 @@ Report 56230 "CR1 Copyright Registaration"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/CR1 Copyright Registaration.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

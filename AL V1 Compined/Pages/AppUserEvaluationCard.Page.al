@@ -4,6 +4,7 @@ Page 59115 "App User Evaluation Card"
     Caption = 'User Planning Card';
     PageType = Card;
     SourceTable = Planning;
+    ApplicationArea = All;
 
     layout
     {

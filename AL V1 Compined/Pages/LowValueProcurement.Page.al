@@ -4,6 +4,7 @@ Page 70040 "Low Value Procurement"
     PageType = Card;
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const("Low Value"));
+    ApplicationArea = All;
 
     layout
     {

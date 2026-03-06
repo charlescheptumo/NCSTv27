@@ -3,6 +3,7 @@ Page 75093 "Vendor Debarment Voucher Line"
 {
     PageType = ListPart;
     SourceTable = "Vendor Debarment Voucher Line";
+    ApplicationArea = All;
 
     layout
     {

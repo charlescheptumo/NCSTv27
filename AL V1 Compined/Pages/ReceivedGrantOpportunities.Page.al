@@ -10,6 +10,7 @@ Page 65074 "Received Grant Opportunities"
     PageType = List;
     SourceTable = "Grant Funding Application";
     SourceTableView = where("Approval Status" = filter(Released));
+    ApplicationArea = All;
 
     layout
     {

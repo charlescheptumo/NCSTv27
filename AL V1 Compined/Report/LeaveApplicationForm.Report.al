@@ -3,6 +3,7 @@ Report 69005 "Leave Application Form"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Leave Application Form.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

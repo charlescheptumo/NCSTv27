@@ -5,6 +5,7 @@ Page 56086 "Complaints Card"
     PageType = Card;
     SourceTable = "Cases Management";
     SourceTableView = where(Status = filter(Open));
+    ApplicationArea = All;
 
     layout
     {
@@ -406,7 +407,7 @@ Page 56086 "Complaints Card"
         CustCare: Record "General Equiries.";
         AssignedReas: Record "Cases Management";
         lineno: Integer;
-       //cc//  notifymail: Codeunit "SMTP Mail";
+        //cc//  notifymail: Codeunit "SMTP Mail";
         Asmember: Boolean;
         EmploymentInfoEditable: Boolean;
         EmployedEditable: Boolean;
@@ -426,7 +427,7 @@ Page 56086 "Complaints Card"
         OthersEditable: Boolean;
         MonthlyIncomeEditable: Boolean;
         LoanNoVisible: Boolean;
-      //cc//   SMTSetup: Record "SMTP Mail Setup";
+    //cc//   SMTSetup: Record "SMTP Mail Setup";
 
     local procedure sms()
     var
@@ -545,10 +546,10 @@ Page 56086 "Complaints Card"
 
         //cc// SMTSetup.Get;
         //IF GenSetUp."Send Email Notifications" = TRUE THEN BEGIN
-       //cc//  notifymail.CreateMessage('UTAP Notification', SMTSetup."Email Sender Address", Rec."Assigned Officer Email", 'Case Reported', 'Dear ' + Rec."Assigned Officer Name" + ',  Your have been assigned a complaint of ' + Rec."Received From" + ' ' + Rec."Case Description" +
-       //cc//  Format(Today) + '. Kindly give it priority.', false);
+        //cc//  notifymail.CreateMessage('UTAP Notification', SMTSetup."Email Sender Address", Rec."Assigned Officer Email", 'Case Reported', 'Dear ' + Rec."Assigned Officer Name" + ',  Your have been assigned a complaint of ' + Rec."Received From" + ' ' + Rec."Case Description" +
+        //cc//  Format(Today) + '. Kindly give it priority.', false);
 
-       //cc//  notifymail.Send;
+        //cc//  notifymail.Send;
 
         //END;
     end;

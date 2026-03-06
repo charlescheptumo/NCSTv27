@@ -4,6 +4,7 @@ Report 70017 "Consol Annual Procurement Plan"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Consol Annual Procurement Plan.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

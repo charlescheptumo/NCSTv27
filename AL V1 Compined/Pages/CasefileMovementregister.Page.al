@@ -4,6 +4,7 @@ Page 56043 "Case file Movement register"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Case File Movement Register";
+    ApplicationArea = All;
 
     layout
     {

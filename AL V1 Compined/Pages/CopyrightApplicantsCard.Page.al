@@ -7,6 +7,7 @@ Page 56027 "Copyright Applicants Card"
     PromotedActionCategories = 'New,Process,Report,New Document,Approve,Request Approval,Prices and Discounts,Navigate,Customer';
     RefreshOnActivate = true;
     SourceTable = Customer;
+    ApplicationArea = All;
 
     layout
     {

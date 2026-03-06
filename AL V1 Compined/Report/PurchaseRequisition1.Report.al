@@ -5,6 +5,7 @@ Report 59097 "Purchase Requisition1"
     RDLCLayout = './Layouts/Purchase Requisition1.rdlc';
     Caption = 'Purchase Requisition';
     PreviewMode = PrintLayout;
+    ApplicationArea = All;
 
     dataset
     {

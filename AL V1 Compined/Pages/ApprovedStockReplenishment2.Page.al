@@ -15,6 +15,7 @@ Page 50068 "Approved Stock Replenishment2"
                             Type = filter(Item | "Charge (Item)"),
                             Status = const(Released),
                             "Requisition Type" = const("Stock Replenishment"));
+    ApplicationArea = All;
 
     layout
     {

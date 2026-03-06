@@ -4,6 +4,7 @@ Report 69009 "Process Loans Recovery"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Process Loans Recovery.rdlc';
     UsageCategory = Tasks;
+    ApplicationArea = All;
 
     dataset
     {

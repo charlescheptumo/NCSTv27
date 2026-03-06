@@ -3,6 +3,7 @@ Page 75007 "Law & Regulation Card"
 {
     PageType = Card;
     SourceTable = "Procurement Law & Regulation";
+    ApplicationArea = All;
 
     layout
     {

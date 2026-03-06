@@ -6,6 +6,7 @@ Page 57106 "Staff Claim"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const("Staff Claim"),
                             Posted = const(False));
+    ApplicationArea = All;
 
     layout
     {

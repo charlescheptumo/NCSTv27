@@ -4,6 +4,7 @@ Page 75106 "Project Staff Template Exp"
     Caption = 'Project Staff Template Experience';
     PageType = List;
     SourceTable = "Project Staff Template Experie";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 56122 "Escalation Matrix"
 {
     PageType = List;
     SourceTable = "ICT Helpdesk Escalation Matrix";
+    ApplicationArea = All;
 
     layout
     {

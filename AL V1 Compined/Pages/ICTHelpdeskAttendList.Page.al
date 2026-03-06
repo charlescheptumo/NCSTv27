@@ -6,6 +6,7 @@ Page 56072 "ICT Helpdesk Attend List"
     PageType = List;
     SourceTable = "ICT Helpdesk";
     SourceTableView = where(Status = filter(Attended));
+    ApplicationArea = All;
 
     layout
     {

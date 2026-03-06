@@ -5,6 +5,7 @@ Page 70084 "Mandatory Evaluation Window"
     SourceTable = "Bidder Mandatory Requirements";
     SourceTableView = where(Finacial = const(false),
                             Technical = const(false));
+    ApplicationArea = All;
 
     layout
     {
@@ -116,11 +117,11 @@ Page 70084 "Mandatory Evaluation Window"
 
                             //error('%1..',Evaltxtmails);
                             Evalbody := 'Dear Sir/Madam<br><br><br>Mandatory Evaluations for RFP No: ' + Rec.No + ' has ended and Technical Evaluation will start Immediately.<br><br>Kind Regards<br><br>';
-                           // smtprec.Get;
-                          //  smtpcu.CreateMessage('NEMA Bidding Evaluation', smtprec."User ID", Evaltxtmails, Rec.No + ' EVALUATION', Evalbody, true);
+                            // smtprec.Get;
+                            //  smtpcu.CreateMessage('NEMA Bidding Evaluation', smtprec."User ID", Evaltxtmails, Rec.No + ' EVALUATION', Evalbody, true);
                             //smtpcu.Send  //Remove comment...
                             emailmessage.Create(Evaltxtmails, Rec.No + ' EVALUATION', Evalbody);
-                            EMAILSNED.Send(emailmessage,Enum::"Email Scenario"::Default);
+                            EMAILSNED.Send(emailmessage, Enum::"Email Scenario"::Default);
 
 
                         end;

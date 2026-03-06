@@ -4,6 +4,7 @@ Page 59011 "Fleet Driver Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Vehicle Drivers";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75261 "Purchase Contract Documents"
 {
     PageType = List;
     SourceTable = "Purchase Contract Documents";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75132 "IFS Staff Min Qualification"
 {
     PageType = List;
     SourceTable = "IFS Staff Min Qualification";
+    ApplicationArea = All;
 
     layout
     {

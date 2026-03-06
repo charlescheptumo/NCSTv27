@@ -5,6 +5,7 @@ Page 65135 "Grants  Role Center"
 
     Caption = 'Manager''s  Role Center', Comment = '{Dependency=Match,"ProfileDescription_SMALLBUSINESS"}';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {

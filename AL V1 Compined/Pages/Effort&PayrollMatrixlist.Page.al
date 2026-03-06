@@ -4,6 +4,7 @@ Page 65093 "Effort & Payroll Matrix list"
     Caption = 'Effort & Payroll Matrixs';
     PageType = List;
     SourceTable = "Effort & Payroll Matrix";
+    ApplicationArea = All;
 
     layout
     {

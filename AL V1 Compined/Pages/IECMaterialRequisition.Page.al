@@ -7,6 +7,7 @@ Page 50090 "IEC Material Requisition"
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = filter("Store Requisition"),
                             "Requisition Type" = filter(<> Project));
+    ApplicationArea = All;
 
     layout
     {

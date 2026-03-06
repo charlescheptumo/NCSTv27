@@ -4,6 +4,7 @@ Page 56152 "Submitted Issuance  card"
     Editable = true;
     PageType = Card;
     SourceTable = "ICT Issuance Voucher";
+    ApplicationArea = All;
 
     layout
     {
@@ -259,7 +260,7 @@ Page 56152 "Submitted Issuance  card"
                             Body := '<br>' + 'Greetings ' + Rec."Issued To User ID" + '<br>The item ' + ICTIssuanceLines.Description + ' Serial number ' + ICTIssuanceLines."Serial No." + ' requested under ticket number ' + Rec."No." + ' has been issued to ' + Rec."Issued To User ID" + '.' + '</br>';
                             Body := '<br>' + Body + ' ' + 'Best Regards,' + '</br>';
                             Body := Body + ' ' + 'ERP AUTOMATIC MAILS';
-                           //cc//     SMTP.CreateMessage(COMPANYNAME, ReceiverEmail, Email, 'ICT Inventory Issuance Notification', Body, true);
+                            //cc//     SMTP.CreateMessage(COMPANYNAME, ReceiverEmail, Email, 'ICT Inventory Issuance Notification', Body, true);
                             //MESSAGE(Email);
                             //cc//    SMTP.AddCC(Email);
                             //cc//    SMTP.Send();
@@ -358,7 +359,7 @@ Page 56152 "Submitted Issuance  card"
         corec2: Boolean;
         corec3: Boolean;
         UserSetup: Record "User Setup";
-       //cc//     SMTP: Codeunit "SMTP Mail";
+        //cc//     SMTP: Codeunit "SMTP Mail";
         HREmailParameters: Record "Hr E-Mail Parameters";
         ICTSetup: Record "ICT Helpdesk Global Parameters";
         ObjCompany: Record "Company Information";
@@ -368,12 +369,12 @@ Page 56152 "Submitted Issuance  card"
 
     procedure NotifyRequester(ICTIssuanceVoucher: Record "ICT Issuance Voucher")
     var
-    //cc//        SMTPMailSetup: Record "SMTP Mail Setup";
+        //cc//        SMTPMailSetup: Record "SMTP Mail Setup";
         Header: Text;
         SenderName: Text;
         SenderEmail: Text;
         emp: Record Employee;
-       //cc//     SMTPMail: Codeunit "SMTP Mail";
+        //cc//     SMTPMail: Codeunit "SMTP Mail";
         UserSetup1: Record "User Setup";
         ReceiverEmail: Text;
         Email: Text;
@@ -395,7 +396,7 @@ Page 56152 "Submitted Issuance  card"
                 Body := '<br>' + Header + '<br>The item ' + ICTIssuanceLines.Description + ' Serial number ' + ICTIssuanceLines."Serial No." + ' requested under ticket number ' + ICTIssuanceVoucher."No." + ' has been returned by ' + SenderName + '.' + '</br>';
                 Body := '<br>' + Body + ' ' + 'Best Regards,' + '</br>';
                 Body := Body + ' ' + 'ERP AUTOMATIC MAILS';
-               //cc//     SMTP.CreateMessage(COMPANYNAME, ReceiverEmail, Email, 'ICT Heldesk Notification', Body, true);
+                //cc//     SMTP.CreateMessage(COMPANYNAME, ReceiverEmail, Email, 'ICT Heldesk Notification', Body, true);
                 //MESSAGE(Email);
                 //cc//    SMTP.AddCC(Email);
                 //cc//    SMTP.Send();

@@ -6,6 +6,7 @@ Page 56062 "Approved CMO Renewal"
     ModifyAllowed = false;
     PageType = Card;
     SourceTable = "CMO Registration";
+    ApplicationArea = All;
 
     layout
     {

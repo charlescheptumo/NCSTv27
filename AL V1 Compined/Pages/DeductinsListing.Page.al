@@ -4,6 +4,7 @@ Page 69021 "Deductins Listing"
     Editable = false;
     PageType = List;
     SourceTable = DeductionsX;
+    ApplicationArea = All;
 
     layout
     {

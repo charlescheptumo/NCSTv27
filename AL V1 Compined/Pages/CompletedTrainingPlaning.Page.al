@@ -10,6 +10,7 @@ Page 69168 "Completed Training Planing"
     SourceTableView = sorting("No.")
                       where("Committee Verdict" = const(Approved),
                             Planned = filter(true));
+    ApplicationArea = All;
 
     layout
     {

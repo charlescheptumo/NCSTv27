@@ -4,6 +4,7 @@ Page 56091 "Escalated Complaints Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Cases Management";
+    ApplicationArea = All;
 
     layout
     {

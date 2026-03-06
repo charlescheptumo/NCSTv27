@@ -2,6 +2,7 @@
 Page 69275 "Committee Member Card"
 {
     SourceTable = "Board Of Directors";
+    ApplicationArea = All;
 
     layout
     {

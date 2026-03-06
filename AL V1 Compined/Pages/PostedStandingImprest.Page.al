@@ -8,6 +8,7 @@ Page 57155 "Posted Standing Imprest"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const("Standing Imprest"),
                             Posted = const(True));
+    ApplicationArea = All;
 
     layout
     {

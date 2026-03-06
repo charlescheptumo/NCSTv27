@@ -9,6 +9,7 @@ Page 57131 "Processed Staff Claims"
                             Status = filter(Released),
                             Posted = const(True),
                             "Payment processed" = const(True));
+    ApplicationArea = All;
 
     layout
     {

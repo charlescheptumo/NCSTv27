@@ -4,6 +4,7 @@ Page 57013 "Imprest Lines"
     DeleteAllowed = true;
     PageType = ListPart;
     SourceTable = "Imprest Lines";
+    ApplicationArea = All;
 
     layout
     {

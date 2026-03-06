@@ -5,6 +5,7 @@ Page 65021 "Research Authorship List"
     Editable = false;
     PageType = List;
     SourceTable = "Research Output Authorship";
+    ApplicationArea = All;
 
     layout
     {

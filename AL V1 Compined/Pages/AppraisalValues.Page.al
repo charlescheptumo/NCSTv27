@@ -3,6 +3,7 @@ Page 56216 "Appraisal Values"
 {
     PageType = ListPart;
     SourceTable = "Values Appraisal";
+    ApplicationArea = All;
 
     layout
     {

@@ -8,6 +8,7 @@ Page 59007 "Approved Transport Requests"
     SourceTable = "Transport Requisition";
     SourceTableView = order(ascending)
                       where(Status = filter(Approved));
+    ApplicationArea = All;
 
     layout
     {

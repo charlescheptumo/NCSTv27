@@ -6,6 +6,7 @@ Page 57094 "A-Payment Voucher"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const("Payment Voucher"),
                             Posted = const(False));
+    ApplicationArea = All;
 
     layout
     {

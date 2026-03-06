@@ -3,6 +3,7 @@ Page 56045 "Investigators Listing"
 {
     PageType = List;
     SourceTable = "Case Investigator";
+    ApplicationArea = All;
 
     layout
     {

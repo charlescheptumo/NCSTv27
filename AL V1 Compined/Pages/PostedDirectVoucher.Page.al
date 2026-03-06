@@ -6,6 +6,7 @@ Page 57099 "Posted Direct Voucher"
     PageType = Card;
     SourceTable = "Receipts Header1";
     SourceTableView = where(Posted = const(true));
+    ApplicationArea = All;
 
     layout
     {

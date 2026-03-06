@@ -4,6 +4,7 @@ Report 65018 "FOA List"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/FOA List.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

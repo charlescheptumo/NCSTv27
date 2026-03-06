@@ -6,6 +6,7 @@ Page 57159 "Standing Imprest Surrender"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const("Standing Imprest Surrender"),
                             Posted = const(False));
+    ApplicationArea = All;
 
     layout
     {

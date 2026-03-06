@@ -3,6 +3,7 @@ Page 56226 "Rating Lines"
 {
     PageType = ListPart;
     SourceTable = "Departmental Objectives Lines";
+    ApplicationArea = All;
 
     layout
     {

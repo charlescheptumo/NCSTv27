@@ -4,6 +4,7 @@ Page 57082 "EFT Details"
     PageType = ListPart;
     SourceTable = "EFT Details";
     SourceTableView = sorting("Header No", No);
+    ApplicationArea = All;
 
     layout
     {

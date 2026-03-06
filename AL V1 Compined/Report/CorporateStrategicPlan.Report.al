@@ -3,6 +3,7 @@ Report 80001 "Corporate Strategic Plan"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Corporate Strategic Plan.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

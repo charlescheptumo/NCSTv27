@@ -3,6 +3,7 @@ Page 75102 "Project Role Code"
 {
     PageType = List;
     SourceTable = "Project Role Code";
+    ApplicationArea = All;
 
     layout
     {

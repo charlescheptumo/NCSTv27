@@ -7,6 +7,7 @@ Page 57022 "Petty Cash Surrender"
                             Status = const(Released),
                             Posted = const(True),
                             Surrendered = const(False));
+    ApplicationArea = All;
 
     layout
     {

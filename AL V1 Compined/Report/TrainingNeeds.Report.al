@@ -4,6 +4,7 @@ Report 69123 "Training Needs"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Training Needs.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

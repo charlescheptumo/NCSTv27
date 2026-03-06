@@ -3,6 +3,7 @@ Page 69516 "Meetings Schedule"
 {
     PageType = List;
     SourceTable = "Meetings Schedule";
+    ApplicationArea = All;
 
     layout
     {

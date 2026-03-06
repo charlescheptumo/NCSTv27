@@ -4,6 +4,7 @@ Page 59046 "Maintenance Qoutes"
     CardPageID = "Purchase Quote";
     PageType = List;
     SourceTable = "Purchase Header";
+    ApplicationArea = All;
 
     layout
     {

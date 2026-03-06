@@ -7,6 +7,7 @@ Page 75253 "Bid Response Card"
     RefreshOnActivate = true;
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = filter(Quote));
+    ApplicationArea = All;
 
     layout
     {

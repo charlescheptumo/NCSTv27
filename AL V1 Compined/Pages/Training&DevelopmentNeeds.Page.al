@@ -3,6 +3,7 @@ Page 56211 "Training & Development Needs"
 {
     PageType = ListPart;
     SourceTable = "Staff Training Appraisal";
+    ApplicationArea = All;
 
     layout
     {

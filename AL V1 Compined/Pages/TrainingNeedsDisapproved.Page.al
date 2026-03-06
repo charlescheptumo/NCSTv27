@@ -9,6 +9,7 @@ Page 69159 "Training Needs Disapproved"
     SourceTable = "Training Needs";
     SourceTableView = sorting("No.")
                       where("Committee Verdict" = const(Disapproved));
+    ApplicationArea = All;
 
     layout
     {

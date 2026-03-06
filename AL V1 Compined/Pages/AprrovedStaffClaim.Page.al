@@ -10,6 +10,7 @@ Page 57109 "Aprroved Staff Claim"
     SourceTableView = where("Payment Type" = const("Staff Claim"),
                             Posted = const(False),
                             Status = const(Released));
+    ApplicationArea = All;
 
     layout
     {

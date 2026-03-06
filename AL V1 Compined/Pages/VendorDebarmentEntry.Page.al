@@ -3,6 +3,7 @@ Page 75094 "Vendor Debarment Entry"
 {
     PageType = List;
     SourceTable = "Vendor Debarment Entry";
+    ApplicationArea = All;
 
     layout
     {

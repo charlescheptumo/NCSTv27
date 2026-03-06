@@ -7,6 +7,7 @@ Page 59135 "File Folio Registry"
     ModifyAllowed = false;
     PageType = List;
     SourceTable = "File Folio Registry";
+    ApplicationArea = All;
 
     layout
     {

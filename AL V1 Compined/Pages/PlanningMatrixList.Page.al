@@ -3,6 +3,7 @@ Page 59069 "Planning Matrix List"
 {
     PageType = ListPart;
     SourceTable = "Planning Marix";
+    ApplicationArea = All;
 
     layout
     {

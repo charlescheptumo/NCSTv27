@@ -3,6 +3,7 @@ Page 65099 "All Grant Funding App Card"
 {
     PageType = Card;
     SourceTable = "Grant Funding Application";
+    ApplicationArea = All;
 
     layout
     {

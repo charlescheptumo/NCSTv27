@@ -6,6 +6,7 @@ Page 65042 "Funding Agency Card"
     PromotedActionCategories = 'New,Process,Report,New Document,Approve,Request Approval,Prices and Discounts,Navigate,Customer';
     RefreshOnActivate = true;
     SourceTable = Customer;
+    ApplicationArea = All;
 
     layout
     {

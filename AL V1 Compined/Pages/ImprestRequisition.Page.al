@@ -8,6 +8,7 @@ Page 57012 "Imprest Requisition"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const(Imprest),
                             Status = filter(Open | "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {

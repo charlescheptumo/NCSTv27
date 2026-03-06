@@ -2,6 +2,7 @@
 Report 69038 "Insert payroll details"
 {
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

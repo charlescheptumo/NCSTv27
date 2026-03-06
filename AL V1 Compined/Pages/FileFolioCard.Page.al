@@ -6,6 +6,7 @@ Page 59136 "File Folio Card"
     ModifyAllowed = true;
     PageType = Card;
     SourceTable = "File Folio Registry";
+    ApplicationArea = All;
 
     layout
     {

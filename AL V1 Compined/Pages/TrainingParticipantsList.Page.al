@@ -3,6 +3,7 @@ Page 69229 "Training Participants List"
 {
     PageType = List;
     SourceTable = "Training Participants";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 80012 "Corporate Strategic Plan Card"
 {
     PageType = Card;
     SourceTable = "Corporate Strategic Plans";
+    ApplicationArea = All;
 
     layout
     {

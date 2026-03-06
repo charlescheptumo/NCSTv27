@@ -4,6 +4,7 @@ Page 57081 AdvanceType
     Caption = 'AdvanceType';
     PageType = Card;
     SourceTable = "Receipts and Payment Types1";
+    ApplicationArea = All;
 
     layout
     {

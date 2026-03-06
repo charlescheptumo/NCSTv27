@@ -3,6 +3,7 @@ Page 56150 "ICT Leasing Voucher card"
 {
     PageType = Card;
     SourceTable = "ICT Issuance Voucher";
+    ApplicationArea = All;
 
     layout
     {

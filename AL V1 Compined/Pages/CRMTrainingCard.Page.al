@@ -3,6 +3,7 @@ Page 69518 "CRM Training Card"
 {
     PageType = Card;
     SourceTable = "CRM Trainings";
+    ApplicationArea = All;
 
     layout
     {

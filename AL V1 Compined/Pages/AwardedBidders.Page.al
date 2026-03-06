@@ -4,6 +4,7 @@ Page 70128 "Awarded Bidders"
     PageType = List;
     SourceTable = "Tender Bids";
     SourceTableView = sorting("Requisition No", "Bidder Name", "Bidder Email", No, "Line No");
+    ApplicationArea = All;
 
     layout
     {

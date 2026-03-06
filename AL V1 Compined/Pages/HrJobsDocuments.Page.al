@@ -3,6 +3,7 @@ Page 69116 "Hr Jobs Documents"
 {
     PageType = List;
     SourceTable = Documents;
+    ApplicationArea = All;
 
     layout
     {

@@ -5,6 +5,7 @@ Page 59106 "Approved Dept Planning  list"
     Editable = false;
     PageType = List;
     SourceTable = Planning;
+    ApplicationArea = All;
 
     layout
     {

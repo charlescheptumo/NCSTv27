@@ -5,6 +5,7 @@ Page 65029 "GFO Approval Comm Entry List"
     Editable = false;
     PageType = List;
     SourceTable = "GFO Approval Committee Entry";
+    ApplicationArea = All;
 
     layout
     {

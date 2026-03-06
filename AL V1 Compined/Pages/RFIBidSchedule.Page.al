@@ -3,6 +3,7 @@ Page 75048 "RFI Bid Schedule"
 {
     PageType = List;
     SourceTable = "RFI Bid Schedule";
+    ApplicationArea = All;
 
     layout
     {

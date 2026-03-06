@@ -3,6 +3,7 @@ Report 70044 "Award Letter"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Award Letter.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

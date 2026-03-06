@@ -5,6 +5,7 @@ Report 69138 "New Payslip Self Service"
     // ArrEarningsAmt[1,1]
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/New Payslip Self Service.rdlc';
+    ApplicationArea = All;
 
 
     dataset

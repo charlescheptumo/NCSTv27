@@ -4,6 +4,7 @@ Page 56153 "Submitted Issuance  Lines"
     Editable = true;
     PageType = ListPart;
     SourceTable = "ICT Issuance Voucher Lines";
+    ApplicationArea = All;
 
     layout
     {

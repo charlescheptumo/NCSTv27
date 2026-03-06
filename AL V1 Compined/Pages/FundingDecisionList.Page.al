@@ -3,6 +3,7 @@ Page 65126 "Funding Decision List"
 {
     PageType = List;
     SourceTable = "Funding Decision Details";
+    ApplicationArea = All;
 
     layout
     {

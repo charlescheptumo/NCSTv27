@@ -4,6 +4,7 @@ Report 70013 "Procurement IAC Report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Procurement IAC Report.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

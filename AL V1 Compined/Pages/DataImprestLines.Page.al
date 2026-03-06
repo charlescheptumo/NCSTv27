@@ -3,6 +3,7 @@ Page 57125 "Data Imprest Lines"
 {
     PageType = ListPart;
     SourceTable = "Imprest Lines";
+    ApplicationArea = All;
 
     layout
     {

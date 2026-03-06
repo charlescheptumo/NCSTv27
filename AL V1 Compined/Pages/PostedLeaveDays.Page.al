@@ -9,6 +9,7 @@ Page 69170 "Posted Leave Days"
     SourceTableView = sorting("Employee No", "Leave Code", "Posting  Date")
                       order(ascending)
                       where(Posted = const(true));
+    ApplicationArea = All;
 
     layout
     {

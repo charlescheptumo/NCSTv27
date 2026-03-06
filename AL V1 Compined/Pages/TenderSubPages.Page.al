@@ -3,6 +3,7 @@ Page 70092 "Tender Sub Pages"
 {
     PageType = List;
     SourceTable = "Procurement Request Lines";
+    ApplicationArea = All;
 
     layout
     {

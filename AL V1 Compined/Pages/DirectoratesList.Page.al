@@ -3,6 +3,7 @@ Page 59068 "Directorates List"
 {
     PageType = List;
     SourceTable = Directorate;
+    ApplicationArea = All;
 
     layout
     {

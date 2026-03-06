@@ -3,6 +3,7 @@ Page 75038 "Vendor Staff Qualification"
 {
     PageType = List;
     SourceTable = "Vendor Staff Qualification";
+    ApplicationArea = All;
 
     layout
     {

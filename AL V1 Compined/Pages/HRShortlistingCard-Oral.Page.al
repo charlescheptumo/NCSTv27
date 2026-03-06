@@ -9,6 +9,7 @@ Page 69269 "HR Shortlisting Card-Oral"
     SourceTable = "Employee Requisitions";
     SourceTableView = where(Status = const(Approved),
                             Closed = const(false));
+    ApplicationArea = All;
 
     layout
     {

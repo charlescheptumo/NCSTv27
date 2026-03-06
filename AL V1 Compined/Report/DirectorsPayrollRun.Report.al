@@ -2,6 +2,7 @@
 Report 89032 "Directors Payroll Run"
 {
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 69210 "HR Leave Documents"
 {
     PageType = List;
     SourceTable = Documents;
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75241 "PRN Personnel Qualification"
 {
     PageType = List;
     SourceTable = "PRN Personnel Qualification";
+    ApplicationArea = All;
 
     layout
     {

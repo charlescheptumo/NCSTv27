@@ -3,6 +3,7 @@ Page 75256 "Bid Personnel Compliance"
 {
     PageType = List;
     SourceTable = "Bid Personnel Compliance";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 50061 "User Detail"
 {
     PageType = List;
     SourceTable = User;
+    ApplicationArea = All;
 
     layout
     {

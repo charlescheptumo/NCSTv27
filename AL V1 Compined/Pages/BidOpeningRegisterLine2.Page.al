@@ -4,6 +4,7 @@ Page 70156 "Bid Opening Register Line2"
     PageType = ListPart;
     SourceTable = "Bid Opening Register Lines2";
     SourceTableView = sorting("Requisition No", "Bidder Name", "Bidder Email", No, "Line No");
+    ApplicationArea = All;
 
     layout
     {

@@ -6,6 +6,7 @@ Page 56217 "Helpdesk Requisition Allocatio"
     PageType = List;
     SourceTable = "ICT Helpdesk";
     SourceTableView = where(Status = filter(Pending));
+    ApplicationArea = All;
 
     layout
     {

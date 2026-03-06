@@ -3,6 +3,7 @@ Page 65011 "Research Project Area Card"
 {
     PageType = Card;
     SourceTable = "Research Project Area";
+    ApplicationArea = All;
 
     layout
     {

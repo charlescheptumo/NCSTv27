@@ -3,6 +3,7 @@ Page 69085 "HR SO Role Center"
 {
     Caption = 'Role Center';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {

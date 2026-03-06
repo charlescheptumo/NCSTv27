@@ -3,6 +3,7 @@ Report 70048 "Tender Committee appointment"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Tender Committee appointment.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

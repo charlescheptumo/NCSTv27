@@ -3,6 +3,7 @@ Page 57060 "Bank Transfer Lines"
 {
     PageType = ListPart;
     SourceTable = "PV Lines";
+    ApplicationArea = All;
 
     layout
     {

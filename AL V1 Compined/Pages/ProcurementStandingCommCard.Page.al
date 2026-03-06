@@ -3,6 +3,7 @@ Page 75115 "Procurement Standing Comm Card"
 {
     PageType = Card;
     SourceTable = "Procurement Standing Committee";
+    ApplicationArea = All;
 
     layout
     {

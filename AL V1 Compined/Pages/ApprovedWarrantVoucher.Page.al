@@ -5,6 +5,7 @@ Page 57101 "Approved  Warrant Voucher"
     InsertAllowed = false;
     PageType = Card;
     SourceTable = Payments;
+    ApplicationArea = All;
 
     layout
     {

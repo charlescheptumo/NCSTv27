@@ -5,6 +5,7 @@ Page 65019 "Grants Setup List"
     Editable = false;
     PageType = List;
     SourceTable = "Grants Setup";
+    ApplicationArea = All;
 
     layout
     {

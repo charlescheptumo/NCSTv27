@@ -5,6 +5,7 @@ Report 69019 "P9A Report"
     RDLCLayout = './Layouts/P9A Report.rdlc';
     PreviewMode = PrintLayout;
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {
@@ -392,7 +393,7 @@ Report 69019 "P9A Report"
                     {
                         ApplicationArea = Basic;
                         Caption = 'End Date';
-                    //cc//    OptionCaption = 'Due Date,Posting Date,Document Date';
+                        //cc//    OptionCaption = 'Due Date,Posting Date,Document Date';
                     }
                 }
             }

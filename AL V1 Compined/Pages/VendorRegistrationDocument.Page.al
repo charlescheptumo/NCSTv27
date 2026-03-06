@@ -3,6 +3,7 @@ Page 75015 "Vendor Registration Document"
 {
     PageType = List;
     SourceTable = "Vendor Registration Document";
+    ApplicationArea = All;
 
     layout
     {

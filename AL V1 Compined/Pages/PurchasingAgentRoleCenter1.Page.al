@@ -3,6 +3,7 @@ Page 70119 "Purchasing Agent Role Center1"
 {
     Caption = 'Role Center';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {

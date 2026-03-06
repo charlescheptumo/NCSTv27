@@ -3,6 +3,7 @@ Page 65130 "Cost Reimbursement Lines"
 {
     PageType = ListPart;
     SourceTable = "Billable Project Lines";
+    ApplicationArea = All;
 
     layout
     {

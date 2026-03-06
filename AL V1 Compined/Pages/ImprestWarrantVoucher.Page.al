@@ -5,6 +5,7 @@ Page 57049 "Imprest Warrant Voucher"
     InsertAllowed = false;
     PageType = Card;
     SourceTable = Payments;
+    ApplicationArea = All;
 
     layout
     {

@@ -6,6 +6,7 @@ Page 59008 "Fuel and Maintenance List"
     SourceTable = "Fuel & Maintenance Requisition";
     SourceTableView = order(ascending)
                       where(Status = filter(Approved));
+    ApplicationArea = All;
 
     layout
     {

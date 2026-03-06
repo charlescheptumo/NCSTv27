@@ -3,6 +3,7 @@ Report 69099 "Accrue Leave"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Accrue Leave.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

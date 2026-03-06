@@ -3,6 +3,7 @@ Report 70000 "Purchase Requisition Extended"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Purchase Requisition Extended.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

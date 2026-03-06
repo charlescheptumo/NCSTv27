@@ -3,6 +3,7 @@ Report 69057 "Post Exchequer Payroll"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Post Exchequer Payroll.rdlc';
+    ApplicationArea = All;
 
     dataset
     {
@@ -141,7 +142,7 @@ Report 69057 "Post Exchequer Payroll"
                         GenJnline."Shortcut Dimension 1 Code" := Employee."Global Dimension 1 Code";
                         GenJnline.Amount := exchequerAmount;
 
-                       //cc//   GenJnline."Job No." := CompRec."NSSF Amount";
+                        //cc//   GenJnline."Job No." := CompRec."NSSF Amount";
                         GenJnline."Job Task No." := '10000';
                         GenJnline."Job Quantity" := 1;
                         GenJnline.Validate(GenJnline."Job No.");
@@ -247,7 +248,7 @@ Report 69057 "Post Exchequer Payroll"
                             GenJnline.Amount := EmployerAmount * -1;
 
                             if PGMapping."Account Type" = PGMapping."account type"::"G/L Account" then begin
-                             //cc//     GenJnline."Job No." := CompRec."NSSF Amount";
+                                //cc//     GenJnline."Job No." := CompRec."NSSF Amount";
                                 GenJnline."Job Task No." := '10000';
                                 GenJnline."Job Quantity" := 1;
                                 GenJnline.Validate(GenJnline."Job No.");
@@ -304,10 +305,10 @@ Report 69057 "Post Exchequer Payroll"
 
 
                         EmployeePosting.Reset;
-                      //cc//    EmployeePosting.SetRange(Exchequer, true);
+                        //cc//    EmployeePosting.SetRange(Exchequer, true);
                         if EmployeePosting.Find('-') then begin
                             EmployeePosting.TestField("Gratuity Code");
-                           //cc//   EmployeePosting.TestField("Job Task No");
+                            //cc//   EmployeePosting.TestField("Job Task No");
                             GenJnline."Job No." := JobTask."Job No.";
                             GenJnline."Job Task No." := JobTask."Job Task No.";
                             GenJnline."Job Quantity" := 1;

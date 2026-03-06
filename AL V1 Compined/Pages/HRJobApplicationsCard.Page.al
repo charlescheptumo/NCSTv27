@@ -4,6 +4,7 @@ Page 69251 "HR Job Applications Card"
     PageType = Card;
     PromotedActionCategories = 'New,Process,Reports,Functions,Other Details';
     SourceTable = "HR Job Applications";
+    ApplicationArea = All;
 
     layout
     {

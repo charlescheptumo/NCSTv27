@@ -7,6 +7,7 @@ Page 59134 "Registry Files List"
     ModifyAllowed = false;
     PageType = List;
     SourceTable = "Record Creation";
+    ApplicationArea = All;
 
     layout
     {

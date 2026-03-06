@@ -4,6 +4,7 @@ Page 56212 "Mid-Year Review"
     PageType = ListPart;
     SourceTable = "Annual  Appraisal Lines";
     SourceTableView = where("Mid Year" = filter(true));
+    ApplicationArea = All;
 
     layout
     {

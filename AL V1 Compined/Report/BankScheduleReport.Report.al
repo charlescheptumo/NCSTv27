@@ -3,6 +3,7 @@ Report 57013 "Bank Schedule Report"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Bank Schedule Report.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -4,6 +4,7 @@ Report 69061 "Employee Gratuity Statement"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Employee Gratuity Statement.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

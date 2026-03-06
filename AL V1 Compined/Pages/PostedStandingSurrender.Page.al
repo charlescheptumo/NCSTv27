@@ -9,6 +9,7 @@ Page 57168 "Posted Standing Surrender"
     SourceTableView = where("Payment Type" = const("Standing Imprest Surrender"),
                             Posted = const(True),
                             Status = filter(Released));
+    ApplicationArea = All;
 
     layout
     {

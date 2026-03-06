@@ -8,6 +8,7 @@ Page 69157 "Training Needs-Approved"
     SourceTable = "Training Needs";
     SourceTableView = sorting("No.")
                       where("Committee Verdict" = const(Approved));
+    ApplicationArea = All;
 
     layout
     {

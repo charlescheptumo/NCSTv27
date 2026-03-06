@@ -3,6 +3,7 @@ Page 57121 "Audit Role center"
 {
     Caption = 'Role Center';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {
@@ -561,7 +562,7 @@ Page 57121 "Audit Role center"
                 Ellipsis = true;
                 Image = AdjustExchangeRates;
                 //cc   //RunObject = Report "Adjust Exchange Rates";; 
-                           }
+            }
             action("Post Inventor&y Cost to G/L")
             {
                 ApplicationArea = Basic;

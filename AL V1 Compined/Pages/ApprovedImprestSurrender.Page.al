@@ -9,6 +9,7 @@ Page 57029 "Approved Imprest Surrender"
                             Status = filter(Released),
                             Posted = const(False),
                             Surrendered = const(False));
+    ApplicationArea = All;
 
     layout
     {

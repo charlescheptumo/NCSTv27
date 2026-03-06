@@ -3,6 +3,7 @@ Page 75138 "IFS Prebid Register Agenda"
 {
     PageType = ListPart;
     SourceTable = "IFS Prebid Clarification";
+    ApplicationArea = All;
 
     layout
     {

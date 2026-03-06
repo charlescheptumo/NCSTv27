@@ -3,6 +3,7 @@ Page 70056 "Inspection Header"
 {
     PageType = Card;
     SourceTable = "Inspection Header1";
+    ApplicationArea = All;
 
     layout
     {

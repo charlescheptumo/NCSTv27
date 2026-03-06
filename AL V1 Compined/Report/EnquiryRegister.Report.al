@@ -4,6 +4,7 @@ Report 69132 "Enquiry Register"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Enquiry Register.rdlc';
     UsageCategory = Tasks;
+    ApplicationArea = All;
 
     dataset
     {

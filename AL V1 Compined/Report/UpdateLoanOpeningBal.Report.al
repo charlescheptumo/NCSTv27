@@ -3,6 +3,7 @@ Report 69017 "Update Loan Opening Bal"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Update Loan Opening Bal.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 55021 "Board Meeting Replies"
 {
     PageType = List;
     SourceTable = "Board Meeting Comments";
+    ApplicationArea = All;
 
     layout
     {

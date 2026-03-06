@@ -6,6 +6,7 @@ Page 70041 "Requests for EOI List"
     PageType = List;
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const(EOI));
+    ApplicationArea = All;
 
     layout
     {

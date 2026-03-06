@@ -4,6 +4,7 @@ Page 69042 "Employee Posting Group List"
     Editable = false;
     PageType = List;
     SourceTable = "Employee Posting GroupX";
+    ApplicationArea = All;
 
     layout
     {

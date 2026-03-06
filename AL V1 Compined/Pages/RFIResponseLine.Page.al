@@ -3,6 +3,7 @@ Page 75173 "RFI Response Line"
 {
     PageType = ListPart;
     SourceTable = "IFP Response Line";
+    ApplicationArea = All;
 
     layout
     {

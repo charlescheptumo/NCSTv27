@@ -3,6 +3,7 @@ Page 65065 "Research Center Factbox"
 {
     PageType = CardPart;
     SourceTable = "Responsibility Center";
+    ApplicationArea = All;
 
     layout
     {

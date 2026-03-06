@@ -6,6 +6,7 @@ Page 69161 "Leave Balances"
     SourceTableView = sorting("No.")
                       order(ascending)
                       where(Status = const(Active));
+    ApplicationArea = All;
 
     layout
     {

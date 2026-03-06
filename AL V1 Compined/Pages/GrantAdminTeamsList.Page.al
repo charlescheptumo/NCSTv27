@@ -3,6 +3,7 @@ Page 65059 "Grant Admin Teams List"
 {
     PageType = List;
     SourceTable = "Grant Admin Team";
+    ApplicationArea = All;
 
     layout
     {

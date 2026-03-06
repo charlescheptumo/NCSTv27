@@ -5,6 +5,7 @@ Page 65136 "Procurement  Role Center"
 
     Caption = 'Manager''s  Role Center', Comment = '{Dependency=Match,"ProfileDescription_SMALLBUSINESS"}';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {
@@ -21,7 +22,7 @@ Page 65136 "Procurement  Role Center"
             }
             part(Control55; "Help And Chart Wrapper")
             {
-                    //cc//       AccessByPermission = TableData "Assisted Setup" = I;
+                //cc//       AccessByPermission = TableData "Assisted Setup" = I;
                 ApplicationArea = Basic, Suite;
                 Caption = '';
                 ToolTip = 'Specifies the view of your business assistance';

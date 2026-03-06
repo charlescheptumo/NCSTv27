@@ -5,6 +5,7 @@ Page 75133 "IFS Intention To Bid"
     DataCaptionFields = "Vendor No.";
     PageType = List;
     SourceTable = "Standard Vendor Purchase Code";
+    ApplicationArea = All;
 
     layout
     {

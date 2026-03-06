@@ -3,6 +3,7 @@ Report 65015 "Post Payroll"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Post Payroll.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

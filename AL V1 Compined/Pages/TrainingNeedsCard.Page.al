@@ -4,6 +4,7 @@ Page 69155 "Training Needs Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Training Needs";
+    ApplicationArea = All;
 
     layout
     {

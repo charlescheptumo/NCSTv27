@@ -3,6 +3,7 @@ Page 65125 "Secondary Research Programs"
 {
     PageType = List;
     SourceTable = "Secondary Research Program";
+    ApplicationArea = All;
 
     layout
     {

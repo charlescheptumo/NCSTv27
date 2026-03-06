@@ -3,6 +3,7 @@ Page 80034 "Annual Strategy Workplan Card"
 {
     PageType = Card;
     SourceTable = "Annual Strategy Workplan";
+    ApplicationArea = All;
 
     layout
     {

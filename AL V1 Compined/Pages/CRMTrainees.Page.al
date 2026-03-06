@@ -3,6 +3,7 @@ Page 69519 "CRM Trainees"
 {
     PageType = List;
     SourceTable = "CRM Traineees";
+    ApplicationArea = All;
 
     layout
     {

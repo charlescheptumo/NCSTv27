@@ -3,6 +3,7 @@ Page 75232 "Works Equipment Template Line"
 {
     PageType = ListPart;
     SourceTable = "Works Equipment Template Line";
+    ApplicationArea = All;
 
     layout
     {

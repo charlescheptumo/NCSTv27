@@ -5,6 +5,7 @@ Page 59098 "Approved File Requsition Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "File Movement Header";
+    ApplicationArea = All;
 
     layout
     {

@@ -8,6 +8,7 @@ Page 56074 "ICT Helpdesk Status List"
     ModifyAllowed = false;
     PageType = List;
     SourceTable = "ICT Helpdesk";
+    ApplicationArea = All;
 
     layout
     {

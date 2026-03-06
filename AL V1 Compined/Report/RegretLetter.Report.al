@@ -3,6 +3,7 @@ Report 70045 "Regret Letter"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Regret Letter.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

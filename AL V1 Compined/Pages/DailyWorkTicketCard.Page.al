@@ -2,6 +2,7 @@
 Page 59015 "Daily Work Ticket Card"
 {
     SourceTable = "Dialy Work Ticket Header";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Page 57122 "Audit activities"
     Caption = 'Activities';
     PageType = CardPart;
     SourceTable = "Finance Cue";
+    ApplicationArea = All;
 
     layout
     {

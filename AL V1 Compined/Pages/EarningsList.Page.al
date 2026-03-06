@@ -4,6 +4,7 @@ Page 69020 "Earnings List"
     Editable = false;
     PageType = List;
     SourceTable = EarningsX;
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 69125 "Appointment Checklist"
 {
     PageType = List;
     SourceTable = "Appointment Checklist";
+    ApplicationArea = All;
 
     layout
     {

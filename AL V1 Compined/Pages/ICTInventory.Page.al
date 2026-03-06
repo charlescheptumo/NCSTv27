@@ -3,6 +3,7 @@ Page 56133 "ICT Inventory"
 {
     PageType = Card;
     SourceTable = "ICT Inventory";
+    ApplicationArea = All;
 
     layout
     {

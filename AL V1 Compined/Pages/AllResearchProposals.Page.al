@@ -6,6 +6,7 @@ Page 65098 "All Research Proposals"
     Editable = false;
     PageType = List;
     SourceTable = "Grant Funding Application";
+    ApplicationArea = All;
 
     layout
     {

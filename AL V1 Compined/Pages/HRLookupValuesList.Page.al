@@ -7,6 +7,7 @@ Page 69242 "HR Lookup Values List"
     ModifyAllowed = false;
     PageType = List;
     SourceTable = "HR Lookup Values";
+    ApplicationArea = All;
 
     layout
     {

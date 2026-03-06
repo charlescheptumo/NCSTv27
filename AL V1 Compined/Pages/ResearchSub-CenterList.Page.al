@@ -5,6 +5,7 @@ Page 65003 "Research Sub-Center List"
     Editable = false;
     PageType = List;
     SourceTable = "Research Sub-Centers";
+    ApplicationArea = All;
 
     layout
     {

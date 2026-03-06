@@ -3,6 +3,7 @@ Page 75296 "IFS Purchase Activity Schedule"
 {
     PageType = List;
     SourceTable = "IFS Purchase Activity Schedule";
+    ApplicationArea = All;
 
     layout
     {

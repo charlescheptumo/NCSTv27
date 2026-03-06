@@ -6,6 +6,7 @@ Page 69509 "Cases solved card"
     PageType = Card;
     SourceTable = "Cases Management";
     SourceTableView = where(Status = filter(Resolved));
+    ApplicationArea = All;
 
     layout
     {

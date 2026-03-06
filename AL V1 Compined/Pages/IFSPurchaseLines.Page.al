@@ -8,6 +8,7 @@ Page 75244 "IFS Purchase Lines"
     MultipleNewLines = true;
     PageType = ListPart;
     SourceTable = "Standard Purchase Line";
+    ApplicationArea = All;
 
     layout
     {
@@ -238,7 +239,7 @@ Page 75244 "IFS Purchase Lines"
 
     trigger OnInit()
     begin
-       //cc//   TempOptionLookupBuffer.FillBuffer(TempOptionLookupBuffer."lookup type"::Purchases);
+        //cc//   TempOptionLookupBuffer.FillBuffer(TempOptionLookupBuffer."lookup type"::Purchases);
         IsFoundation := ApplicationAreaMgmtFacade.IsFoundationEnabled;
     end;
 

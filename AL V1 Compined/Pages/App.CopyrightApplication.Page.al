@@ -8,6 +8,7 @@ Page 56023 "App. Copyright Application"
     PageType = Card;
     PromotedActionCategories = 'New,Process,Reports,Approval,Budgetary Control,Cancellation,Category7_caption,Category8_caption,Category9_caption,Category10_caption';
     SourceTable = "Copyright Registration Table";
+    ApplicationArea = All;
 
     layout
     {
@@ -485,7 +486,7 @@ Page 56023 "App. Copyright Application"
                         categoriesNoSetup.Reset;
                         categoriesNoSetup.SetRange(categoriesNoSetup."copyright Category Code", Rec."Copyright Work Category");
                         if categoriesNoSetup.FindSet then begin
-                          //  NoSeriesMgt.InitSeries(categoriesNoSetup."no series", categoriesNoSetup."no series", 0D, worksNo, categoriesNoSetup."no series");
+                            //  NoSeriesMgt.InitSeries(categoriesNoSetup."no series", categoriesNoSetup."no series", 0D, worksNo, categoriesNoSetup."no series");
                             worksNo := NoSeriesMgt.GetNextNo(categoriesNoSetup."no series", Today, true);
 
 

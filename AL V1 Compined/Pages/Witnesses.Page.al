@@ -3,6 +3,7 @@ Page 56054 Witnesses
 {
     PageType = List;
     SourceTable = Witnesses;
+    ApplicationArea = All;
 
     layout
     {

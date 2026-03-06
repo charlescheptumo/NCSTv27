@@ -4,6 +4,7 @@ Page 80015 "Directorate Card"
     Caption = 'Directorate Card';
     PageType = Card;
     SourceTable = "Responsibility Center";
+    ApplicationArea = All;
 
     layout
     {

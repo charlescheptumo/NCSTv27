@@ -10,6 +10,7 @@ Page 75074 "Cancelled Purchase Requisition"
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = filter("Purchase Requisition"),
                             Status = filter(Released));
+    ApplicationArea = All;
 
     layout
     {

@@ -2,6 +2,7 @@
 Report 69007 "Import payroll details"
 {
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

@@ -4,6 +4,7 @@ Report 69037 "Journal Export"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Journal Export.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

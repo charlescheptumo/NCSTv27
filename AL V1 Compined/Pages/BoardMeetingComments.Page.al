@@ -4,6 +4,7 @@ Page 55011 "Board Meeting Comments"
     CardPageID = "Board Meeting Replies";
     PageType = List;
     SourceTable = "Board Meeting Comments";
+    ApplicationArea = All;
 
     layout
     {

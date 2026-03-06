@@ -5,6 +5,7 @@ Report 59003 Order3
     RDLCLayout = './Layouts/Order3.rdlc';
     Caption = 'Order';
     PreviewMode = PrintLayout;
+    ApplicationArea = All;
 
     dataset
     {

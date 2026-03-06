@@ -4,6 +4,7 @@ Page 75087 "Vendor Audited Income Statemen"
     Caption = 'Vendor Audited Income Statement';
     PageType = List;
     SourceTable = "Vendor Audited Income Statemen";
+    ApplicationArea = All;
 
     layout
     {

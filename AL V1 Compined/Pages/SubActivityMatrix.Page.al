@@ -3,6 +3,7 @@ Page 59073 "SubActivity Matrix"
 {
     PageType = ListPart;
     SourceTable = "Subactivity Matrix";
+    ApplicationArea = All;
 
     layout
     {

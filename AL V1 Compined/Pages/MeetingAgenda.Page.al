@@ -3,6 +3,7 @@ Page 55005 "Meeting Agenda"
 {
     PageType = List;
     SourceTable = Agenda;
+    ApplicationArea = All;
 
     layout
     {

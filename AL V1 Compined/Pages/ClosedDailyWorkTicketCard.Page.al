@@ -6,6 +6,7 @@ Page 59024 "Closed Daily Work Ticket Card"
     PageType = Card;
     SourceTable = "Dialy Work Ticket Header";
     SourceTableView = where(Status = const(Closed));
+    ApplicationArea = All;
 
     layout
     {

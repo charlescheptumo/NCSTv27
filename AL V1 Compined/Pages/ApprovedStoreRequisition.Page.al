@@ -14,6 +14,7 @@ Page 50057 "Approved Store Requisition"
                             Replenishment = const(false),
                             "Fully Issued" = const(false),
                             "Requisition Type" = filter(<> "Stock Return"));
+    ApplicationArea = All;
 
     layout
     {

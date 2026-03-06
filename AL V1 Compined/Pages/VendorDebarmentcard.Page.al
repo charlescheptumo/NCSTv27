@@ -4,6 +4,7 @@ Page 75090 "Vendor Debarment card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Vendor Debarment Voucher";
+    ApplicationArea = All;
 
     layout
     {
@@ -348,8 +349,8 @@ Page 75090 "Vendor Debarment card"
                     var
                         ApprovalsMgmt: Codeunit "Approvals Mgmt.";
                     begin
-                       //cc//         if ApprovalsMgmt.IsVendDebarmentApprovalsWorkflowEnabled(Rec) then
-                            //ApprovalsMgmt.OnCancelVendDebarmentApprovalRequest(Rec);
+                        //cc//         if ApprovalsMgmt.IsVendDebarmentApprovalsWorkflowEnabled(Rec) then
+                        //ApprovalsMgmt.OnCancelVendDebarmentApprovalRequest(Rec);
 
                     end;
                 }

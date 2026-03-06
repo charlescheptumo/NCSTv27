@@ -7,6 +7,7 @@ Page 57057 "Imprest Requisitions-accounts"
     SourceTableView = where("Payment Type" = const(Imprest),
                             Status = filter(Open | "Pending Approval"),
                             "Imprest Type" = const("Project Imprest"));
+    ApplicationArea = All;
 
     layout
     {

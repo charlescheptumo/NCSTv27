@@ -3,6 +3,7 @@ Page 75259 "Tender Cancellation Voucher"
 {
     PageType = Card;
     SourceTable = "Tender Cancellation Voucher";
+    ApplicationArea = All;
 
     layout
     {

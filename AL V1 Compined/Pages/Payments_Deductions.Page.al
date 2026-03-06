@@ -4,6 +4,7 @@ Page 69019 Payments_Deductions
     Editable = false;
     PageType = List;
     SourceTable = "Assignment Matrix-X";
+    ApplicationArea = All;
 
     layout
     {

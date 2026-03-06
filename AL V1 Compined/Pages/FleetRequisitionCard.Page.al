@@ -4,6 +4,7 @@ Page 59012 "Fleet Requisition Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Transport Requisition";
+    ApplicationArea = All;
 
     layout
     {

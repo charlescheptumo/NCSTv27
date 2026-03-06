@@ -3,6 +3,7 @@ Page 75008 "Proc Regulation Version"
 {
     PageType = List;
     SourceTable = "Proc Regulation Version";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Page 55012 "Board Meeting Card1"
     Caption = 'Board Meeting Card';
     PageType = Card;
     SourceTable = "Board Meetings1";
+    ApplicationArea = All;
 
     layout
     {

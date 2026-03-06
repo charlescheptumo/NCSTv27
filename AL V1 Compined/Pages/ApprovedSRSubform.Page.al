@@ -9,6 +9,7 @@ Page 50058 "Approved SR Subform"
     PageType = ListPart;
     SourceTable = "Purchase Line";
     SourceTableView = where("Document Type" = filter("Store Requisition"));
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 69141 "Medical Info"
 {
     PageType = List;
     SourceTable = "Medical History";
+    ApplicationArea = All;
 
     layout
     {

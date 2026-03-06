@@ -6,6 +6,7 @@ Page 65034 "Researcher Card"
     RefreshOnActivate = true;
     SourceTable = Resource;
     SourceTableView = where("Researcher?" = filter(true));
+    ApplicationArea = All;
 
     layout
     {

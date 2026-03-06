@@ -4,6 +4,7 @@ Page 69259 "HR Applicants UnQualified Card"
     PageType = Card;
     SourceTable = "HR Job Applications";
     SourceTableView = where(Qualified = const(true));
+    ApplicationArea = All;
 
     layout
     {

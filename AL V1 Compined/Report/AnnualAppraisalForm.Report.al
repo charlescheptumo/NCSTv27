@@ -3,6 +3,7 @@ Report 56205 "Annual Appraisal Form"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Annual Appraisal Form.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -4,6 +4,7 @@ Page 56087 "Customer Group"
     PageType = List;
     SourceTable = "Customer Group &  Mode";
     SourceTableView = where("Customer Group" = filter(true));
+    ApplicationArea = All;
 
     layout
     {

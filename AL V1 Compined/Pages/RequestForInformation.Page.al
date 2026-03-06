@@ -3,6 +3,7 @@ Page 75075 "Request For Information"
 {
     PageType = List;
     SourceTable = "Request For Information";
+    ApplicationArea = All;
 
     layout
     {

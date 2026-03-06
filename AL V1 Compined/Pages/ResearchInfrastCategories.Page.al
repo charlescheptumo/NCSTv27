@@ -3,6 +3,7 @@ Page 65008 "Research Infrast Categories"
 {
     PageType = List;
     SourceTable = "Research Infrust Categories";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Report 56239 "Reopen & Resolved With Comment"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Reopen & Resolved With Comment.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

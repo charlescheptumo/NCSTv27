@@ -3,6 +3,7 @@ Report 59098 "Standing Imprest"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Standing Imprest.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

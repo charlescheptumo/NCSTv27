@@ -4,6 +4,7 @@ Page 59041 "Vehicle Make Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Vehicle Make";
+    ApplicationArea = All;
 
     layout
     {

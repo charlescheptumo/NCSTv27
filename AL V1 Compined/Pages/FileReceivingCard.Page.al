@@ -3,6 +3,7 @@ Page 59129 "File Receiving Card"
 {
     PageType = Document;
     SourceTable = "File Receiving Header";
+    ApplicationArea = All;
 
     layout
     {

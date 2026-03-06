@@ -5,6 +5,7 @@ Page 69271 "HR Shortlisting Oral Lines"
     Editable = true;
     PageType = ListPart;
     SourceTable = "HR Shortlisted Applicants";
+    ApplicationArea = All;
 
     layout
     {

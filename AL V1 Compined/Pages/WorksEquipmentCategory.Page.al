@@ -3,6 +3,7 @@ Page 75100 "Works Equipment Category"
 {
     PageType = List;
     SourceTable = "Works Equipment Category";
+    ApplicationArea = All;
 
     layout
     {

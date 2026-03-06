@@ -4,6 +4,7 @@ Report 69062 "Summar Gratuity Balances"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Summar Gratuity Balances.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

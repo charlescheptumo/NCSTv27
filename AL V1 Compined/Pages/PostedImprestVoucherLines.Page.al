@@ -4,6 +4,7 @@ Page 57071 "Posted Imprest Voucher Lines"
     Editable = false;
     PageType = ListPart;
     SourceTable = "Imprest Voucher Lines";
+    ApplicationArea = All;
 
     layout
     {

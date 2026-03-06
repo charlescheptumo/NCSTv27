@@ -2,6 +2,7 @@
 Report 89035 "Transfer Director Allowances1"
 {
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

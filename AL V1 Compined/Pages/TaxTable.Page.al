@@ -3,6 +3,7 @@ Page 69001 "Tax Table"
 {
     PageType = List;
     SourceTable = BracketsX;
+    ApplicationArea = All;
 
     layout
     {

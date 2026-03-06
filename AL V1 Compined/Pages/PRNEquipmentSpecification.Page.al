@@ -3,6 +3,7 @@ Page 75243 "PRN Equipment Specification"
 {
     PageType = List;
     SourceTable = "PRN Equipment Specification";
+    ApplicationArea = All;
 
     layout
     {

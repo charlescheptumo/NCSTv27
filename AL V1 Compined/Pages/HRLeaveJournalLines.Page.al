@@ -11,6 +11,7 @@ Page 69216 "HR Leave Journal Lines"
     SaveValues = true;
     ShowFilter = true;
     SourceTable = "HR Journal Line";
+    ApplicationArea = All;
 
     layout
     {

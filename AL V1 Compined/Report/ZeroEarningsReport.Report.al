@@ -4,6 +4,7 @@ Report 69085 "Zero Earnings Report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Zero Earnings Report.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

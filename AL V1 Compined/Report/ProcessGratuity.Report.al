@@ -2,6 +2,7 @@
 Report 69050 "Process Gratuity"
 {
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

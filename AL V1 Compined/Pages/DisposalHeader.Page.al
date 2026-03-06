@@ -3,6 +3,7 @@ Page 70111 "Disposal Header"
 {
     PageType = Card;
     SourceTable = "Disposal Header";
+    ApplicationArea = All;
 
     layout
     {

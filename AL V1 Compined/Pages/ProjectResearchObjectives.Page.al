@@ -3,6 +3,7 @@ Page 65100 "Project Research Objectives"
 {
     PageType = List;
     SourceTable = "Project Research Objectives";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Page 69080 "Documents E-mailed Log1"
     Editable = false;
     PageType = List;
     SourceTable = "Document E-mail Log";
+    ApplicationArea = All;
 
     layout
     {

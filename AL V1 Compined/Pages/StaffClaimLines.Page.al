@@ -3,6 +3,7 @@ Page 57108 "Staff Claim Lines"
 {
     PageType = ListPart;
     SourceTable = "PV Lines";
+    ApplicationArea = All;
 
     layout
     {

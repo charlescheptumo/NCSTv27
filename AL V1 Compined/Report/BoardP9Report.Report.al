@@ -4,6 +4,7 @@ Report 69021 "BoardP9 Report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/BoardP9 Report.rdlc';
     PreviewMode = PrintLayout;
+    ApplicationArea = All;
 
     dataset
     {

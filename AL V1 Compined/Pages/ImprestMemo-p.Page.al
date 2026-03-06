@@ -8,6 +8,7 @@ Page 57042 "Imprest Memo-p"
     SourceTable = "Imprest Memo";
     SourceTableView = where(Status = const(Released),
                             Posted = const(false));
+    ApplicationArea = All;
 
     layout
     {

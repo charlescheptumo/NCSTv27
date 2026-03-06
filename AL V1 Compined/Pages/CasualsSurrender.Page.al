@@ -3,6 +3,7 @@ Page 57087 "Casuals Surrender"
 {
     PageType = ListPart;
     SourceTable = Casuals;
+    ApplicationArea = All;
 
     layout
     {

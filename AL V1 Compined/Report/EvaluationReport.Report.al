@@ -3,6 +3,7 @@ Report 70008 "Evaluation Report"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Evaluation Report.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

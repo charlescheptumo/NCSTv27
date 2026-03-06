@@ -6,6 +6,7 @@ Page 69255 "HR Employee Attachments SF"
     PageType = List;
     PromotedActionCategories = 'New,Process,Report,Attachments';
     SourceTable = "HR Employee Attachments";
+    ApplicationArea = All;
 
     layout
     {

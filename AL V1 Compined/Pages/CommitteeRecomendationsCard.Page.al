@@ -5,6 +5,7 @@ Page 55019 "Committee Recomendations  Card"
     PageType = Card;
     RefreshOnActivate = true;
     SourceTable = "Committee Recommendatio Header";
+    ApplicationArea = All;
 
     layout
     {

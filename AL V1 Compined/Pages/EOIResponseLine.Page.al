@@ -3,6 +3,7 @@ Page 75220 "EOI Response Line"
 {
     PageType = ListPart;
     SourceTable = "IFP Response Line";
+    ApplicationArea = All;
 
     layout
     {

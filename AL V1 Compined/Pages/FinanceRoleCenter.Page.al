@@ -3,6 +3,7 @@ Page 65137 "Finance Role Center"
 {
     Caption = 'Accountant', Comment = 'Use same translation as ''Profile Description'' (if applicable)';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {
@@ -263,7 +264,7 @@ Page 65137 "Finance Role Center"
                     ApplicationArea = Basic, Suite;
                     Caption = '&Intrastat - Checklist';
                     Image = "Report";
-               //cc//     RunObject = Report "Intrastat - Checklist";
+                    //cc//     RunObject = Report "Intrastat - Checklist";
                     ToolTip = 'View a checklist that you can use to find possible errors before printing and also as documentation for what is printed. You can use the report to check the Intrastat journal before you use the Intrastat - Make Disk Tax Auth batch job.';
                 }
                 action("Intrastat - For&m")

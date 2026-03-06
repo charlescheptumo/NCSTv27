@@ -3,6 +3,7 @@ Page 57035 "Execution Plan"
 {
     PageType = ListPart;
     SourceTable = "Execution Plan";
+    ApplicationArea = All;
 
     layout
     {

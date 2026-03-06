@@ -3,6 +3,7 @@ Page 70014 "Requisition Header"
 {
     PageType = Card;
     SourceTable = "Requisition Header1";
+    ApplicationArea = All;
 
     layout
     {

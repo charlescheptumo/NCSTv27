@@ -3,6 +3,7 @@ Report 56236 "Visitor Pass"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Visitor Pass.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

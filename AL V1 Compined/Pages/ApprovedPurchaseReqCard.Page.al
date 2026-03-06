@@ -9,6 +9,7 @@ Page 75072 "Approved Purchase Req Card"
     RefreshOnActivate = true;
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = filter("Purchase Requisition"));
+    ApplicationArea = All;
 
     layout
     {

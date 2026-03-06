@@ -4,6 +4,7 @@ Report 89030 "Employee Pay Details"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Employee Pay Details.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

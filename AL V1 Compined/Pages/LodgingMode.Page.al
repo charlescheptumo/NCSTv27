@@ -4,6 +4,7 @@ Page 56088 "Lodging Mode"
     PageType = List;
     SourceTable = "Customer Group &  Mode";
     SourceTableView = where("Customer Group" = filter(false));
+    ApplicationArea = All;
 
     layout
     {

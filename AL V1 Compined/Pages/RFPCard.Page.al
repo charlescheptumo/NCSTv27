@@ -5,6 +5,7 @@ Page 70132 "RFP Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Procurement Request";
+    ApplicationArea = All;
 
     layout
     {
@@ -994,23 +995,23 @@ Page 70132 "RFP Card"
 
                     NoSuppliers := NoSuppliers + 1;
                     //  SMTPMail.CreateMessage(SenderName, SenderAddress, Recipients, Subject, Body, true);
-                  //  FileName := FileMangement.ServerTempFileName('.pdf');         //FileName:='Payslip.pdf';
+                    //  FileName := FileMangement.ServerTempFileName('.pdf');         //FileName:='Payslip.pdf';
                     SupplierSelect2.Reset;
                     SupplierSelect2.SetRange(SupplierSelect2."Supplier Name", SupplierSelect."Supplier Name");
                     if SupplierSelect2.Find('-') then
-                        //Report.SaveAsPdf(Report::"Request for Quotation", FileName, SupplierSelect2);
-                    //   SMTPMail.AddAttachment(FileName, '');
-                    //cc//   SMTPMail.Send;
+//Report.SaveAsPdf(Report::"Request for Quotation", FileName, SupplierSelect2);
+//   SMTPMail.AddAttachment(FileName, '');
+//cc//   SMTPMail.Send;
 ;
                 end;
 
             until SupplierSelect.Next = 0;
 
-                    Message('RFP Successfully Sent to %1 Suppliers', NoSuppliers);
+            Message('RFP Successfully Sent to %1 Suppliers', NoSuppliers);
 
-                    Window.Close;
-                end else
-                    Error('There are no Suppliers Selected!');
+            Window.Close;
+        end else
+            Error('There are no Suppliers Selected!');
     end;
 
 

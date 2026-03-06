@@ -3,6 +3,7 @@ Page 65022 "Research Authorship Card"
 {
     PageType = Card;
     SourceTable = "Research Output Authorship";
+    ApplicationArea = All;
 
     layout
     {

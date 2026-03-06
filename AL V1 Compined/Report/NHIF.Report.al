@@ -4,6 +4,7 @@ Report 69020 NHIF
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/NHIF.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

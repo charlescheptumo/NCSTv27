@@ -6,6 +6,7 @@ Page 69267 "HR Employee Kin"
     PageType = Card;
     SaveValues = true;
     SourceTable = Employee;
+    ApplicationArea = All;
 
     layout
     {

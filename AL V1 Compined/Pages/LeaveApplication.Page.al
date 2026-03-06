@@ -6,6 +6,7 @@ Page 69075 "Leave Application"
     RefreshOnActivate = true;
     SourceTable = "Hr Leave";
     SourceTableView = where(Status = filter(Open | "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {

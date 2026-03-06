@@ -4,6 +4,7 @@ Report 70010 "Goods Received Note"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Goods Received Note.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

@@ -5,6 +5,7 @@ Report 69039 "DIR P9 Report1"
     RDLCLayout = './Layouts/DIR P9 Report1.rdlc';
     PreviewMode = PrintLayout;
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

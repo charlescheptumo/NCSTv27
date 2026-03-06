@@ -4,6 +4,7 @@ Page 59005 "Vehicle Make List"
     DeleteAllowed = false;
     PageType = List;
     SourceTable = "Vehicle Make";
+    ApplicationArea = All;
 
     layout
     {

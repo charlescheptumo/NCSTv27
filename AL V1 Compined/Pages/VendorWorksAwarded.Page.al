@@ -3,6 +3,7 @@ Page 75041 "Vendor Works Awarded"
 {
     PageType = List;
     SourceTable = "Vendor Works Awarded";
+    ApplicationArea = All;
 
     layout
     {

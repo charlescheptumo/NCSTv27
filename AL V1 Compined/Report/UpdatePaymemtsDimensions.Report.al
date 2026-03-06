@@ -3,6 +3,7 @@ Report 57090 "Update Paymemts Dimensions"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Update Paymemts Dimensions.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

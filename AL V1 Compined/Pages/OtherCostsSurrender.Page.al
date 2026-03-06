@@ -4,6 +4,7 @@ Page 57088 "Other Costs Surrender"
     AutoSplitKey = true;
     PageType = ListPart;
     SourceTable = "Other Costs";
+    ApplicationArea = All;
 
     layout
     {

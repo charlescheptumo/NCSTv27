@@ -4,6 +4,7 @@ Page 69225 "Training Evaluation Page"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Training Evaluation Header";
+    ApplicationArea = All;
 
     layout
     {

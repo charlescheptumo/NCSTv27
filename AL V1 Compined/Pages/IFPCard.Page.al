@@ -3,6 +3,7 @@ Page 75045 "IFP Card"
 {
     PageType = Card;
     SourceTable = "Request For Information";
+    ApplicationArea = All;
 
     layout
     {

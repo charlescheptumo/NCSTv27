@@ -4,6 +4,7 @@ Page 75036 "Vendor Past Experience"
     Caption = 'Vendor Past Experience';
     PageType = ListPart;
     SourceTable = "Vendor Past Experience";
+    ApplicationArea = All;
 
     layout
     {

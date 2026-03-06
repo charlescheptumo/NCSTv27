@@ -3,6 +3,7 @@ Page 75042 "Vendor Certificate Expiry"
 {
     PageType = List;
     SourceTable = "Vendor Certificate Expiry";
+    ApplicationArea = All;
 
     layout
     {

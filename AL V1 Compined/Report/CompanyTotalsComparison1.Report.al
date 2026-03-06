@@ -3,6 +3,7 @@ Report 99055 "Company Totals Comparison1"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Company Totals Comparison1.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -6,6 +6,7 @@ Page 57041 "Posted Imprest Memo"
     SourceTable = "Imprest Memo";
     SourceTableView = where(Status = filter(Released),
                             Posted = const(true));
+    ApplicationArea = All;
 
     layout
     {

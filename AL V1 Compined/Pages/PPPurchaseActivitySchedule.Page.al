@@ -3,6 +3,7 @@ Page 75013 "PP Purchase Activity Schedule"
 {
     PageType = List;
     SourceTable = "PP Purchase Activity Schedule";
+    ApplicationArea = All;
 
     layout
     {

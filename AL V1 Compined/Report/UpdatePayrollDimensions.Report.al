@@ -4,6 +4,7 @@ Report 69054 "Update Payroll Dimensions"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Update Payroll Dimensions.rdlc';
     UsageCategory = Tasks;
+    ApplicationArea = All;
 
     dataset
     {

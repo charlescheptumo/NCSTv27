@@ -6,6 +6,7 @@ Page 50091 "Approved Purchase Req Lines"
                             Ordered = const(false),
                             Status = const(Released),
                             "Fully Issued" = const(false));
+    ApplicationArea = All;
 
     layout
     {

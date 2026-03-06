@@ -5,6 +5,7 @@ Page 56093 "Closed Complaints Card"
     InsertAllowed = false;
     PageType = Card;
     SourceTable = "Cases Management";
+    ApplicationArea = All;
 
     layout
     {
@@ -442,7 +443,7 @@ Page 56093 "Closed Complaints Card"
         CustCare: Record "General Equiries.";
         AssignedReas: Record "Cases Management";
         lineno: Integer;
-      //  notifymail: Codeunit "SMTP Mail";
+        //  notifymail: Codeunit "SMTP Mail";
         Asmember: Boolean;
         EmploymentInfoEditable: Boolean;
         EmployedEditable: Boolean;

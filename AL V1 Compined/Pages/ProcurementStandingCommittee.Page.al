@@ -4,6 +4,7 @@ Page 75114 "Procurement Standing Committee"
     CardPageID = "Procurement Standing Comm Card";
     PageType = List;
     SourceTable = "Procurement Standing Committee";
+    ApplicationArea = All;
 
     layout
     {

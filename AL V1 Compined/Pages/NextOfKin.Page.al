@@ -3,6 +3,7 @@ Page 69133 "Next Of Kin"
 {
     PageType = List;
     SourceTable = "Employee Kin";
+    ApplicationArea = All;
 
     layout
     {

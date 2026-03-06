@@ -6,6 +6,7 @@ Page 55022 "Reschedule Board Meetings"
     PageType = Card;
     SourceTable = "Board Meetings1";
     SourceTableView = where(Published = filter(true));
+    ApplicationArea = All;
 
     layout
     {

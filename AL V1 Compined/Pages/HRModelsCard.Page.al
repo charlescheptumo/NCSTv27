@@ -3,6 +3,7 @@ Page 69202 "HR Models Card"
 {
     PageType = Card;
     SourceTable = "HR Models";
+    ApplicationArea = All;
 
     layout
     {

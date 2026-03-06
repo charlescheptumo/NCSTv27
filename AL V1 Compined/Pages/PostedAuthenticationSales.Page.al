@@ -8,6 +8,7 @@ Page 56017 "Posted Authentication Sales"
     PromotedActionCategories = 'New,Process,Report,Invoice,Correct';
     RefreshOnActivate = true;
     SourceTable = "Sales Invoice Header";
+    ApplicationArea = All;
 
     layout
     {
@@ -640,7 +641,7 @@ Page 56017 "Posted Authentication Sales"
                     var
                         CRMIntegrationManagement: Codeunit "CRM Integration Management";
                     begin
-                   //cc     CRMIntegrationManagement.CreateNewRecordInCRM(Rec.RecordId, false);
+                        //cc     CRMIntegrationManagement.CreateNewRecordInCRM(Rec.RecordId, false);
                     end;
                 }
             }

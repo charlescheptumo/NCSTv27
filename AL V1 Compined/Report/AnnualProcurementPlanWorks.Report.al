@@ -3,6 +3,7 @@ Report 70015 "Annual Procurement Plan Works"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Annual Procurement Plan Works.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 69043 "Payroll Admin Role Center"
 {
     Caption = 'Role Center';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {

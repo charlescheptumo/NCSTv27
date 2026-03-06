@@ -4,6 +4,7 @@ Report 69036 "P9A Report-Self"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/P9A Report-Self.rdlc';
     PreviewMode = PrintLayout;
+    ApplicationArea = All;
 
     dataset
     {

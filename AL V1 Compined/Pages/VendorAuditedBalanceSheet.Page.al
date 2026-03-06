@@ -3,6 +3,7 @@ Page 75086 "Vendor Audited Balance Sheet"
 {
     PageType = List;
     SourceTable = "Vendor Audited Balance Sheet";
+    ApplicationArea = All;
 
     layout
     {

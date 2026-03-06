@@ -6,6 +6,7 @@ Page 70089 "RFP Award Card"
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const(RFP),
                             Status = filter(<> "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {
@@ -666,7 +667,7 @@ Page 70089 "RFP Award Card"
                     //   SMTPMail.CreateMessage(SenderName, SenderAddress, Recipients, Subject, Body, true);
 
                     //Report.SaveAsPdf(Report::"Request for Quotation", FileName, SupplierSelect);
-                   // FileName := FileMangement.ServerTempFileName('.pdf');
+                    // FileName := FileMangement.ServerTempFileName('.pdf');
                     //  SMTPMail.AddAttachment(FileName, '');
 
                     //   SMTPMail.Send();

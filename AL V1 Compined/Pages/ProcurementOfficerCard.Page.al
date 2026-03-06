@@ -5,6 +5,7 @@ Page 75002 "Procurement Officer Card"
     PageType = Card;
     PromotedActionCategories = 'New,Process,Report,Navigate,Salesperson';
     SourceTable = "Salesperson/Purchaser";
+    ApplicationArea = All;
 
     layout
     {

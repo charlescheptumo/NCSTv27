@@ -3,6 +3,7 @@ Page 69218 "HR Employees Factbox"
 {
     PageType = CardPart;
     SourceTable = Employee;
+    ApplicationArea = All;
 
     layout
     {

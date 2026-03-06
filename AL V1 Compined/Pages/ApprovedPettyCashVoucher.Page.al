@@ -10,6 +10,7 @@ Page 57019 "Approved Petty Cash Voucher"
     SourceTable = Payments;
     SourceTableView = where(Posted = const(False),
                             "Payment Type" = const("Petty Cash"));
+    ApplicationArea = All;
 
     layout
     {

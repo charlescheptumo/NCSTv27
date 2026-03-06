@@ -3,6 +3,7 @@ Page 57147 "PCV Lines Req"
 {
     PageType = ListPart;
     SourceTable = "PV Lines";
+    ApplicationArea = All;
 
     layout
     {

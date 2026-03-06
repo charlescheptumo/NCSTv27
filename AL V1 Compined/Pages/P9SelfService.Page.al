@@ -3,6 +3,7 @@ Page 69046 "P9 Self Service"
 {
     PageType = Card;
     SourceTable = "Payroll PeriodX";
+    ApplicationArea = All;
 
     layout
     {
@@ -71,8 +72,8 @@ Page 69046 "P9 Self Service"
 
 
 
-                      //  if Exists(FileDirectory + FileName) then
-                         begin
+                        //  if Exists(FileDirectory + FileName) then
+                        begin
                             Counter := Counter + 1;
 
                             //cc     SMTPMailSet.Get;

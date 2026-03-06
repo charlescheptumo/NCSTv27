@@ -8,6 +8,7 @@ Page 70067 "Financial Evaluation"
     SourceTableView = where("Passes Technical?" = const(true),
                             "Item Description" = filter(<> ''),
                             created = const(true));
+    ApplicationArea = All;
 
     layout
     {

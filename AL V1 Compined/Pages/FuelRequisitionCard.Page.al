@@ -5,6 +5,7 @@ Page 59026 "Fuel Requisition Card"
     PageType = Card;
     SourceTable = "Fuel & Maintenance Requisition";
     SourceTableView = where(Type = filter(Fuel));
+    ApplicationArea = All;
 
     layout
     {

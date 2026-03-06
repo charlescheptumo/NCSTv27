@@ -3,6 +3,7 @@ Page 75150 "Bid Equipment Specification"
 {
     PageType = List;
     SourceTable = "Bid Equipment Specification";
+    ApplicationArea = All;
 
     layout
     {

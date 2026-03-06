@@ -4,6 +4,7 @@ Page 56238 "Appraisee comentsO"
     PageType = ListPart;
     SourceTable = "Appraisal Comments";
     SourceTableView = where(Type = filter(Appraisee));
+    ApplicationArea = All;
 
     layout
     {

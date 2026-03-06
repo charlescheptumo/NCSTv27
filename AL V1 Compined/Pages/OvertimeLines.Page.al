@@ -3,6 +3,7 @@ Page 69131 "Overtime Lines"
 {
     PageType = ListPart;
     SourceTable = "Overtime lines";
+    ApplicationArea = All;
 
     layout
     {

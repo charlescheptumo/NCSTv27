@@ -3,6 +3,7 @@ Page 55020 "Committee Recommendation Lines"
 {
     PageType = ListPart;
     SourceTable = "Comm Recomendations  Lines";
+    ApplicationArea = All;
 
     layout
     {

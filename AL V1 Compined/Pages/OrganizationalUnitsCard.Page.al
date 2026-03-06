@@ -4,6 +4,7 @@ Page 80008 "Organizational Units  Card"
     Caption = 'Organizational Units  Card';
     PageType = Card;
     SourceTable = "Responsibility Center";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 56053 "Applicant category setup"
 {
     PageType = List;
     SourceTable = "Applicant category setup";
+    ApplicationArea = All;
 
     layout
     {

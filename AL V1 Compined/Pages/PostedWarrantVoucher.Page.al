@@ -6,6 +6,7 @@ Page 57070 "Posted Warrant Voucher"
     ModifyAllowed = false;
     PageType = Card;
     SourceTable = Payments;
+    ApplicationArea = All;
 
     layout
     {

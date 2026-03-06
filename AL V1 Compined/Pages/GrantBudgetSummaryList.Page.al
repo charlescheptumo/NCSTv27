@@ -3,6 +3,7 @@ Page 65054 "Grant Budget Summary List"
 {
     PageType = List;
     SourceTable = "Grant Budget Summary";
+    ApplicationArea = All;
 
     layout
     {

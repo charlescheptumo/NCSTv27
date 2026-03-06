@@ -6,6 +6,7 @@ Page 90005 "Previous Committee Members"
     SourceTable = "Board Of Directors";
     SourceTableView = where(Category = filter("Committee Member" | Staff),
                             Status = filter(Inactive));
+    ApplicationArea = All;
 
     layout
     {

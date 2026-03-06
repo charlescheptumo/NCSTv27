@@ -3,6 +3,7 @@ Page 75251 "IFS Prebid Summary Note"
 {
     PageType = List;
     SourceTable = "IFS Prebid Summary Note";
+    ApplicationArea = All;
 
     layout
     {

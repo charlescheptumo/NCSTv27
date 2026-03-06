@@ -3,6 +3,7 @@ Report 69047 "Loan Balances"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Loan Balances.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

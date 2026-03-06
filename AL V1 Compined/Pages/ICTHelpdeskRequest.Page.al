@@ -4,6 +4,7 @@ Page 56076 "ICT Helpdesk Request"
     PageType = Card;
     SourceTable = "ICT Helpdesk";
     SourceTableView = where(Status = filter(<> " "));
+    ApplicationArea = All;
 
     layout
     {

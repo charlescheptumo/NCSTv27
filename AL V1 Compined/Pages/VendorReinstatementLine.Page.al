@@ -3,6 +3,7 @@ Page 75191 "Vendor Reinstatement Line"
 {
     PageType = ListPart;
     SourceTable = "Vendor Debarment Voucher Line";
+    ApplicationArea = All;
 
     layout
     {

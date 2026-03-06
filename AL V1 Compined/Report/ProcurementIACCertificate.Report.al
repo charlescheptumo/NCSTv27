@@ -4,6 +4,7 @@ Report 70020 "Procurement IAC Certificate"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Procurement IAC Certificate.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

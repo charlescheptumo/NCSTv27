@@ -8,6 +8,7 @@ Page 69089 "Director Card"
     RefreshOnActivate = true;
     SourceTable = Vendor;
     SourceTableView = where("Vendor Type" = const(Director));
+    ApplicationArea = All;
 
     layout
     {

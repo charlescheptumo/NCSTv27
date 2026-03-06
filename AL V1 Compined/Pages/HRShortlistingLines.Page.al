@@ -5,6 +5,7 @@ Page 69248 "HR Shortlisting Lines"
     Editable = true;
     PageType = ListPart;
     SourceTable = "HR Shortlisted Applicants";
+    ApplicationArea = All;
 
     layout
     {

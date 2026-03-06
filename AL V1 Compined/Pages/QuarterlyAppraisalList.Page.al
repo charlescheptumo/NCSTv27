@@ -5,6 +5,7 @@ Page 56202 "Quarterly Appraisal List"
     Editable = false;
     PageType = List;
     SourceTable = "Quarterly Appraisal";
+    ApplicationArea = All;
 
     layout
     {

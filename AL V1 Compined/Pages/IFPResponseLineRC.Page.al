@@ -3,6 +3,7 @@ Page 75175 "IFP Response Line RC"
 {
     PageType = List;
     SourceTable = "IFP Response Line RC";
+    ApplicationArea = All;
 
     layout
     {

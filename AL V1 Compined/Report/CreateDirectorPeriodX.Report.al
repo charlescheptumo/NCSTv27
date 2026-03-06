@@ -2,6 +2,7 @@
 Report 69008 "Create Director PeriodX"
 {
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

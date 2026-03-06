@@ -6,6 +6,7 @@ Page 70006 "Procurement Plan Items"
     SourceTable = "Procurement Plan 1";
     SourceTableView = sorting("Plan Item No")
                       order(ascending);
+    ApplicationArea = All;
 
     layout
     {

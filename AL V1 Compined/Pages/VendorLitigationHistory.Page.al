@@ -3,6 +3,7 @@ Page 75035 "Vendor Litigation History"
 {
     PageType = ListPart;
     SourceTable = "Vendor Litigation History";
+    ApplicationArea = All;
 
     layout
     {

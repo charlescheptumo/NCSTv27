@@ -5,6 +5,7 @@ Page 69517 "CRM Trainings"
     Editable = false;
     PageType = List;
     SourceTable = "CRM Trainings";
+    ApplicationArea = All;
 
     layout
     {

@@ -6,6 +6,7 @@ Page 59031 "Pending Fuel Requests Card"
     SourceTable = "Fuel & Maintenance Requisition";
     SourceTableView = where(Status = const(Closed),
                             Type = filter(Fuel));
+    ApplicationArea = All;
 
     layout
     {

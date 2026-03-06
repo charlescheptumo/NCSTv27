@@ -4,6 +4,7 @@ Page 69274 "Claim Lines"
     AutoSplitKey = true;
     PageType = ListPart;
     SourceTable = "Claim Line1";
+    ApplicationArea = All;
 
     layout
     {

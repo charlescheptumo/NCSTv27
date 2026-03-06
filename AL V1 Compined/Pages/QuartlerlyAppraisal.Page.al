@@ -3,6 +3,7 @@ Page 56203 "Quartlerly Appraisal"
 {
     PageType = Card;
     SourceTable = "Quarterly Appraisal";
+    ApplicationArea = All;
 
     layout
     {

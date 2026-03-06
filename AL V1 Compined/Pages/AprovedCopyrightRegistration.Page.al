@@ -6,6 +6,7 @@ Page 56018 "Aproved Copyright Registration"
     PageType = Card;
     PromotedActionCategories = 'New,Process,Reports,Approval,Budgetary Control,Cancellation,Category7_caption,Category8_caption,Category9_caption,Category10_caption';
     SourceTable = "Copyright Registration Table";
+    ApplicationArea = All;
 
     layout
     {

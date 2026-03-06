@@ -4,6 +4,7 @@ Page 65048 "Grant Admin Tasks Card"
     PageType = Card;
     SourceTable = "Grant Admin Tasks";
     SourceTableView = where("Source Document Type" = const("Grant Application"));
+    ApplicationArea = All;
 
     layout
     {

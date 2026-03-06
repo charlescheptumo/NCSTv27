@@ -3,6 +3,7 @@ Page 75165 "Supplier Rating Requirement"
 {
     PageType = ListPart;
     SourceTable = "Supplier Rating Requirement";
+    ApplicationArea = All;
 
     layout
     {

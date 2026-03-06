@@ -3,6 +3,7 @@ Report 69056 "Payroll Cost Analysis"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Payroll Cost Analysis.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

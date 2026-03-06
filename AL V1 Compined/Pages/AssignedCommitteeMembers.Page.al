@@ -3,6 +3,7 @@ Page 69104 "Assigned Committee Members"
 {
     PageType = List;
     SourceTable = "Committee Board Of Directors";
+    ApplicationArea = All;
 
     layout
     {

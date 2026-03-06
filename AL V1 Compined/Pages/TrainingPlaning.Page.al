@@ -10,6 +10,7 @@ Page 69164 "Training Planing"
     SourceTableView = sorting("No.")
                       where("Committee Verdict" = const(Approved),
                             Planned = filter(false));
+    ApplicationArea = All;
 
     layout
     {

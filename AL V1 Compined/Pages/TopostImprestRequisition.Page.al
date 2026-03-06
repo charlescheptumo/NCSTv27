@@ -9,6 +9,7 @@ Page 57136 "To post  Imprest Requisition"
     SourceTableView = where("Payment Type" = const(Imprest),
                             Status = filter(Released),
                             "Send for Posting" = const(True));
+    ApplicationArea = All;
 
     layout
     {

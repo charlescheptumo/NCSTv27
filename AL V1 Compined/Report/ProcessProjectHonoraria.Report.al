@@ -4,6 +4,7 @@ Report 65014 "Process Project Honoraria"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Process Project Honoraria.rdlc';
     UsageCategory = Tasks;
+    ApplicationArea = All;
 
     dataset
     {

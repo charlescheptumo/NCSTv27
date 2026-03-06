@@ -3,6 +3,7 @@ Page 57034 "Safari Team"
 {
     PageType = ListPart;
     SourceTable = "Project Members";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 69119 "Employee Documents"
 {
     PageType = List;
     SourceTable = Documents;
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75149 "Bid Equipment Compliance"
 {
     PageType = List;
     SourceTable = "Bid Equipment Compliance";
+    ApplicationArea = All;
 
     layout
     {

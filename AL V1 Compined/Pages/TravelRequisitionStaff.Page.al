@@ -4,6 +4,7 @@ Page 59017 "Travel Requisition Staff"
     CardPageID = "Fleet Requisition Card";
     PageType = ListPart;
     SourceTable = "Travel Requisition Staff";
+    ApplicationArea = All;
 
     layout
     {

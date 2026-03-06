@@ -3,6 +3,7 @@ Page 56067 "Memo Lines"
 {
     PageType = ListPart;
     SourceTable = "Memo Lines";
+    ApplicationArea = All;
 
     layout
     {

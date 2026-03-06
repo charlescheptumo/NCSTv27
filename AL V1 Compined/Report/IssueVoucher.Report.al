@@ -4,6 +4,7 @@ Report 70009 "Issue Voucher"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Issue Voucher.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

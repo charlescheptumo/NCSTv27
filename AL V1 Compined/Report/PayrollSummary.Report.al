@@ -3,6 +3,7 @@ Report 69040 "Payroll Summary"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Payroll Summary.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

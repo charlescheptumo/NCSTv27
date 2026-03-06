@@ -3,6 +3,7 @@ Page 50086 "Service Item Cards"
 {
     PageType = Card;
     SourceTable = "Service Items";
+    ApplicationArea = All;
 
     layout
     {

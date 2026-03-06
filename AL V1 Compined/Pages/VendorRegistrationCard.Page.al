@@ -7,6 +7,7 @@ Page 75062 "Vendor Registration Card"
     PromotedActionCategories = 'New,Process,Report,Approve,Request Approval,New Document,Navigate,Incoming Documents,Vendor';
     RefreshOnActivate = true;
     SourceTable = Vendor;
+    ApplicationArea = All;
 
     layout
     {
@@ -915,7 +916,7 @@ Page 75062 "Vendor Registration Card"
                         Image = Flow;
                         Promoted = true;
                         PromotedCategory = Category5;
-                       //cc//  RunObject = Page "Flow Selector";
+                        //cc//  RunObject = Page "Flow Selector";
                         ToolTip = 'View and configure Flows that you created.';
                     }
                 }

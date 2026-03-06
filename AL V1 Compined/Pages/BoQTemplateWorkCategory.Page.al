@@ -3,6 +3,7 @@ Page 75117 "BoQ Template Work Category"
 {
     PageType = List;
     SourceTable = "BoQ Template Work Category";
+    ApplicationArea = All;
 
     layout
     {

@@ -6,6 +6,7 @@ Page 50081 "Harvest GRN"
     RefreshOnActivate = true;
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = filter("Store Requisition"));
+    ApplicationArea = All;
 
     layout
     {

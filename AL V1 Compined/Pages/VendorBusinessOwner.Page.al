@@ -3,6 +3,7 @@ Page 75033 "Vendor Business Owner"
 {
     PageType = ListPart;
     SourceTable = "Vendor Business Owner";
+    ApplicationArea = All;
 
     layout
     {

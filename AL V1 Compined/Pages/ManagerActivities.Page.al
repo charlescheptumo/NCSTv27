@@ -4,6 +4,7 @@ Page 69087 "Manager Activities"
     Caption = 'Activities';
     PageType = CardPart;
     SourceTable = "Job Cue";
+    ApplicationArea = All;
 
     layout
     {

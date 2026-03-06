@@ -3,6 +3,7 @@ Page 75170 "RFI Responsibility Center"
 {
     PageType = List;
     SourceTable = "RFI Responsibility Center";
+    ApplicationArea = All;
 
     layout
     {

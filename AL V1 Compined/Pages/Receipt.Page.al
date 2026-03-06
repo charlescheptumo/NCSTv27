@@ -5,6 +5,7 @@ Page 57067 Receipt
     PageType = Card;
     SourceTable = "Receipts Header1";
     SourceTableView = where(Posted = const(false));
+    ApplicationArea = All;
 
     layout
     {

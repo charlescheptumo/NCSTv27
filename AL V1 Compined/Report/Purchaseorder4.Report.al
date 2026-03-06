@@ -5,6 +5,7 @@ Report 59004 "Purchase order4"
     RDLCLayout = './Layouts/Purchase order4.rdlc';
     Caption = 'Order';
     PreviewMode = PrintLayout;
+    ApplicationArea = All;
 
     dataset
     {

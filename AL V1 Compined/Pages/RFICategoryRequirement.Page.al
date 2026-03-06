@@ -3,6 +3,7 @@ Page 75043 "RFI Category Requirement"
 {
     PageType = List;
     SourceTable = "RFI Category Requirement";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75242 "PRN Personnel Experience"
 {
     PageType = List;
     SourceTable = "PRN Personnel Experience";
+    ApplicationArea = All;
 
     layout
     {

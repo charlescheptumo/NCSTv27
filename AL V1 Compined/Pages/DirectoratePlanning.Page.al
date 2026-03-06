@@ -4,6 +4,7 @@ Page 59071 "Directorate Planning"
     Caption = 'Directorate Planning Card';
     PageType = Card;
     SourceTable = Planning;
+    ApplicationArea = All;
 
     layout
     {

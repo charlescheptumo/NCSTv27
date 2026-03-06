@@ -10,6 +10,7 @@ Page 57133 "processed Memos"
     SourceTable = "Imprest Memo";
     SourceTableView = where(Status = filter(Released),
                             "Imprest Created" = const(true));
+    ApplicationArea = All;
 
     layout
     {

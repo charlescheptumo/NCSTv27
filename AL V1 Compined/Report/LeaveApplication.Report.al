@@ -5,6 +5,7 @@ Report 69073 "Leave Application"
     RDLCLayout = './Layouts/Leave Application.rdlc';
     Caption = 'Leave Application';
     PreviewMode = Normal;
+    ApplicationArea = All;
 
     dataset
     {

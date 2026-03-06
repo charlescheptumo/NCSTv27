@@ -5,6 +5,7 @@ Page 69264 "HR Medical Claims List"
     PageType = List;
     SourceTable = "HR Medical Claims";
     SourceTableView = where(Posted = filter(false));
+    ApplicationArea = All;
 
     layout
     {

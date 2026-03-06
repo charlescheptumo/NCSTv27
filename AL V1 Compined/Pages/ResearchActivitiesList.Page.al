@@ -5,6 +5,7 @@ Page 65024 "Research Activities List"
     Editable = false;
     PageType = List;
     SourceTable = "Research Output Activities";
+    ApplicationArea = All;
 
     layout
     {

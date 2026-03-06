@@ -4,6 +4,7 @@ Page 56050 "Copyright Works Card"
     Caption = 'Copyright Works Card';
     PageType = Card;
     SourceTable = "Service Item";
+    ApplicationArea = All;
 
     layout
     {

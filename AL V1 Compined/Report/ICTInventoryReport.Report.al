@@ -4,6 +4,7 @@ Report 56245 "ICT Inventory Report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/ICT Inventory Report.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

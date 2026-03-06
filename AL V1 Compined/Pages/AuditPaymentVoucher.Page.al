@@ -5,6 +5,7 @@ Page 57120 "Audit Payment Voucher"
     PageType = Card;
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const("Payment Voucher"));
+    ApplicationArea = All;
 
     layout
     {

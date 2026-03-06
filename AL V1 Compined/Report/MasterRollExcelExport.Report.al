@@ -4,6 +4,7 @@ Report 69053 "Master Roll Excel Export"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Master Roll Excel Export.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {
@@ -193,7 +194,7 @@ Report 69053 "Master Roll Excel Export"
                 counter := counter + 1;
                 NetPay := Employee."Total Allowances" + Employee."Total Deductions";
 
-               //cc// NetPay := Payroll.PayrollRounding(NetPay);
+                //cc// NetPay := Payroll.PayrollRounding(NetPay);
 
                 //CLEAR(Deductions[L]);
                 for i := 1 to 10 do begin
@@ -524,7 +525,7 @@ Report 69053 "Master Roll Excel Export"
 
             trigger OnPreDataItem()
             begin
-             //   CurrReport.CreateTotals(Allowances, Deductions, OtherEarn, OtherDeduct, NetPay);
+                //   CurrReport.CreateTotals(Allowances, Deductions, OtherEarn, OtherDeduct, NetPay);
                 HRSetup.Get;
 
                 MakeExcelHeader;
@@ -665,7 +666,7 @@ Report 69053 "Master Roll Excel Export"
         */
 
         //ExcelBuf.CreateBookAndOpenExcel(Text002,Text001,COMPANYNAME,USERID);
-      //cc  ExcelBuf.CreateBookAndOpenExcel('D:\Payroll\MASTER ROLL.xlsx', Text002, Text001, COMPANYNAME, UserId);
+        //cc  ExcelBuf.CreateBookAndOpenExcel('D:\Payroll\MASTER ROLL.xlsx', Text002, Text001, COMPANYNAME, UserId);
         //ERROR('');
         Error('');
 

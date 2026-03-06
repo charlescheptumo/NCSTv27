@@ -3,6 +3,7 @@ Page 80035 "Strategy Workplan Lines"
 {
     PageType = ListPart;
     SourceTable = "Strategy Workplan Lines";
+    ApplicationArea = All;
 
     layout
     {

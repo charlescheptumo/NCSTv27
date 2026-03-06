@@ -4,6 +4,7 @@ Page 56095 "Resolved Complaints Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Cases Management";
+    ApplicationArea = All;
 
     layout
     {

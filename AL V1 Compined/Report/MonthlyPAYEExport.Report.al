@@ -4,6 +4,7 @@ Report 69110 "Monthly PAYE Export"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Monthly PAYE Export.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

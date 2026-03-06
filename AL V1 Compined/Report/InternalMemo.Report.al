@@ -3,6 +3,7 @@ Report 56237 "Internal Memo"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Internal Memo.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

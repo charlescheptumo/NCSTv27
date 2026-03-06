@@ -5,6 +5,7 @@ Page 69221 "Training Application Card"
     PageType = Card;
     PromotedActionCategories = 'New,Process,Reports,Functions,Show';
     SourceTable = "Training Requests";
+    ApplicationArea = All;
 
     layout
     {

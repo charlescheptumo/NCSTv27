@@ -4,6 +4,7 @@ Report 69086 "Zero Deductions Report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Zero Deductions Report.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

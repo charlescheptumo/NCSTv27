@@ -3,6 +3,7 @@ Page 56066 "Internal Memo"
 {
     PageType = Card;
     SourceTable = "Internal Memos";
+    ApplicationArea = All;
 
     layout
     {

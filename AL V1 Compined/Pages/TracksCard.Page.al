@@ -3,6 +3,7 @@ Page 56083 "Tracks Card"
 {
     PageType = Card;
     SourceTable = Tracks;
+    ApplicationArea = All;
 
     layout
     {
@@ -51,14 +52,14 @@ Page 56083 "Tracks Card"
                     trigger OnValidate()
                     begin
                         Rec.CalcFields(Rec."Track Work Abstract");
-rec."Track Work Abstract".CreateInstream(ObjInstr);
+                        rec."Track Work Abstract".CreateInstream(ObjInstr);
                         Obj.Read(ObjInstr);
 
                         if ObjText <> Format(Obj) then begin
                             Clear(Rec."Track Work Abstract");
                             Clear(Obj);
                             Obj.AddText(ObjText);
-                          rec.  "Track Work Abstract".CreateOutstream(ObjOutStr);
+                            rec."Track Work Abstract".CreateOutstream(ObjOutStr);
                             Obj.Write(ObjOutStr);
 
                         end;
@@ -131,7 +132,7 @@ rec."Track Work Abstract".CreateInstream(ObjInstr);
     trigger OnAfterGetRecord()
     begin
         Rec.CalcFields(Rec."Track Work Abstract");
-       rec. "Track Work Abstract".CreateInstream(ObjInstr);
+        rec."Track Work Abstract".CreateInstream(ObjInstr);
         Obj.Read(ObjInstr);
         ObjText := Format(Obj);
     end;

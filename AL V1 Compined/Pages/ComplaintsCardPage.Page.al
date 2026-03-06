@@ -3,6 +3,7 @@ Page 56036 "Complaints Card Page"
 {
     PageType = Card;
     SourceTable = "Complaints Table";
+    ApplicationArea = All;
 
     layout
     {

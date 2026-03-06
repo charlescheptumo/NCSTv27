@@ -3,6 +3,7 @@ Page 70052 "Contract Management Header"
 {
     PageType = Card;
     SourceTable = "Contract Management Header";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75279 "Proffesion Opinion Lines"
 {
     PageType = ListPart;
     SourceTable = "Bid Tabulation Line";
+    ApplicationArea = All;
 
     layout
     {

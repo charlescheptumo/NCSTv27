@@ -5,6 +5,7 @@ Page 65016 "Research Output Sublist"
     Editable = false;
     PageType = List;
     SourceTable = "Research Output Subcategories";
+    ApplicationArea = All;
 
     layout
     {

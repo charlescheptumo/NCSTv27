@@ -3,6 +3,7 @@ Report 80002 "Annual Strategy Workplan"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Annual Strategy Workplan.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

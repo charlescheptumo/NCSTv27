@@ -3,6 +3,7 @@ Page 69239 "hr job responsibilities card"
 {
     PageType = Card;
     SourceTable = "HR Job Responsiblities";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 59051 "Fund Opportunity Card"
 {
     PageType = Card;
     SourceTable = "Funding Oportunity";
+    ApplicationArea = All;
 
     layout
     {

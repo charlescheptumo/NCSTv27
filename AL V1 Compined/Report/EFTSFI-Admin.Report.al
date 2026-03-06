@@ -4,6 +4,7 @@ Report 69063 "EFT/SFI-Admin"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/EFTSFI-Admin.rdlc';
     UsageCategory = Tasks;
+    ApplicationArea = All;
 
     dataset
     {
@@ -53,7 +54,7 @@ Report 69063 "EFT/SFI-Admin"
 
 
                 //
-              //cc//  NetPay := payroll.PayrollRounding(NetPay);
+                //cc//  NetPay := payroll.PayrollRounding(NetPay);
                 BankCode := '';
                 RefNo := '';
                 Amount := '';

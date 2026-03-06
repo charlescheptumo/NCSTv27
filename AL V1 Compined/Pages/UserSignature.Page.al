@@ -7,6 +7,7 @@ Page 69066 "User Signature"
     LinksAllowed = false;
     PageType = Card;
     SourceTable = "User Setup";
+    ApplicationArea = All;
 
     layout
     {

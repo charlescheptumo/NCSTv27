@@ -4,6 +4,7 @@ Page 65066 "Research Center Statistics"
     Editable = false;
     PageType = Card;
     SourceTable = "Responsibility Center";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 70113 "Quotation Bids Per vendor"
 {
     PageType = List;
     SourceTable = "Quotation Bids Per Line 1";
+    ApplicationArea = All;
 
     layout
     {

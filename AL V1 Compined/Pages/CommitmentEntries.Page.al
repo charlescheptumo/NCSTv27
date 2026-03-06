@@ -3,6 +3,7 @@ Page 70018 "Commitment Entries"
 {
     PageType = List;
     SourceTable = "Commitment Entries1";
+    ApplicationArea = All;
 
     layout
     {

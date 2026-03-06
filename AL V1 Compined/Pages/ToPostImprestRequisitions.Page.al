@@ -11,6 +11,7 @@ Page 57135 "To Post Imprest Requisitions"
                             Status = filter(Released),
                             Posted = const(False),
                             "Send for Posting" = const(True));
+    ApplicationArea = All;
 
     layout
     {

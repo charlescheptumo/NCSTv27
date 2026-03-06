@@ -4,6 +4,7 @@ Page 59028 "Fuel Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Fuel Card";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Report 69004 "Payroll Run"
 {
     ProcessingOnly = true;
     UsageCategory = Tasks;
+    ApplicationArea = All;
 
     dataset
     {

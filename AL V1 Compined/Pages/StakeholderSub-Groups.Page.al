@@ -3,6 +3,7 @@ Page 80007 "Stakeholder Sub-Groups"
 {
     PageType = List;
     SourceTable = "Stakeholder Sub-Group";
+    ApplicationArea = All;
 
     layout
     {

@@ -8,6 +8,7 @@ Page 59002 "Fixed Asset List-flt"
     PageType = List;
     SourceTable = "Fixed Asset";
     SourceTableView = where(test = const('1'));
+    ApplicationArea = All;
 
     layout
     {

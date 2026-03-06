@@ -4,6 +4,7 @@ Page 55023 "Reschedule Meeting Card"
     Caption = 'Board Meeting Card';
     PageType = Card;
     SourceTable = "Board Meetings1";
+    ApplicationArea = All;
 
     layout
     {
@@ -168,7 +169,7 @@ Page 55023 "Reschedule Meeting Card"
                                         Email2 := 'erickdaudi@dynasoft.co.ke';
                                         //MESSAGE('Email 1%',Email1);
                                         if Email1 <> '' then begin
-                                           // SMTP.CreateMessage('NACOSTI', Email2,
+                                            // SMTP.CreateMessage('NACOSTI', Email2,
                                             // Email1, 'Meeting ' + 'No: ' + Rec.No,
                                             // 'Dear ' + BoardMembers."Member Name" + ',<BR><BR>' +
                                             // 'Your are Invited to attend Meeting no. ' + Rec.No + ', Starting on ' + Format(Rec."Start date") + ' Time ' + Format(Rec."Start time") + ' To Date ' + Format(Rec."End Date")
@@ -190,7 +191,7 @@ Page 55023 "Reschedule Meeting Card"
                                             body := body + '<BR>Password: ' + Password + '<BR>';
                                             body := body + '<BR><BR>Kind Regards,' + '<BR><BR>NACOSTI.<BR>';
                                             EMAILMESSAGE.Create(Email1, 'Meeting ' + 'No: ' + Rec.No, Body);
-                                            EMAILSNED.Send(EMAILMESSAGE,enum::"Email Scenario"::Default);
+                                            EMAILSNED.Send(EMAILMESSAGE, enum::"Email Scenario"::Default);
                                         end;
                                     end;
                                 until BoardMembers.Next = 0;

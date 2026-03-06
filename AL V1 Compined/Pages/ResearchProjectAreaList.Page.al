@@ -5,6 +5,7 @@ Page 65012 "Research Project Area List"
     Editable = false;
     PageType = List;
     SourceTable = "Research Project Area";
+    ApplicationArea = All;
 
     layout
     {

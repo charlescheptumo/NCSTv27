@@ -5,6 +5,7 @@ Report 89033 "1 Director Page Payslip"
     // ArrEarningsAmt[1,1]
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/1 Director Page Payslip.rdlc';
+    ApplicationArea = All;
 
 
     dataset

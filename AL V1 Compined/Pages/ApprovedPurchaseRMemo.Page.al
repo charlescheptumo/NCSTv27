@@ -10,6 +10,7 @@ Page 50074 "Approved Purchase R Memo"
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = filter("Purchase Requisition"),
                             "Requisition Type" = const(Project));
+    ApplicationArea = All;
 
     layout
     {

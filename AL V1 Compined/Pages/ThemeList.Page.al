@@ -3,6 +3,7 @@ Page 59070 "Theme List"
 {
     PageType = List;
     SourceTable = Themes;
+    ApplicationArea = All;
 
     layout
     {

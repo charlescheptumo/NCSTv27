@@ -3,6 +3,7 @@ Page 57050 "Imprest Voucher Lines"
 {
     PageType = ListPart;
     SourceTable = "Imprest Voucher Lines";
+    ApplicationArea = All;
 
     layout
     {

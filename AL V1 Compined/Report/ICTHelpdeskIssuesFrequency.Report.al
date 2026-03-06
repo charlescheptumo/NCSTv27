@@ -3,6 +3,7 @@ Report 56240 "ICT Helpdesk Issues Frequency"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/ICT Helpdesk Issues Frequency.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

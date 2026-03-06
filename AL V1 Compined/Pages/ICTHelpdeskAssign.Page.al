@@ -4,6 +4,7 @@ Page 56077 "ICT Helpdesk Assign"
     PageType = Card;
     SourceTable = "ICT Helpdesk";
     SourceTableView = where(Status = filter(Assigned));
+    ApplicationArea = All;
 
     layout
     {

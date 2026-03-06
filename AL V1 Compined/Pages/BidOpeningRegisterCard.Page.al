@@ -3,6 +3,7 @@ Page 75262 "Bid Opening Register Card"
 {
     PageType = Card;
     SourceTable = "Bid Opening Register";
+    ApplicationArea = All;
 
     layout
     {
@@ -223,7 +224,7 @@ Page 75262 "Bid Opening Register Card"
                         BidOpeningRegisterLine1: Record "Bid Opening Register Line";
                     begin
                         //Procurement.UnsealBid(Rec);
-               //cc//         Procurement.UnsealBid1(Rec, BidOpeningRegisterLine1);
+                        //cc//         Procurement.UnsealBid1(Rec, BidOpeningRegisterLine1);
                     end;
                 }
                 action("Send Bid Opening Codes")

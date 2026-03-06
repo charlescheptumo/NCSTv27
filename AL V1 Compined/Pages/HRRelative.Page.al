@@ -3,6 +3,7 @@ Page 69129 "HR Relative"
 {
     PageType = List;
     SourceTable = "HR Relative";
+    ApplicationArea = All;
 
     layout
     {

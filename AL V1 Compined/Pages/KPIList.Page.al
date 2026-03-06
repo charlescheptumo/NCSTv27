@@ -3,6 +3,7 @@ Page 59066 "KPI List"
 {
     PageType = List;
     SourceTable = "Strategic KPI";
+    ApplicationArea = All;
 
     layout
     {

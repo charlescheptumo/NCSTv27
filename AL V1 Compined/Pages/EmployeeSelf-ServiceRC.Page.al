@@ -3,6 +3,7 @@ Page 56213 "Employee Self-Service RC"
 {
     Caption = 'Role Center';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {

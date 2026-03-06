@@ -3,6 +3,7 @@ Page 75135 "IFS Prebid Register Card"
 {
     PageType = Card;
     SourceTable = "IFS Prebid Register";
+    ApplicationArea = All;
 
     layout
     {

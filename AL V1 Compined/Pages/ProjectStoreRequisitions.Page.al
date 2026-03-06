@@ -8,6 +8,7 @@ Page 50050 "Project Store Requisitions"
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = const("Store Requisition"),
                             Status = filter(Open | "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {

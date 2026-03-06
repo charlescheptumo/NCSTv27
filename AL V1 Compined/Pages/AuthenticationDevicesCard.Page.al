@@ -7,6 +7,7 @@ Page 56015 "Authentication Devices Card"
     RefreshOnActivate = true;
     SourceTable = "Sales Header";
     SourceTableView = where("Document Type" = filter(Order));
+    ApplicationArea = All;
 
     layout
     {
@@ -40,8 +41,8 @@ Page 56015 "Authentication Devices Card"
                             if Rec."Sell-to Customer No." <> xRec."Sell-to Customer No." then
                                 Rec.SetRange(Rec."Sell-to Customer No.");
 
-                      //cc//  if ApplicationAreaSetup.IsFoundationEnabled then
-                      //cc//        SalesCalcDiscountByType.ApplyDefaultInvoiceDiscount(0, Rec);
+                        //cc//  if ApplicationAreaSetup.IsFoundationEnabled then
+                        //cc//        SalesCalcDiscountByType.ApplyDefaultInvoiceDiscount(0, Rec);
 
                         CurrPage.Update;
                     end;
@@ -555,7 +556,7 @@ Page 56015 "Authentication Devices Card"
                                     if Rec."Bill-to Customer No." <> xRec."Bill-to Customer No." then
                                         Rec.SetRange(Rec."Bill-to Customer No.");
 
-                               //cc//   if ApplicationAreaSetup.IsFoundationEnabled then
+                                //cc//   if ApplicationAreaSetup.IsFoundationEnabled then
                                 //cc//      SalesCalcDiscountByType.ApplyDefaultInvoiceDiscount(0, Rec);
 
                                 CurrPage.Update;
@@ -1747,8 +1748,8 @@ Page 56015 "Authentication Devices Card"
         LinesInstructionMgt: Codeunit "Lines Instruction Mgt.";
         InstructionMgt: Codeunit "Instruction Mgt.";
     begin
-       //cc//   if ApplicationAreaSetup.IsFoundationEnabled then
-         //cc//     LinesInstructionMgt.SalesCheckAllLinesHaveQuantityAssigned(Rec);
+        //cc//   if ApplicationAreaSetup.IsFoundationEnabled then
+        //cc//     LinesInstructionMgt.SalesCheckAllLinesHaveQuantityAssigned(Rec);
 
         Rec.SendToPosting(PostingCodeunitID);
         DocumentIsPosted := not SalesHeader.Get(Rec."Document Type", Rec."No.");

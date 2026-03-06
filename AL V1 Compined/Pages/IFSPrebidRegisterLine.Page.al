@@ -3,6 +3,7 @@ Page 75136 "IFS Prebid Register Line"
 {
     PageType = ListPart;
     SourceTable = "IFS Prebid Register Line";
+    ApplicationArea = All;
 
     layout
     {

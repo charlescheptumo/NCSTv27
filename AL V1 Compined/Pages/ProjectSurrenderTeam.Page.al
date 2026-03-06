@@ -3,6 +3,7 @@ Page 57085 "Project Surrender Team"
 {
     PageType = ListPart;
     SourceTable = "Project Members";
+    ApplicationArea = All;
 
     layout
     {

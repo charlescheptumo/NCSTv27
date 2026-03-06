@@ -4,6 +4,7 @@ Page 70015 "Requisition Line"
     AutoSplitKey = false;
     PageType = ListPart;
     SourceTable = "Requisition Lines1";
+    ApplicationArea = All;
 
     layout
     {

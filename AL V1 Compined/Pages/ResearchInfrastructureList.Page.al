@@ -5,6 +5,7 @@ Page 65007 "Research Infrastructure List"
     Editable = false;
     PageType = List;
     SourceTable = "Research Center Infrastructure";
+    ApplicationArea = All;
 
     layout
     {

@@ -8,6 +8,7 @@ Page 57031 "Posted Imprest Surrender"
     SourceTableView = where("Payment Type" = const(Surrender),
                             Status = filter(Released),
                             Posted = const(True));
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 70029 "Tender Bidders Summary"
 {
     PageType = List;
     SourceTable = Bidders;
+    ApplicationArea = All;
 
     layout
     {

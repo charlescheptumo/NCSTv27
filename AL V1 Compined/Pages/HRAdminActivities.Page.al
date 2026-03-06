@@ -4,6 +4,7 @@ Page 69082 "HR Admin Activities"
     Caption = 'Activities';
     PageType = CardPart;
     SourceTable = "Job Cue";
+    ApplicationArea = All;
 
     layout
     {
@@ -31,7 +32,7 @@ Page 69082 "HR Admin Activities"
                     {
                         ApplicationArea = Basic;
                         Caption = 'New Employee';
-                    //cc//    RunObject = Page "Employee Card-HR";
+                        //cc//    RunObject = Page "Employee Card-HR";
                         RunPageMode = Create;
                     }
                 }

@@ -5,6 +5,7 @@ Page 65038 "Grant Research Team list"
     Editable = false;
     PageType = List;
     SourceTable = "Grant Research Team";
+    ApplicationArea = All;
 
     layout
     {

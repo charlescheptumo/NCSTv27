@@ -4,6 +4,7 @@ Report 70024 "Agpo Tenders"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Agpo Tenders.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

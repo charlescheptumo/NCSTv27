@@ -3,6 +3,7 @@ Report 65022 "Researcher Profile"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Researcher Profile.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

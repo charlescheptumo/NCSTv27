@@ -4,6 +4,7 @@ Page 56225 "Rating Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Departmental Objectives Header";
+    ApplicationArea = All;
 
     layout
     {

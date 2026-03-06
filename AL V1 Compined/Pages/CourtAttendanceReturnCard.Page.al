@@ -4,6 +4,7 @@ Page 56041 "Court Attendance Return Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Document registration";
+    ApplicationArea = All;
 
     layout
     {

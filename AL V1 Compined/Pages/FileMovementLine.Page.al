@@ -3,6 +3,7 @@ Page 59091 "File Movement Line"
 {
     PageType = ListPart;
     SourceTable = "File Movement Line";
+    ApplicationArea = All;
 
     layout
     {

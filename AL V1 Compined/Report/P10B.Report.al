@@ -4,6 +4,7 @@ Report 69022 P10B
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/P10B.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

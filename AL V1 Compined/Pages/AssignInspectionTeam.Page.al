@@ -6,6 +6,7 @@ Page 51001 "Assign Inspection Team"
     SourceTableView = sorting("No.", "User ID")
                       order(ascending)
                       where(Decision = filter(" "));
+    ApplicationArea = All;
 
     layout
     {

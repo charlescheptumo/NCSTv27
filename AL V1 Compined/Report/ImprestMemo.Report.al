@@ -3,6 +3,7 @@ Report 57001 "Imprest Memo"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Imprest Memo.rdlc';
+    ApplicationArea = All;
 
     dataset
     {
@@ -547,16 +548,16 @@ Report 57001 "Imprest Memo"
             trigger OnAfterGetRecord()
             begin
                 "Imprest Memo".CalcFields("Imprest Memo"."Terms of Reference", "Imprest Memo".Objective);
-               "Terms of Reference".CreateInstream(Instr);
+                "Terms of Reference".CreateInstream(Instr);
                 TOR.Read(Instr);
                 TORText := Format(TOR);
-              Objective.CreateInstream(ObjInstr);
+                Objective.CreateInstream(ObjInstr);
                 Obj.Read(ObjInstr);
                 ObjText := Format(Obj);
 
                 //Convert Project Objectives from BLOB to TXT
                 "Imprest Memo".CalcFields("Imprest Memo".Objective);
-               Objective.CreateInstream(ObjInstr);
+                Objective.CreateInstream(ObjInstr);
                 Obj.Read(ObjInstr);
 
                 if ObjText <> Format(TOR) then begin
@@ -577,7 +578,7 @@ Report 57001 "Imprest Memo"
                     Clear("Imprest Memo"."Terms of Reference");
                     Clear(TOR);
                     TOR.AddText(TORText);
-                   "Terms of Reference".CreateOutstream(OutStr);
+                    "Terms of Reference".CreateOutstream(OutStr);
                     TOR.Write(OutStr);
                 end;
                 //End of conversion...Terms Of refernce

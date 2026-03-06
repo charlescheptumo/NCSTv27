@@ -3,6 +3,7 @@ Report 89034 "Transfer Director Allowances"
 {
     ProcessingOnly = true;
     UsageCategory = Tasks;
+    ApplicationArea = All;
 
     dataset
     {

@@ -4,6 +4,7 @@ Report 69002 "Master Roll Report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Master Roll Report.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {
@@ -167,7 +168,7 @@ Report 69002 "Master Roll Report"
                 counter := counter + 1;
                 NetPay := Employee."Total Allowances" + Employee."Total Deductions";
 
-              //cc//  NetPay := Payroll.PayrollRounding(NetPay);
+                //cc//  NetPay := Payroll.PayrollRounding(NetPay);
 
 
                 for i := 1 to 13 do begin
@@ -207,7 +208,7 @@ Report 69002 "Master Roll Report"
 
             trigger OnPreDataItem()
             begin
-           //cc     CurrReport.CreateTotals(Allowances, Deductions, OtherEarn, OtherDeduct, NetPay);
+                //cc     CurrReport.CreateTotals(Allowances, Deductions, OtherEarn, OtherDeduct, NetPay);
                 HRSetup.Get;
             end;
         }

@@ -4,6 +4,7 @@ Page 56117 "ICT Helpdesk Escalated"
     PageType = Card;
     SourceTable = "ICT Helpdesk";
     SourceTableView = where(Status = filter(Escalated));
+    ApplicationArea = All;
 
     layout
     {

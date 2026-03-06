@@ -5,6 +5,7 @@ Page 59113 "Pending User Planning  list"
     Editable = false;
     PageType = List;
     SourceTable = Planning;
+    ApplicationArea = All;
 
     layout
     {

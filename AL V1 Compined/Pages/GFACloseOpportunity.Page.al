@@ -8,6 +8,7 @@ Page 65095 "GFA Close Opportunity"
     LinksAllowed = false;
     PageType = Card;
     SourceTable = "GFA Opportunity Entry";
+    ApplicationArea = All;
 
     layout
     {

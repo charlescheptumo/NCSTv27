@@ -3,6 +3,7 @@ Page 56222 "Departmental Objectives Lines"
 {
     PageType = ListPart;
     SourceTable = "Departmental Objectives Lines";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 80002 "Core Values"
 {
     PageType = List;
     SourceTable = "Core Values";
+    ApplicationArea = All;
 
     layout
     {

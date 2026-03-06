@@ -3,6 +3,7 @@ Report 69052 "New 2 page Payslip"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/New 2 page Payslip.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

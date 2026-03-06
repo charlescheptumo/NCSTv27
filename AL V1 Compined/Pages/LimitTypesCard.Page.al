@@ -3,6 +3,7 @@ Page 59042 "Limit Types Card"
 {
     PageType = Card;
     SourceTable = "Limit Types";
+    ApplicationArea = All;
 
     layout
     {

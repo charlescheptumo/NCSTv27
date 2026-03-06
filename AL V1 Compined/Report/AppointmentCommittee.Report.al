@@ -4,6 +4,7 @@ Report 70031 "Appointment Committee"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Appointment Committee.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

@@ -6,6 +6,7 @@ Page 65047 "Grant Admin Tasks List"
     PageType = List;
     SourceTable = "Grant Admin Tasks";
     SourceTableView = where("Source Document Type" = const("Grant Application"));
+    ApplicationArea = All;
 
     layout
     {

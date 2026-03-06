@@ -4,6 +4,7 @@ Page 57037 "Other Costs"
     AutoSplitKey = true;
     PageType = ListPart;
     SourceTable = "Other Costs";
+    ApplicationArea = All;
 
     layout
     {

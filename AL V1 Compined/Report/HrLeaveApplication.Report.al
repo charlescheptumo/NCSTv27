@@ -4,6 +4,7 @@ Report 69115 "Hr Leave Application"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Hr Leave Application.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

@@ -4,6 +4,7 @@ Page 55000 "Board Committee"
     Caption = 'Board';
     PageType = List;
     SourceTable = "Board Committees1";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75034 "Vendor Classification"
 {
     PageType = List;
     SourceTable = "Vendor Classification";
+    ApplicationArea = All;
 
     layout
     {

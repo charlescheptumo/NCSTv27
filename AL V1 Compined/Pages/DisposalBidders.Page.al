@@ -3,6 +3,7 @@ Page 70112 "Disposal Bidders"
 {
     PageType = List;
     SourceTable = "Disposal Bidders";
+    ApplicationArea = All;
 
     layout
     {
@@ -62,5 +63,5 @@ Page 70112 "Disposal Bidders"
     var
         DisposalBidders: record "Disposal Bidders";
         AwardEditable: boolean;
- 
+
 }

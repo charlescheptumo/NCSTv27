@@ -3,6 +3,7 @@ Report 70042 "Finance Evaluation Summary"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Finance Evaluation Summary.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

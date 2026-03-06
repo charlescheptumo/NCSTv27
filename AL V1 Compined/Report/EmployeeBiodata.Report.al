@@ -4,6 +4,7 @@ Report 69069 "Employee Biodata"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Employee Biodata.rdlc';
     UsageCategory = Tasks;
+    ApplicationArea = All;
 
     dataset
     {
@@ -204,7 +205,7 @@ Report 69069 "Employee Biodata"
                 counter := counter + 1;
                 NetPay := Employee."Total Allowances" + Employee."Total Deductions";
 
-              //cc//  NetPay := Payroll.PayrollRounding(NetPay);
+                //cc//  NetPay := Payroll.PayrollRounding(NetPay);
 
 
                 for i := 1 to 10 do begin

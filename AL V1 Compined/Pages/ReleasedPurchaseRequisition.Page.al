@@ -5,6 +5,7 @@ Page 70020 "Released Purchase Requisition"
     SourceTable = "Requisition Header1";
     SourceTableView = where("Requisition Type" = const("Purchase Requisition"),
                             Status = const(Released));
+    ApplicationArea = All;
 
     layout
     {

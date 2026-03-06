@@ -3,6 +3,7 @@ Page 80037 "Strategy Activities Entries"
 {
     PageType = List;
     SourceTable = "Strategy Sub_Activity Entry";
+    ApplicationArea = All;
 
     layout
     {

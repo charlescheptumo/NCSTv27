@@ -3,6 +3,7 @@ Page 75131 "IFS Key Staff"
 {
     PageType = List;
     SourceTable = "IFS Key Staff";
+    ApplicationArea = All;
 
     layout
     {

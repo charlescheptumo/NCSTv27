@@ -3,6 +3,7 @@ Page 75124 "IFS Tender Committee Member"
 {
     PageType = ListPart;
     SourceTable = "IFS Tender Committee Member";
+    ApplicationArea = All;
 
     layout
     {

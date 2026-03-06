@@ -7,6 +7,7 @@ Page 65064 "Project Contract Lines"
     PageType = List;
     PromotedActionCategories = 'New,Process,Report,Outlook';
     SourceTable = "Job Planning Line";
+    ApplicationArea = All;
 
     layout
     {
@@ -749,7 +750,7 @@ Page 65064 "Project Contract Lines"
 
     trigger OnInit()
     var
-             //cc//      SMTPMailSetup: Record "SMTP Mail Setup";
+        //cc//      SMTPMailSetup: Record "SMTP Mail Setup";
         MailManagement: Codeunit "Mail Management";
     begin
         UnitCostEditable := true;
@@ -770,7 +771,7 @@ Page 65064 "Project Contract Lines"
 
         JobTaskNoVisible := true;
 
-               //cc//    CanSendToCalendar := MailManagement.IsSMTPEnabled and not SMTPMailSetup.IsEmpty;
+        //cc//    CanSendToCalendar := MailManagement.IsSMTPEnabled and not SMTPMailSetup.IsEmpty;
     end;
 
     trigger OnModifyRecord(): Boolean

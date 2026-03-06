@@ -3,6 +3,7 @@ Page 70124 "Target Groups Subcategories"
 {
     PageType = List;
     SourceTable = "Target Groups SubCategories";
+    ApplicationArea = All;
 
     layout
     {

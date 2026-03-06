@@ -10,6 +10,7 @@ Page 50067 "Fully Issued Requisitions"
                             Status = const(Released),
                             "Fully Issued" = const(true),
                             "Requisition Type" = filter(<> "Stock Return"));
+    ApplicationArea = All;
 
     layout
     {

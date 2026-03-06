@@ -3,6 +3,7 @@ Page 57130 "User setup Card"
 {
     PageType = Card;
     SourceTable = "User Setup";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Report 69025 "Employees Removed"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Employees Removed.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

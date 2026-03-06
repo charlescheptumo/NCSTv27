@@ -3,6 +3,7 @@ Page 75107 "Project Staff Template Qualif"
 {
     PageType = List;
     SourceTable = "Project Staff Template Qualifi";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Report 69003 "Create Payroll Period"
 {
     Caption = 'Create Fiscal Year';
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

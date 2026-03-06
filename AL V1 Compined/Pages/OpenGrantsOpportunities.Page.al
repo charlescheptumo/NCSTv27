@@ -10,6 +10,7 @@ Page 65056 "Open Grants Opportunities"
     PageType = List;
     SourceTable = "Grant Funding Application";
     SourceTableView = where("Application Status" = filter("Not Started" | InProgress));
+    ApplicationArea = All;
 
     layout
     {

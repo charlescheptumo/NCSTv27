@@ -8,6 +8,7 @@ Page 57134 "Processed  Memo"
     SourceTable = "Imprest Memo";
     SourceTableView = where(Status = const(Released),
                             Posted = const(false));
+    ApplicationArea = All;
 
     layout
     {

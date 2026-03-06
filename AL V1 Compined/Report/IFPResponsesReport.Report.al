@@ -3,6 +3,7 @@ Report 70049 "IFP Responses Report"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/IFP Responses Report.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

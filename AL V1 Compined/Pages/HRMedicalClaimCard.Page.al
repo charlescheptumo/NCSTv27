@@ -3,6 +3,7 @@ Page 69266 "HR Medical Claim Card"
 {
     PageType = Card;
     SourceTable = "HR Medical Claims";
+    ApplicationArea = All;
 
     layout
     {

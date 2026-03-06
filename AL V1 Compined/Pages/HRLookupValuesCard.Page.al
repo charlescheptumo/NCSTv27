@@ -3,6 +3,7 @@ Page 69243 "HR Lookup Values Card"
 {
     PageType = Card;
     SourceTable = "HR Lookup Values";
+    ApplicationArea = All;
 
     layout
     {

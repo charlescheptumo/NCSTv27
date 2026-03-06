@@ -3,6 +3,7 @@ Page 57004 "PV Lines"
 {
     PageType = ListPart;
     SourceTable = "PV Lines";
+    ApplicationArea = All;
 
     layout
     {

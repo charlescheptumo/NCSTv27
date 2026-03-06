@@ -3,6 +3,7 @@ Page 59040 "Department Vehicle Allocation"
 {
     PageType = List;
     SourceTable = "Department Vehicle Allocation";
+    ApplicationArea = All;
 
     layout
     {

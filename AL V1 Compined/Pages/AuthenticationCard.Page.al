@@ -3,6 +3,7 @@ Page 56052 "Authentication Card"
 {
     PageType = Card;
     SourceTable = "Authentication Device Applicat";
+    ApplicationArea = All;
 
     layout
     {

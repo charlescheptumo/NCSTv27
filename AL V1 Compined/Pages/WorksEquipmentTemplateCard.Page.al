@@ -3,6 +3,7 @@ Page 75231 "Works Equipment Template Card"
 {
     PageType = Card;
     SourceTable = "Works Equipment Template";
+    ApplicationArea = All;
 
     layout
     {

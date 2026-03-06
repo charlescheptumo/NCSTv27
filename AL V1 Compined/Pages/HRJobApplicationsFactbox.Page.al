@@ -3,6 +3,7 @@ Page 69256 "HR Job Applications Factbox"
 {
     PageType = ListPart;
     SourceTable = "HR Job Applications";
+    ApplicationArea = All;
 
     layout
     {

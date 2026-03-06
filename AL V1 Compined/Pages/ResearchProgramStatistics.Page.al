@@ -4,6 +4,7 @@ Page 65070 "Research Program Statistics"
     Editable = false;
     PageType = Card;
     SourceTable = "Research Program";
+    ApplicationArea = All;
 
     layout
     {

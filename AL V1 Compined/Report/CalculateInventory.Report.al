@@ -3,6 +3,7 @@ Report 99790 "Calculate Inventory2"
 {
     Caption = 'Calculate Inventory';
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

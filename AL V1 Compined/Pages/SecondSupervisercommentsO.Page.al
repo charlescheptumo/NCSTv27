@@ -4,6 +4,7 @@ Page 56237 "Second Superviser commentsO"
     PageType = ListPart;
     SourceTable = "Appraisal Comments";
     SourceTableView = where(Type = filter("Second Supervisor"));
+    ApplicationArea = All;
 
     layout
     {

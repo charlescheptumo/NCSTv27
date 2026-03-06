@@ -4,6 +4,7 @@ Report 69024 "DIR P9 Report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/DIR P9 Report.rdlc';
     PreviewMode = PrintLayout;
+    ApplicationArea = All;
 
     dataset
     {

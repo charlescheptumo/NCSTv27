@@ -3,6 +3,7 @@ Page 75037 "Vendor Professional Staff"
 {
     PageType = List;
     SourceTable = "Vendor Professional Staff";
+    ApplicationArea = All;
 
     layout
     {
@@ -110,7 +111,7 @@ Page 75037 "Vendor Professional Staff"
                 Promoted = true;
                 PromotedCategory = Process;
                 RunObject = Page "Vendor Staff Experience";
-               // RunPageLink = "Staff ID" = field("Entry No.");
+                // RunPageLink = "Staff ID" = field("Entry No.");
             }
             action("Vendor Staff Employment")
             {
@@ -119,7 +120,7 @@ Page 75037 "Vendor Professional Staff"
                 Promoted = true;
                 PromotedCategory = Process;
                 RunObject = Page "Vendor Staff Employment";
-             //   RunPageLink = "Staff ID" = field("Entry No.");
+                //   RunPageLink = "Staff ID" = field("Entry No.");
             }
         }
     }

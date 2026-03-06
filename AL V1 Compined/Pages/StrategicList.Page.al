@@ -3,6 +3,7 @@ Page 59064 "Strategic List"
 {
     PageType = List;
     SourceTable = Strategic;
+    ApplicationArea = All;
 
     layout
     {

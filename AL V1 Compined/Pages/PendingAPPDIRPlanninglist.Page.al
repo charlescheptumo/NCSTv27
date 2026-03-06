@@ -5,6 +5,7 @@ Page 59111 "Pending APP DIR Planning  list"
     Editable = false;
     PageType = List;
     SourceTable = Planning;
+    ApplicationArea = All;
 
     layout
     {

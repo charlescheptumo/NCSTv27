@@ -5,6 +5,7 @@ Page 59062 "User Planning  list"
     Editable = false;
     PageType = List;
     SourceTable = Planning;
+    ApplicationArea = All;
 
     layout
     {

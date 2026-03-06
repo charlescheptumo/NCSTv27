@@ -3,6 +3,7 @@ Page 70109 "Disposal Plan Lines"
 {
     PageType = ListPart;
     SourceTable = "Disposal Plan Lines";
+    ApplicationArea = All;
 
     layout
     {

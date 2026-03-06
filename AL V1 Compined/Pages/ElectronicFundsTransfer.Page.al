@@ -4,6 +4,7 @@ Page 57079 "Electronic Funds Transfer"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "EFT Header";
+    ApplicationArea = All;
 
     layout
     {

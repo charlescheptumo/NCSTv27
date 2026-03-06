@@ -6,6 +6,7 @@ Page 65132 "My Tasks"
     PageType = List;
     SourceTable = "Grant Admin Tasks";
     SourceTableView = where("Source Document Type" = const("Grant Application"));
+    ApplicationArea = All;
 
     layout
     {
@@ -113,6 +114,6 @@ Page 65132 "My Tasks"
 
     trigger OnOpenPage()
     begin
-     //cc///   Rec.SetRange("Assigned to", UserId);
+        //cc///   Rec.SetRange("Assigned to", UserId);
     end;
 }

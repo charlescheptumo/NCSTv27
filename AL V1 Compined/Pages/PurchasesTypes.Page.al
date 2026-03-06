@@ -3,6 +3,7 @@ Page 70050 "Purchases Types"
 {
     PageType = List;
     SourceTable = "Purchases Types";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 59124 "File Disposal Lines"
 {
     PageType = ListPart;
     SourceTable = "File Disposal Lines";
+    ApplicationArea = All;
 
     layout
     {

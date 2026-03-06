@@ -5,6 +5,7 @@ Page 59104 "Returned File Requsition card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "File Movement Header";
+    ApplicationArea = All;
 
     layout
     {

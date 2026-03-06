@@ -3,6 +3,7 @@ Page 55017 "Board Resolution Lines"
 {
     PageType = ListPart;
     SourceTable = "Board Resolution Lines";
+    ApplicationArea = All;
 
     layout
     {

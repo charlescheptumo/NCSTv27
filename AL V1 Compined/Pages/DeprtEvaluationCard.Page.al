@@ -4,6 +4,7 @@ Page 59108 "Deprt Evaluation Card"
     Caption = 'User Planning Card';
     PageType = Card;
     SourceTable = Planning;
+    ApplicationArea = All;
 
     layout
     {

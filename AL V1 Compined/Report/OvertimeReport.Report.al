@@ -4,6 +4,7 @@ Report 69100 "Overtime Report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Overtime Report.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 70122 "Procurement Requests"
 {
     PageType = List;
     SourceTable = "Procurement Request";
+    ApplicationArea = All;
 
     layout
     {

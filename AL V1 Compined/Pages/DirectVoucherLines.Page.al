@@ -3,6 +3,7 @@ Page 57096 "Direct Voucher Lines"
 {
     PageType = ListPart;
     SourceTable = "Receipt Lines1";
+    ApplicationArea = All;
 
     layout
     {

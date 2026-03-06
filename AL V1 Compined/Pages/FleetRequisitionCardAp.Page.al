@@ -7,6 +7,7 @@ Page 59057 "Fleet Requisition Card Ap"
     ModifyAllowed = true;
     PageType = Card;
     SourceTable = "Transport Requisition";
+    ApplicationArea = All;
 
     layout
     {

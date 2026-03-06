@@ -6,6 +6,7 @@ Page 69252 "HR Applicant Qualifications"
     SaveValues = true;
     ShowFilter = true;
     SourceTable = "HR Applicant Qualifications";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75287 "Purchase Contract Payment Term"
 {
     PageType = List;
     SourceTable = "Purchase Contract Payment Term";
+    ApplicationArea = All;
 
     layout
     {

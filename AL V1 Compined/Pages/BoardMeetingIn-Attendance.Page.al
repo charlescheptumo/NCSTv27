@@ -3,6 +3,7 @@ Page 55024 "Board Meeting In-Attendance"
 {
     PageType = List;
     SourceTable = "Board Meeting In Attendance1";
+    ApplicationArea = All;
 
     layout
     {

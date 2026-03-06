@@ -4,6 +4,7 @@ Page 59056 "Fund Opportunity Detail Card"
     Editable = false;
     PageType = Card;
     SourceTable = "Funding Oportunity";
+    ApplicationArea = All;
 
     layout
     {

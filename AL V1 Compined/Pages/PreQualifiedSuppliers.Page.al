@@ -4,6 +4,7 @@ Page 70001 "Pre Qualified Suppliers"
     Caption = 'Pre Qualified Received';
     PageType = List;
     SourceTable = "Prequalified Suppliers1";
+    ApplicationArea = All;
 
     layout
     {

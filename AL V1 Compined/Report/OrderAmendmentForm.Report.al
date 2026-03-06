@@ -4,6 +4,7 @@ Report 70022 "Order Amendment Form"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Order Amendment Form.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

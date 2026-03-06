@@ -3,6 +3,7 @@ Page 69179 "Disciplinary Actions"
 {
     PageType = List;
     SourceTable = "Disciplinary Actions";
+    ApplicationArea = All;
 
     layout
     {

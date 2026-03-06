@@ -3,6 +3,7 @@ Page 69163 "Leave Types"
 {
     PageType = List;
     SourceTable = "Leave Types";
+    ApplicationArea = All;
 
     layout
     {

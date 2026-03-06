@@ -3,6 +3,7 @@ Page 69139 "Confidential Info"
 {
     PageType = List;
     SourceTable = "Confidential Information";
+    ApplicationArea = All;
 
     layout
     {

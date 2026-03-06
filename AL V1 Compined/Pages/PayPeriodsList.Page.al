@@ -4,6 +4,7 @@ Page 69049 "Pay Periods List"
     Editable = false;
     PageType = List;
     SourceTable = "Payroll PeriodX";
+    ApplicationArea = All;
 
     layout
     {

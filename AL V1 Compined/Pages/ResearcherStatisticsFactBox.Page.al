@@ -4,6 +4,7 @@ Page 65075 "Researcher Statistics FactBox"
     Caption = 'Resource Statistics';
     PageType = CardPart;
     SourceTable = Resource;
+    ApplicationArea = All;
 
     layout
     {

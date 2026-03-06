@@ -4,6 +4,7 @@ Page 69014 "Loan Products Setup"
     Editable = true;
     RefreshOnActivate = true;
     SourceTable = 69010;
+    ApplicationArea = All;
 
     layout
     {

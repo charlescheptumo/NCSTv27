@@ -3,6 +3,7 @@ Page 75112 "Procurement Comm Composition"
 {
     PageType = ListPart;
     SourceTable = "Procurement Comm Composition";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75113 "Procurement Committee Function"
 {
     PageType = List;
     SourceTable = "Procurement Committee Function";
+    ApplicationArea = All;
 
     layout
     {

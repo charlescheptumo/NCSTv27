@@ -3,6 +3,7 @@ Page 75174 "IFP Response Line Requirement"
 {
     PageType = List;
     SourceTable = "IFP Response Line Requirement";
+    ApplicationArea = All;
 
     layout
     {

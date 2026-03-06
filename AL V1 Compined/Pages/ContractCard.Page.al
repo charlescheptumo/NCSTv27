@@ -3,6 +3,7 @@ Page 75284 "Contract Card"
 {
     PageType = Card;
     SourceTable = "Purchase Header";
+    ApplicationArea = All;
 
     layout
     {

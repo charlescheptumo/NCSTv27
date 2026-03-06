@@ -3,6 +3,7 @@ Page 75158 "Bid Opening Tender Committee"
 {
     PageType = List;
     SourceTable = "Bid Opening Tender Committee";
+    ApplicationArea = All;
 
     layout
     {

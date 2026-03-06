@@ -3,6 +3,7 @@ Report 69033 "Employee Master Roll"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Employee Master Roll.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

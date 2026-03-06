@@ -3,6 +3,7 @@ Page 69213 "HR Leave Types Card"
 {
     PageType = Card;
     SourceTable = "HR Leave Types";
+    ApplicationArea = All;
 
     layout
     {

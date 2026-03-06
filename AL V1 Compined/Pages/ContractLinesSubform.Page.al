@@ -9,6 +9,7 @@ Page 75285 "Contract Lines Subform"
     PageType = ListPart;
     SourceTable = "Purchase Line";
     SourceTableView = where("Document Type" = filter("Blanket Order"));
+    ApplicationArea = All;
 
     layout
     {
@@ -47,7 +48,7 @@ Page 75285 "Contract Lines Subform"
 
                     trigger OnLookup(var Text: Text): Boolean
                     begin
-                     //   Rec.CrossReferenceNoLookUp;
+                        //   Rec.CrossReferenceNoLookUp;
                         InsertExtendedText(false);
                         OnCrossReferenceNoOnLookup(Rec);
                     end;
@@ -917,7 +918,7 @@ Page 75285 "Contract Lines Subform"
         DocumentLineTracking: Page "Document Line Tracking";
     begin
         Clear(DocumentLineTracking);
-      // cc // DocumentLineTracking.SetDoc(3, Rec."Document No.", Rec."Line No.", Rec."Blanket Order No.", Rec."Blanket Order Line No.", '', 0);
+        // cc // DocumentLineTracking.SetDoc(3, Rec."Document No.", Rec."Line No.", Rec."Blanket Order No.", Rec."Blanket Order Line No.", '', 0);
         // DocumentLineTracking.RunModal;
     end;
 

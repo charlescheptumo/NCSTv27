@@ -8,6 +8,7 @@ Page 57006 "Posted Payment Voucher"
     SourceTableView = where("Payment Type" = const("Payment Voucher"),
                             Posted = const(True),
                             Status = const(Released));
+    ApplicationArea = All;
 
     layout
     {

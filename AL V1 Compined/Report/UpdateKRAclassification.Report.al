@@ -4,6 +4,7 @@ Report 69028 "Update KRA classification"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Update KRA classification.rdlc';
     UsageCategory = Tasks;
+    ApplicationArea = All;
 
     dataset
     {

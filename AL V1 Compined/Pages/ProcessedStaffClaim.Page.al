@@ -7,6 +7,7 @@ Page 57132 "Processed Staff Claim"
     SourceTableView = where("Payment Type" = const("Staff Claim"),
                             Posted = const(True),
                             "Payment processed" = const(True));
+    ApplicationArea = All;
 
     layout
     {

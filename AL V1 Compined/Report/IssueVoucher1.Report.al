@@ -3,6 +3,7 @@ Report 70027 "Issue Voucher1"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Issue Voucher1.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

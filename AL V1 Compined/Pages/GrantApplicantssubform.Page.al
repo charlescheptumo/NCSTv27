@@ -4,6 +4,7 @@ Page 59055 "Grant Applicants subform"
     Editable = false;
     PageType = ListPart;
     SourceTable = "Internal Grants Application";
+    ApplicationArea = All;
 
     layout
     {

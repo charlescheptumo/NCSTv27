@@ -3,6 +3,7 @@ Page 69504 "Opportunity card."
 {
     PageType = Card;
     SourceTable = "Lead Management";
+    ApplicationArea = All;
 
     layout
     {

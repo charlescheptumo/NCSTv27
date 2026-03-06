@@ -3,6 +3,7 @@ Report 70032 LPOvi
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/LPOvi.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

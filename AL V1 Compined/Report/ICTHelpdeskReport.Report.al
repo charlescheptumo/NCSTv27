@@ -4,6 +4,7 @@ Report 56238 "ICT Helpdesk Report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/ICT Helpdesk Report.rdlc';
     PreviewMode = PrintLayout;
+    ApplicationArea = All;
 
     dataset
     {

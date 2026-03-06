@@ -3,6 +3,7 @@ Page 75119 "Purch Requsition Template Card"
 {
     PageType = Card;
     SourceTable = "Purchase Requisition Template";
+    ApplicationArea = All;
 
     layout
     {

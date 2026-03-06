@@ -3,6 +3,7 @@ Page 70103 "Asset Disposal Card"
 {
     PageType = Card;
     SourceTable = "Asset Disposal";
+    ApplicationArea = All;
 
     layout
     {

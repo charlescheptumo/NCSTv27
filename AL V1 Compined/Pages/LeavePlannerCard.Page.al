@@ -3,6 +3,7 @@ Page 69231 "Leave Planner Card"
 {
     PageType = Card;
     SourceTable = "HR Leave Planner Header";
+    ApplicationArea = All;
 
     layout
     {

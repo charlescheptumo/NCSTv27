@@ -3,6 +3,7 @@ Page 69511 "Crm Nos series Card"
 {
     PageType = Card;
     SourceTable = "Crm General Setup.";
+    ApplicationArea = All;
 
     layout
     {

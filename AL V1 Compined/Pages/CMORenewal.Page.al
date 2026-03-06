@@ -3,6 +3,7 @@ Page 56058 "CMO Renewal"
 {
     PageType = Card;
     SourceTable = "CMO Registration";
+    ApplicationArea = All;
 
     layout
     {

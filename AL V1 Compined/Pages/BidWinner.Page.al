@@ -4,6 +4,7 @@ Page 70086 "Bid Winner"
     PageType = List;
     SourceTable = Bidders;
     SourceTableView = where("Failed Mandatory" = const(false));
+    ApplicationArea = All;
 
     layout
     {

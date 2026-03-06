@@ -6,6 +6,7 @@ Page 57026 "Imprest Surrender"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const(Surrender),
                             Status = filter(Open | "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {

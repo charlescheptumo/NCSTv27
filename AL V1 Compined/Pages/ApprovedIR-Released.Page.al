@@ -11,6 +11,7 @@ Page 69067 "Approved IR-Released"
                             Replenishment = const(false),
                             "Fully Issued" = const(false),
                             "Requisition Type" = filter(<> "Stock Return"));
+    ApplicationArea = All;
 
     layout
     {

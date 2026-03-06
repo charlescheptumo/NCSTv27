@@ -3,6 +3,7 @@ Page 75137 "IFS Prebid Bidder Attendance"
 {
     PageType = List;
     SourceTable = "IFS Prebid Bidder Attendance";
+    ApplicationArea = All;
 
     layout
     {

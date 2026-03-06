@@ -8,6 +8,7 @@ Page 69513 "Potential Opportunity Card"
     PageType = Card;
     SourceTable = "Lead Management";
     SourceTableView = where(status = filter(Opportunity));
+    ApplicationArea = All;
 
     layout
     {

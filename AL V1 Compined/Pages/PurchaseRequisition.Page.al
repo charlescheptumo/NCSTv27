@@ -8,6 +8,7 @@ Page 50071 "Purchase Requisition"
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = filter("Purchase Requisition"),
                             "Requisition Type" = const(Project));
+    ApplicationArea = All;
 
     layout
     {

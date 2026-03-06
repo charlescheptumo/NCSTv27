@@ -4,6 +4,7 @@ Report 70033 PO
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/PO.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {
@@ -1304,7 +1305,7 @@ Report 70033 PO
                 column(ResponsibilityCenter_PurchaseLine; "Purchase Line"."Responsibility Center")
                 {
                 }
-               // column(CrossReferenceNo_PurchaseLine; "Purchase Line"."Cross-Reference No.")
+                // column(CrossReferenceNo_PurchaseLine; "Purchase Line"."Cross-Reference No.")
                 // {
                 // }
                 // column(UnitofMeasureCrossRef_PurchaseLine; "Purchase Line"."Unit of Measure (Cross Ref.)")

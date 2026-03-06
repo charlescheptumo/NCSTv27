@@ -3,6 +3,7 @@ Page 75053 "Bid Evaluation Requirement"
 {
     PageType = ListPart;
     SourceTable = "Bid Score Requirement";
+    ApplicationArea = All;
 
     layout
     {

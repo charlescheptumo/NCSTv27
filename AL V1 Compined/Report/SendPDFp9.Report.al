@@ -3,6 +3,7 @@ Report 69060 "Send PDF p9"
 {
     ProcessingOnly = true;
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {
@@ -69,8 +70,8 @@ Report 69060 "Send PDF p9"
 
 
 
-                   // if Exists(FileDirectory + FileName) then
-                     begin
+                    // if Exists(FileDirectory + FileName) then
+                    begin
                         //   MESSAGE('Nimeiona!!!');
                         Counter := Counter + 1;
 

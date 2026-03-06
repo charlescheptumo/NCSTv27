@@ -4,6 +4,7 @@ Report 56243 "ICT Equipment Movement"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/ICT Equipment Movement.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 75081 "Bill items"
 {
     PageType = List;
     SourceTable = Item;
+    ApplicationArea = All;
 
     layout
     {

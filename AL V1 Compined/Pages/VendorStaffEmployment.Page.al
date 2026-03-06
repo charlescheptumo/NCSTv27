@@ -3,6 +3,7 @@ Page 75040 "Vendor Staff Employment"
 {
     PageType = List;
     SourceTable = "Vendor Staff Employment";
+    ApplicationArea = All;
 
     layout
     {

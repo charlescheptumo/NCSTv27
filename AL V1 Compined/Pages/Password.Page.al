@@ -2,6 +2,7 @@
 Page 50000 Password
 {
     PageType = StandardDialog;
+    ApplicationArea = All;
 
     layout
     {
@@ -21,10 +22,10 @@ Page 50000 Password
     trigger OnQueryClosePage(CloseAction: action): Boolean
     begin
 
-      //cc//  if custCodeunit.ValidateOTP(UserId, EnterPassword)
-      //cc//  then
-            Message('Login Successful!'); //  ELSE
-                                          // ERROR('Invalid ID Number!') ;
+        //cc//  if custCodeunit.ValidateOTP(UserId, EnterPassword)
+        //cc//  then
+        Message('Login Successful!'); //  ELSE
+                                      // ERROR('Invalid ID Number!') ;
 
 
         //    Error('You Enter must OTP!Refresh the System!');

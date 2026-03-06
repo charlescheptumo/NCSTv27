@@ -3,6 +3,7 @@ Page 69227 "Training Cost"
 {
     PageType = List;
     SourceTable = "Training Cost";
+    ApplicationArea = All;
 
     layout
     {

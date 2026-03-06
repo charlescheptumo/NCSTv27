@@ -5,6 +5,7 @@ Page 70007 "Procurement Plan Listing"
     Editable = false;
     PageType = List;
     SourceTable = "Procurement Plan 1";
+    ApplicationArea = All;
 
     layout
     {

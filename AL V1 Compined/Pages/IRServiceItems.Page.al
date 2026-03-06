@@ -4,6 +4,7 @@ Page 50060 "IR Service Items"
     PageType = Card;
     PopulateAllFields = true;
     SourceTable = "Document Approval Delegation";
+    ApplicationArea = All;
     //cc//    SourceTableView = where(Field108 = const(False));
 
     layout

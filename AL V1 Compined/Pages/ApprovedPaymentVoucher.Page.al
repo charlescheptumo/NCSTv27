@@ -7,6 +7,7 @@ Page 57003 "Approved Payment Voucher"
     ModifyAllowed = true;
     PageType = Card;
     SourceTable = Payments;
+    ApplicationArea = All;
 
     layout
     {

@@ -6,6 +6,7 @@ Page 57058 "Bank Transfer"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const("Bank Transfer"),
                             Posted = const(False));
+    ApplicationArea = All;
 
     layout
     {

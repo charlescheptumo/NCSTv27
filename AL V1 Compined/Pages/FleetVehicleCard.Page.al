@@ -4,6 +4,7 @@ Page 59001 "Fleet Vehicle Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Fleet Vehicles.";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 57066 "Receipt Lines"
 {
     PageType = ListPart;
     SourceTable = "Receipt Lines1";
+    ApplicationArea = All;
 
     layout
     {

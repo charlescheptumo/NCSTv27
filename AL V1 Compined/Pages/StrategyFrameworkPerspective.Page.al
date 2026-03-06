@@ -3,6 +3,7 @@ Page 80025 "Strategy Framework Perspective"
 {
     PageType = List;
     SourceTable = "Strategy Framework Perspective";
+    ApplicationArea = All;
 
     layout
     {

@@ -6,6 +6,7 @@ Page 69503 "Opportunity list."
     Editable = false;
     PageType = List;
     SourceTable = "Lead Management";
+    ApplicationArea = All;
 
     layout
     {

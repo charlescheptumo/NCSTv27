@@ -3,6 +3,7 @@ Report 69051 "Update Pension"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Update Pension.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

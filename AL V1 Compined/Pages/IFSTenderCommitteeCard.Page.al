@@ -3,6 +3,7 @@ Page 75123 "IFS Tender Committee Card"
 {
     PageType = Card;
     SourceTable = "IFS Tender Committee";
+    ApplicationArea = All;
 
     layout
     {
@@ -553,8 +554,8 @@ Page 75123 "IFS Tender Committee Card"
         ImprestReq.Init;
         CashMgt.Get;
         CashMgt.TestField("Imprest Memo Nos");
-       // NoSeriesManagement.InitSeries(CashMgt."Imprest Memo Nos", CashMgt."Imprest Memo Nos", 0D, ImpNo, CashMgt."Imprest Memo Nos");
-ImpNo:= NoSeriesManagement.GetNextNo(CashMgt."Imprest Memo Nos",Today,true);
+        // NoSeriesManagement.InitSeries(CashMgt."Imprest Memo Nos", CashMgt."Imprest Memo Nos", 0D, ImpNo, CashMgt."Imprest Memo Nos");
+        ImpNo := NoSeriesManagement.GetNextNo(CashMgt."Imprest Memo Nos", Today, true);
         ImprestReq."No." := ImpNo;
         ImprestReq."Document Type" := ImprestReq."document type"::"Imprest Memo";
         ImprestReq."Imprest No." := ImprestReq."No.";

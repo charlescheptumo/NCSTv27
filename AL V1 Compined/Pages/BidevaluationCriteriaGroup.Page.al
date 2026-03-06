@@ -3,6 +3,7 @@ Page 75269 "Bid evaluation Criteria Group"
 {
     PageType = List;
     SourceTable = "Bid Evaluation Criteria Group";
+    ApplicationArea = All;
 
     layout
     {

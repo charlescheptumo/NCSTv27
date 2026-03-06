@@ -3,6 +3,7 @@ Page 65028 "Research Approval Comm Card"
 {
     PageType = Card;
     SourceTable = "Research Approval Committee";
+    ApplicationArea = All;
 
     layout
     {

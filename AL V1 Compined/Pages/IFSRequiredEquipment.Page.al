@@ -3,6 +3,7 @@ Page 75249 "IFS Required Equipment"
 {
     PageType = List;
     SourceTable = "IFS Required Equipment";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75271 "Finance Evaluation Line"
 {
     PageType = ListPart;
     SourceTable = "Finance Evaluation Line";
+    ApplicationArea = All;
 
     layout
     {

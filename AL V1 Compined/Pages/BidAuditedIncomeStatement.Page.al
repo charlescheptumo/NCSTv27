@@ -3,6 +3,7 @@ Page 75145 "Bid Audited Income Statement"
 {
     PageType = List;
     SourceTable = "Bid Audited Income Statement";
+    ApplicationArea = All;
 
     layout
     {

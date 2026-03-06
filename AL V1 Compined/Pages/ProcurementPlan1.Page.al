@@ -4,6 +4,7 @@ Page 70005 "Procurement Plan 1"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "G/L Budget Name";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 56028 "Other Participants"
 {
     PageType = List;
     SourceTable = "Copyright Authors";
+    ApplicationArea = All;
 
     layout
     {

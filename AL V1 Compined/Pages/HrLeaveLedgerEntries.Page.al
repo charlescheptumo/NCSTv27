@@ -3,6 +3,7 @@ Page 69223 "Hr Leave Ledger Entries"
 {
     PageType = List;
     SourceTable = "HR Leave Ledger Entries";
+    ApplicationArea = All;
 
     layout
     {

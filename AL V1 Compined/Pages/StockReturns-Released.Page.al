@@ -11,6 +11,7 @@ Page 69062 "Stock Returns-Released"
                             Replenishment = const(false),
                             "Fully Issued" = const(false),
                             "Requisition Type" = const("Stock Return"));
+    ApplicationArea = All;
 
     layout
     {

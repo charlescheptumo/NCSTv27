@@ -6,6 +6,7 @@ Page 57123 "Audit Imprest Requisition"
     PageType = Card;
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const(Imprest));
+    ApplicationArea = All;
 
     layout
     {

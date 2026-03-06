@@ -7,6 +7,7 @@ Report 69027 "New Payslipx"
     RDLCLayout = './Layouts/New Payslipx.rdlc';
 
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {
@@ -38,15 +39,15 @@ Report 69027 "New Payslipx"
                 }
                 column(ArrEarningsAmt_1_1_; ArrEarningsAmt[1, 1])
                 {
-                 //cc//      DecimalPlaces = 2 : 2;
+                    //cc//      DecimalPlaces = 2 : 2;
                 }
                 column(ArrEarningsAmt_1_2_; ArrEarningsAmt[1, 2])
                 {
-                   //cc//    DecimalPlaces = 2 : 2;
+                    //cc//    DecimalPlaces = 2 : 2;
                 }
                 column(ArrEarningsAmt_1_3_; ArrEarningsAmt[1, 3])
                 {
-                  //cc//     DecimalPlaces = 2 : 2;
+                    //cc//     DecimalPlaces = 2 : 2;
                 }
                 column(ArrEarnings_1_4_; ArrEarnings[1, 4])
                 {
@@ -60,7 +61,7 @@ Report 69027 "New Payslipx"
                 }
                 column(ArrEarningsAmt_1_5_; ArrEarningsAmt[1, 5])
                 {
-                   //cc//    DecimalPlaces = 2 : 2;
+                    //cc//    DecimalPlaces = 2 : 2;
                 }
                 column(ArrEarnings_1_6_; ArrEarnings[1, 6])
                 {

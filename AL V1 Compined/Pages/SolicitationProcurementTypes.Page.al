@@ -3,6 +3,7 @@ Page 75005 "Solicitation Procurement Types"
 {
     PageType = List;
     SourceTable = "Solictation Procurement Type";
+    ApplicationArea = All;
 
     layout
     {

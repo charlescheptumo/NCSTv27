@@ -5,6 +5,7 @@ Page 59004 "Vehicle Model List"
     DeleteAllowed = false;
     PageType = List;
     SourceTable = "Vehicle Model";
+    ApplicationArea = All;
 
     layout
     {

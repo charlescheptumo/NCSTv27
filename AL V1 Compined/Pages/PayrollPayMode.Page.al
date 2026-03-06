@@ -3,6 +3,7 @@ Page 69045 "Payroll Pay Mode"
 {
     PageType = List;
     SourceTable = "Payroll Pay Mode";
+    ApplicationArea = All;
 
     layout
     {

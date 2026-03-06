@@ -4,6 +4,7 @@ Page 70139 "Awarded RFP"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Procurement Request";
+    ApplicationArea = All;
 
     layout
     {
@@ -1014,7 +1015,7 @@ Page 70139 "Awarded RFP"
                     // cc// SMTPMail.CreateMessage(SenderName, SenderAddress, Recipients, Subject, Body, true);
 
                     //Report.SaveAsPdf(Report::"Request for Quotation", FileName, SupplierSelect);
-                   // FileName := FileMangement.ServerTempFileName('.pdf');
+                    // FileName := FileMangement.ServerTempFileName('.pdf');
                     // cc//  SMTPMail.AddAttachment(FileName, '');
 
                     // cc// SMTPMail.Send();

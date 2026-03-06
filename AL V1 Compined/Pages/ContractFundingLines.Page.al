@@ -3,6 +3,7 @@ Page 65080 "Contract Funding Lines"
 {
     PageType = ListPart;
     SourceTable = "Contract Funding Lines";
+    ApplicationArea = All;
 
     layout
     {

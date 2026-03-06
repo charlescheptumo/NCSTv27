@@ -4,6 +4,7 @@ Page 69502 "Crm log card"
     PageType = Card;
     SourceTable = "General Equiries.";
     SourceTableView = where(Send = const(false));
+    ApplicationArea = All;
 
     layout
     {

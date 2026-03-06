@@ -3,6 +3,7 @@ Page 65037 "Grant Research Team Card"
 {
     PageType = Card;
     SourceTable = "Grant Research Team";
+    ApplicationArea = All;
 
     layout
     {

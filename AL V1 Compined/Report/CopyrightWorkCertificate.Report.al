@@ -3,6 +3,7 @@ Report 56231 "Copyright Work Certificate"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Copyright Work Certificate.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -8,6 +8,7 @@ Page 69165 "Training Needs Card p"
     ModifyAllowed = false;
     PageType = Card;
     SourceTable = "Training Needs";
+    ApplicationArea = All;
 
     layout
     {

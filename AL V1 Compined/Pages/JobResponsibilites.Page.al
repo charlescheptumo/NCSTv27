@@ -5,6 +5,7 @@ Page 69111 "Job Responsibilites"
     SourceTable = "Job Responsiblities";
     SourceTableView = sorting("Entry No.")
                       order(ascending);
+    ApplicationArea = All;
 
     layout
     {

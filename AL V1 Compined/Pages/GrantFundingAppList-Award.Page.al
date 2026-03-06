@@ -7,6 +7,7 @@ Page 65062 "Grant Funding App List-Award"
     SourceTable = "Grant Funding Application";
     SourceTableView = where("Application Status" = const(InProgress),
                             "Approval Status" = const(Released));
+    ApplicationArea = All;
 
     layout
     {

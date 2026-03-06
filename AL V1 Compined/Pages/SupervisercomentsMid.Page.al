@@ -5,6 +5,7 @@ Page 56240 "Superviser comentsMid"
     PageType = ListPart;
     SourceTable = "Appraisal Comments";
     SourceTableView = where(Type = filter("First Supervisor"));
+    ApplicationArea = All;
 
     layout
     {

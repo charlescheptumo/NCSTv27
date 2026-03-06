@@ -7,6 +7,7 @@ Page 70068 "Award Quotation Evaluation"
     SourceTable = "Quotations Evaluation";
     SourceTableView = where(created = const(true),
                             "Financial Amount" = filter(> 0));
+    ApplicationArea = All;
 
     layout
     {

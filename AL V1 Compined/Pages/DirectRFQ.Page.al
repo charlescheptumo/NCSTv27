@@ -5,6 +5,7 @@ Page 70038 "Direct RFQ"
     PageType = Card;
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const(Direct));
+    ApplicationArea = All;
 
     layout
     {

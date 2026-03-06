@@ -3,6 +3,7 @@ Page 75047 "RFI Restricted Vendor Category"
 {
     PageType = List;
     SourceTable = "RFI Restricted Vendor Category";
+    ApplicationArea = All;
 
     layout
     {

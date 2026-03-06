@@ -3,6 +3,7 @@ Page 59067 "Planning Setups"
 {
     PageType = List;
     SourceTable = "Planning Setups";
+    ApplicationArea = All;
 
     layout
     {

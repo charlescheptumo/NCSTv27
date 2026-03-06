@@ -9,6 +9,7 @@ Page 75069 "Service Purchase Requisitions"
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = const("Purchase Requisition"),
                             Status = filter(Open | "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {

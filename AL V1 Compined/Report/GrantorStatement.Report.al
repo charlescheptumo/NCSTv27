@@ -5,6 +5,7 @@ Report 65008 "Grantor Statement"
     //WordLayout = './Layouts/Grantor Statement.docx';
     Caption = 'Standard Statement';
     DefaultLayout = RDLC;
+    ApplicationArea = All;
 
     dataset
     {

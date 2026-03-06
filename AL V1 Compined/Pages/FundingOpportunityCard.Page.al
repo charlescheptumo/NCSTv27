@@ -4,6 +4,7 @@ Page 65044 "Funding Opportunity Card"
     Caption = 'Funding Opportunity Announcement Card';
     PageType = Card;
     SourceTable = "Funding Opportunity";
+    ApplicationArea = All;
 
     layout
     {

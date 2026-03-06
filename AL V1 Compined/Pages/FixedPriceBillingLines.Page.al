@@ -3,6 +3,7 @@ Page 65124 "Fixed Price Billing Lines"
 {
     PageType = ListPart;
     SourceTable = "Billable Project Lines";
+    ApplicationArea = All;
 
     layout
     {

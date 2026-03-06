@@ -3,6 +3,7 @@ Page 56044 "Case Document Sub Types"
 {
     PageType = List;
     SourceTable = "Case Document Sub Types";
+    ApplicationArea = All;
 
     layout
     {

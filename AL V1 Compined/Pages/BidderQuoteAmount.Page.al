@@ -3,6 +3,7 @@ Page 70087 "Bidder Quote Amount"
 {
     PageType = List;
     SourceTable = Bidders;
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Page 69136 "Overtime Subpage"
     CardPageID = "Overtime Header Page";
     PageType = ListPart;
     SourceTable = "Overtime Header";
+    ApplicationArea = All;
 
     layout
     {

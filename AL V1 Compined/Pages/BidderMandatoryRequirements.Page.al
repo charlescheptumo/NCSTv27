@@ -3,6 +3,7 @@ Page 70023 "Bidder Mandatory Requirements"
 {
     PageType = Card;
     SourceTable = "Bidder Mandatory Requirements";
+    ApplicationArea = All;
 
     layout
     {

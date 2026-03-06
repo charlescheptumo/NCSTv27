@@ -5,6 +5,7 @@ Page 59060 "M&E  Activities"
     PageType = CardPart;
     RefreshOnActivate = true;
     SourceTable = "Finance Cue";
+    ApplicationArea = All;
 
     layout
     {

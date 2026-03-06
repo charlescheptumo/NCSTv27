@@ -5,6 +5,7 @@ Page 59137 "File Allocation Entries Lst"
     Editable = false;
     PageType = List;
     SourceTable = "File Allocation Entries";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Page 69268 "HR Employee Kin SF"
     Caption = 'HR Employee Kin & Beneficiaries';
     PageType = List;
     SourceTable = "HR Employee Kin";
+    ApplicationArea = All;
 
     layout
     {

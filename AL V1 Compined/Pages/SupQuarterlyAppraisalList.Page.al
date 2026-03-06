@@ -6,6 +6,7 @@ Page 56206 "Sup Quarterly Appraisal List"
     Editable = false;
     PageType = List;
     SourceTable = "Quarterly Appraisal";
+    ApplicationArea = All;
 
     layout
     {

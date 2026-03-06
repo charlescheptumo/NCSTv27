@@ -4,6 +4,7 @@ Page 65039 "Project Research Team Card"
     CardPageID = "Project Research Team List";
     PageType = Card;
     SourceTable = "Project Research Team";
+    ApplicationArea = All;
 
     layout
     {

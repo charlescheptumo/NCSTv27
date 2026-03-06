@@ -3,6 +3,7 @@ Report 89031 "Transfer to Journal"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Transfer to Journal.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 70046 "Commitee Creation"
 {
     PageType = Card;
     SourceTable = "Tender Commitee Appointment1";
+    ApplicationArea = All;
 
     layout
     {
@@ -411,11 +412,11 @@ Page 70046 "Commitee Creation"
         CUST: Record Customer;
         Internationalsee: Boolean;
         Localsee: Boolean;
-     //cc//   dotnetvalue: dotnet Interaction;
+        //cc//   dotnetvalue: dotnet Interaction;
         commentmsg: Text;
         commentline: Record "Approval Comment Line";
         //cc// SQLConnection: dotnet SqlConnection;
-         //cc//SQLCommand: dotnet SqlCommand;
+        //cc//SQLCommand: dotnet SqlCommand;
         //cc// SQReader: dotnet SqlDataReader;
         ServerName: Text;
         NAVDB: Text;

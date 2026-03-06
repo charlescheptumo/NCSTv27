@@ -3,6 +3,7 @@ Page 70083 "Procurement Evaluators"
 {
     PageType = List;
     SourceTable = "Procurement Evaluators";
+    ApplicationArea = All;
 
     layout
     {

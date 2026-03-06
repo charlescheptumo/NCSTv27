@@ -3,6 +3,7 @@ Page 75248 "Tender Addendum Amendment"
 {
     PageType = List;
     SourceTable = "Tender Addendum Amendment";
+    ApplicationArea = All;
 
     layout
     {

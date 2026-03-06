@@ -4,6 +4,7 @@ Report 56242 "ICT Issuance Voucher"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/ICT Issuance Voucher.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

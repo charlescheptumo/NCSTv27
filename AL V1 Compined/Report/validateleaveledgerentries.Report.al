@@ -3,6 +3,7 @@ Report 50000 "validate leave ledger entries"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/validate leave ledger entries.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

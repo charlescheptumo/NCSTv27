@@ -3,6 +3,7 @@ Page 75152 "Bid Insurance"
 {
     PageType = List;
     SourceTable = "Bid Insurance";
+    ApplicationArea = All;
 
     layout
     {

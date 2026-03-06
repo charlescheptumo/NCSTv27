@@ -4,6 +4,7 @@ Report 69014 "Negative Pay"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Negative Pay.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

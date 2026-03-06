@@ -3,6 +3,7 @@ Report 69001 "Salary Payment Vouchers"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Salary Payment Vouchers.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

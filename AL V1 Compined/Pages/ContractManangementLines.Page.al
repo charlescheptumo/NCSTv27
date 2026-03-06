@@ -3,6 +3,7 @@ Page 70053 "Contract Manangement Lines"
 {
     PageType = ListPart;
     SourceTable = "Contract Management Lines";
+    ApplicationArea = All;
 
     layout
     {

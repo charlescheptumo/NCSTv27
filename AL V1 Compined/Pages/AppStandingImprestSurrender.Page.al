@@ -8,6 +8,7 @@ Page 57167 "App Standing Imprest Surrender"
     SourceTableView = where("Payment Type" = const("Standing Imprest Surrender"),
                             Posted = const(False),
                             Status = filter(Released));
+    ApplicationArea = All;
 
     layout
     {

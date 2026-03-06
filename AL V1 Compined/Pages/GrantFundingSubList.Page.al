@@ -8,6 +8,7 @@ Page 65067 "Grant Funding Sub List"
     ModifyAllowed = false;
     PageType = List;
     SourceTable = "Grant Funding Application";
+    ApplicationArea = All;
 
     layout
     {

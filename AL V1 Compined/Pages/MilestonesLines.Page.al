@@ -3,6 +3,7 @@ Page 65127 "Milestones Lines"
 {
     PageType = List;
     SourceTable = "Milestones Lines";
+    ApplicationArea = All;
 
     layout
     {

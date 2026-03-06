@@ -3,6 +3,7 @@ Page 70077 "Request For Proposal Sub Pages"
 {
     PageType = List;
     SourceTable = "Procurement Request Lines";
+    ApplicationArea = All;
 
     layout
     {

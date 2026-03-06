@@ -4,6 +4,7 @@ Page 59036 "Maintenance Request"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Fuel & Maintenance Requisition";
+    ApplicationArea = All;
 
     layout
     {

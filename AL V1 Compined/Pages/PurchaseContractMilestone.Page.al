@@ -3,6 +3,7 @@ Page 75288 "Purchase Contract Milestone"
 {
     PageType = List;
     SourceTable = "Purchase Contract Milestone";
+    ApplicationArea = All;
 
     layout
     {

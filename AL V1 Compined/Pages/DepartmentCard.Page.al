@@ -5,6 +5,7 @@ Page 80017 "Department Card"
     PageType = Card;
     SourceTable = "Responsibility Center";
     SourceTableView = where("Operating Unit Type" = const(Department));
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 65055 "Grant Research Objectives List"
 {
     PageType = List;
     SourceTable = "Grant Research Objectives";
+    ApplicationArea = All;
 
     layout
     {

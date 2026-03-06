@@ -3,6 +3,7 @@ Page 75130 "IFS Bid Schedule"
 {
     PageType = List;
     SourceTable = "RFI Bid Schedule";
+    ApplicationArea = All;
 
     layout
     {

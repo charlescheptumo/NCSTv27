@@ -3,6 +3,7 @@ Report 69011 "Earnings Mass Update"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Earnings Mass Update.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

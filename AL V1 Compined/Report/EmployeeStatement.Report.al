@@ -3,6 +3,7 @@ Report 57016 "Employee Statement"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Employee Statement.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

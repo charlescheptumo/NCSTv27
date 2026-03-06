@@ -4,6 +4,7 @@ Page 57139 "Standing Expenses"
     AutoSplitKey = true;
     PageType = ListPart;
     SourceTable = "Other Costs";
+    ApplicationArea = All;
 
     layout
     {

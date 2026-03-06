@@ -3,6 +3,7 @@ Page 75293 "Individual Technical Bid Evalu"
 {
     PageType = Card;
     SourceTable = "Bid Evaluation Register";
+    ApplicationArea = All;
 
     layout
     {

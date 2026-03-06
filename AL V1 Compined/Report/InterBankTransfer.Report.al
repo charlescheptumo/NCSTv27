@@ -3,6 +3,7 @@ Report 57006 "InterBank Transfer"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/InterBank Transfer.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

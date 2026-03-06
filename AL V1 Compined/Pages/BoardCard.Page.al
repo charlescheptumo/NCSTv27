@@ -4,6 +4,7 @@ Page 80013 "Board Card"
     Caption = 'Board Card';
     PageType = Card;
     SourceTable = "Responsibility Center";
+    ApplicationArea = All;
 
     layout
     {

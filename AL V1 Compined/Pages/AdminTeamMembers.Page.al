@@ -4,6 +4,7 @@ Page 65092 "Admin Team Members"
     Caption = 'Admin Team Members';
     PageType = List;
     SourceTable = "AdminTeam Members";
+    ApplicationArea = All;
 
     layout
     {

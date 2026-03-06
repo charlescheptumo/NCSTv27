@@ -3,6 +3,7 @@ Page 56205 "Quarterly Appraisal Lines"
 {
     PageType = ListPart;
     SourceTable = "Quarterly  Appraisal Lines";
+    ApplicationArea = All;
 
     layout
     {

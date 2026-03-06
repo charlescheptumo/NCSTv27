@@ -3,6 +3,7 @@ Page 75187 "Prequalification Score Card"
 {
     PageType = Card;
     SourceTable = "Prequalification Score Header";
+    ApplicationArea = All;
 
     layout
     {

@@ -5,6 +5,7 @@ Page 55016 "Board Resolutions Card"
     PageType = Card;
     RefreshOnActivate = true;
     SourceTable = "Board Resolutions Header";
+    ApplicationArea = All;
 
     layout
     {
@@ -157,7 +158,7 @@ Page 55016 "Board Resolutions Card"
     var
         BoardMembers: Record "Board Meeting Attendance";
         CashMgt: Record "Cash Management Setup";
-       //cc//   SMTP: Codeunit "SMTP Mail";
+        //cc//   SMTP: Codeunit "SMTP Mail";
         Body: Text[1024];
         Email1: Text[250];
         Email2: Text[250];

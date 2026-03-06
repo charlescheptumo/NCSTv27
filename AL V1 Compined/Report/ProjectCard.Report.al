@@ -3,6 +3,7 @@ Report 65019 "Project Card"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Project Card.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

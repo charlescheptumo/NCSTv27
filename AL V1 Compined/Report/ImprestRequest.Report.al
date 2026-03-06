@@ -3,6 +3,7 @@ Report 57002 "Imprest Request"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Imprest Request.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

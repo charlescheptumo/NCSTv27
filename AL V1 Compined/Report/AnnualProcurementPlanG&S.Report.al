@@ -4,6 +4,7 @@ Report 70014 "Annual Procurement Plan G&S"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Annual Procurement Plan G&S.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

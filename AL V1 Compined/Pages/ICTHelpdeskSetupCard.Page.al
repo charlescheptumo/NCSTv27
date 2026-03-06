@@ -3,6 +3,7 @@ Page 56120 "ICT Helpdesk Setup Card"
 {
     PageType = Card;
     SourceTable = "ICT Helpdesk Global Parameters";
+    ApplicationArea = All;
 
     layout
     {

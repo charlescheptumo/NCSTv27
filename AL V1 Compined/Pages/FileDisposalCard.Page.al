@@ -3,6 +3,7 @@ Page 59123 "File Disposal Card"
 {
     PageType = Card;
     SourceTable = "File Disposal Voucher";
+    ApplicationArea = All;
 
     layout
     {

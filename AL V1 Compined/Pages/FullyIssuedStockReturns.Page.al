@@ -10,6 +10,7 @@ Page 50064 "Fully Issued Stock Returns"
                             Status = const(Released),
                             "Fully Issued" = const(true),
                             "Requisition Type" = const("Stock Return"));
+    ApplicationArea = All;
 
     layout
     {

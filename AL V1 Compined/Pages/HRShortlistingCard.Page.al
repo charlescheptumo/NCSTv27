@@ -9,6 +9,7 @@ Page 69246 "HR Shortlisting Card"
     SourceTable = "Employee Requisitions";
     SourceTableView = where(Status = const(Approved),
                             Closed = const(false));
+    ApplicationArea = All;
 
     layout
     {

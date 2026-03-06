@@ -3,6 +3,7 @@ Page 69260 "HR Medical Schemes Card"
 {
     PageType = Card;
     SourceTable = "HR Medical Schemes";
+    ApplicationArea = All;
 
     layout
     {

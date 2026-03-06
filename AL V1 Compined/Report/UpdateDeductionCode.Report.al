@@ -3,6 +3,7 @@ Report 69150 "Update Deduction Code"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Update Deduction Code.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

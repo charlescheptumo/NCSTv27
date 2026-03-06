@@ -3,6 +3,7 @@ Page 75282 "Notice of Award Lines"
 {
     PageType = ListPart;
     SourceTable = "Bid Tabulation Line";
+    ApplicationArea = All;
 
     layout
     {

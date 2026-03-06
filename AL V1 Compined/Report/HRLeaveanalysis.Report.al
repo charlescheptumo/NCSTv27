@@ -3,6 +3,7 @@ Report 69139 "HR Leave analysis"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/HR Leave analysis.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

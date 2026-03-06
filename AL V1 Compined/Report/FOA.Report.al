@@ -3,6 +3,7 @@ Report 65017 FOA
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/FOA.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 75054 "Bid Score Criteria Group"
 {
     PageType = List;
     SourceTable = "Bid Score Criteria Group";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Report 69046 "Loans Detailed Report1"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Loans Detailed Report1.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -7,6 +7,7 @@ Page 69166 "Completed Planning Card"
     ModifyAllowed = false;
     PageType = Card;
     SourceTable = "Training Needs";
+    ApplicationArea = All;
 
     layout
     {

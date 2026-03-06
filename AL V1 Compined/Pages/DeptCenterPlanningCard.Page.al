@@ -4,6 +4,7 @@ Page 59072 "Dept/Center Planning Card"
     Caption = 'User Planning Card';
     PageType = Card;
     SourceTable = Planning;
+    ApplicationArea = All;
 
     layout
     {

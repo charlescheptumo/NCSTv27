@@ -13,6 +13,7 @@ Page 50078 "Posted Store Requisition"
                             Status = const(Released),
                             Replenishment = const(false),
                             "Fully Issued" = const(true));
+    ApplicationArea = All;
 
     layout
     {

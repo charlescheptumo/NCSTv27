@@ -3,6 +3,7 @@ Report 70029 LSO
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/LSO.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

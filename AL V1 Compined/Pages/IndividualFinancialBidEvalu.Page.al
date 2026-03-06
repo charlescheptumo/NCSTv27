@@ -3,6 +3,7 @@ Page 75295 "Individual Financial Bid Evalu"
 {
     PageType = Card;
     SourceTable = "Bid Evaluation Register";
+    ApplicationArea = All;
 
     layout
     {

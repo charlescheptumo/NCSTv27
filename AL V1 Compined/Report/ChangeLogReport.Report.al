@@ -5,6 +5,7 @@ Report 99099 "ChangeLog Report"
     RDLCLayout = './Layouts/ChangeLog Report.rdlc';
     Caption = 'ChangeLog Report';
     UsageCategory = Tasks;
+    ApplicationArea = All;
 
     dataset
     {

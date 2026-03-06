@@ -3,6 +3,7 @@ Page 70075 "Technica Evaluation Checklist"
 {
     PageType = List;
     SourceTable = "RFQ Evaluation Lists";
+    ApplicationArea = All;
 
     layout
     {

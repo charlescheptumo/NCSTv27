@@ -3,6 +3,7 @@ Page 69076 "HR Manager Role Center"
 {
     Caption = 'Role Center';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {

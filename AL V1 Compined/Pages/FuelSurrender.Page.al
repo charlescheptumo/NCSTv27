@@ -4,6 +4,7 @@ Page 57089 "Fuel Surrender"
     PageType = ListPart;
     SourceTable = "Project Members";
     SourceTableView = where(Type = const(Machine));
+    ApplicationArea = All;
 
     layout
     {

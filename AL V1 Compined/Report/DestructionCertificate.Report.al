@@ -4,6 +4,7 @@ Report 70023 "Destruction Certificate"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Destruction Certificate.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

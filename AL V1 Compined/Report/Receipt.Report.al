@@ -3,6 +3,7 @@ Report 56003 Receipt
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Receipt.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

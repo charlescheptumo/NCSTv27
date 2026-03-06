@@ -3,6 +3,7 @@ Page 56231 "Annual Appraisal HR Card"
 {
     PageType = Card;
     SourceTable = "Annual Appraisal";
+    ApplicationArea = All;
 
     layout
     {

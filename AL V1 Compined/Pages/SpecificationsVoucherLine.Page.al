@@ -5,6 +5,7 @@ Page 75082 "Specifications Voucher Line"
     SourceTable = Item;
     SourceTableView = where("Bill Item Group Code" = filter(<> ''),
                             Description = filter(<> ''));
+    ApplicationArea = All;
 
     layout
     {

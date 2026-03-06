@@ -3,6 +3,7 @@ Page 75250 "Previous Appointments line"
 {
     PageType = List;
     SourceTable = "IFS Tender Committee Member";
+    ApplicationArea = All;
 
     layout
     {

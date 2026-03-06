@@ -3,6 +3,7 @@ Page 75029 "Procurement Category Product"
 {
     PageType = List;
     SourceTable = "Procurement Category Product";
+    ApplicationArea = All;
 
     layout
     {

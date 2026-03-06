@@ -3,6 +3,7 @@ Page 70114 "Disposal Sub Page"
 {
     PageType = ListPart;
     SourceTable = "Disposal Lines";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Page 90006 "Agenda Lines"
     PageType = ListPart;
     SourceTable = "Agenda Lines";
     SourceTableView = order(ascending);
+    ApplicationArea = All;
 
     layout
     {

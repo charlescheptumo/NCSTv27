@@ -3,6 +3,7 @@ Page 75264 "Tender Opening Summary Note"
 {
     PageType = List;
     SourceTable = "Tender Opening Summary Note";
+    ApplicationArea = All;
 
     layout
     {

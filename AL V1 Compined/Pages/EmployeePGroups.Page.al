@@ -4,6 +4,7 @@ Page 69051 "Employee PGroups"
     DeleteAllowed = false;
     PageType = List;
     SourceTable = "Employee PGroups";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 65015 "Research Output SubCard"
 {
     PageType = Card;
     SourceTable = "Research Output Subcategories";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Report 69119 "HR Leave Statistics"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/HR Leave Statistics.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

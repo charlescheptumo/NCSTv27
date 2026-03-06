@@ -4,6 +4,7 @@ Page 57052 Fuel
     PageType = ListPart;
     SourceTable = "Project Members";
     SourceTableView = where(Type = const(Machine));
+    ApplicationArea = All;
 
     layout
     {

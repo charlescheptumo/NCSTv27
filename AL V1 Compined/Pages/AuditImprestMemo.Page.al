@@ -10,6 +10,7 @@ Page 57116 "Audit Imprest Memo"
     ShowFilter = false;
     SourceTable = "Imprest Memo";
     SourceTableView = where("Document Type" = const("Imprest Memo"));
+    ApplicationArea = All;
 
     layout
     {

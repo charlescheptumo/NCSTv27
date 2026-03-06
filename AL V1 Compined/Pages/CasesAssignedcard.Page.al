@@ -6,6 +6,7 @@ Page 69506 "Cases Assigned card"
     PageType = Card;
     SourceTable = "Cases Management";
     SourceTableView = where(Status = filter(Assigned));
+    ApplicationArea = All;
 
     layout
     {
@@ -410,7 +411,7 @@ Page 69506 "Cases Assigned card"
         AssignedReas: Record "Cases Management";
         caseCare: Record "Cases Management";
         casep: Record "Cases Management";
-      //cc//    notifymail: Codeunit "SMTP Mail";
+        //cc//    notifymail: Codeunit "SMTP Mail";
         EmploymentInfoEditable: Boolean;
         EmployedEditable: Boolean;
         ContractingEditable: Boolean;

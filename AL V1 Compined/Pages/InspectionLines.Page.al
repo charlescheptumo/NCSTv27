@@ -3,6 +3,7 @@ Page 70057 "Inspection Lines"
 {
     PageType = ListPart;
     SourceTable = "Inspection Lines1";
+    ApplicationArea = All;
 
     layout
     {

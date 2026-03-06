@@ -3,6 +3,7 @@ Report 69013 "Close Directors Pay period"
 {
     ProcessingOnly = true;
     UseRequestPage = false;
+    ApplicationArea = All;
 
     dataset
     {

@@ -6,6 +6,7 @@ Page 70101 "Tender Award Card_"
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const(Tender),
                             Status = filter(<> "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {

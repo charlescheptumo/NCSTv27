@@ -6,6 +6,7 @@ Page 70080 "Approved RFP Card"
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const(RFP),
                             Status = filter(<> "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {

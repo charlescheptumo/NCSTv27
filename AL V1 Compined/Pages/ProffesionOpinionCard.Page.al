@@ -3,6 +3,7 @@ Page 75278 "Proffesion Opinion Card"
 {
     PageType = Card;
     SourceTable = "Bid Tabulation Header";
+    ApplicationArea = All;
 
     layout
     {

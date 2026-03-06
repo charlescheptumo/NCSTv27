@@ -3,6 +3,7 @@ Page 65079 "Funding Year Codes"
 {
     PageType = List;
     SourceTable = "Funding Year Codes";
+    ApplicationArea = All;
 
     layout
     {

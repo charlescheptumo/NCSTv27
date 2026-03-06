@@ -3,6 +3,7 @@ Page 70048 "Commitee Members"
 {
     PageType = ListPart;
     SourceTable = "Commitee Members";
+    ApplicationArea = All;
 
     layout
     {

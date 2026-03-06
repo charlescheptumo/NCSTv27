@@ -5,6 +5,7 @@ Page 69031 "Employee Card-P"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = Employee;
+    ApplicationArea = All;
 
     layout
     {

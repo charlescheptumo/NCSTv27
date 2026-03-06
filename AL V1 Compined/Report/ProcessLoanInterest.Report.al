@@ -3,6 +3,7 @@ Report 69016 "Process Loan Interest"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Process Loan Interest.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 69514 "Case Details"
 {
     PageType = ListPart;
     SourceTable = "Case Details";
+    ApplicationArea = All;
 
     layout
     {

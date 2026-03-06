@@ -6,6 +6,7 @@ Page 65081 "Admin Card"
     RefreshOnActivate = true;
     SourceTable = Resource;
     SourceTableView = where(Admin = filter(true));
+    ApplicationArea = All;
 
     layout
     {

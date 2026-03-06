@@ -6,6 +6,7 @@ Page 70099 "Tender Award Card"
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const(Tender),
                             Status = filter(<> "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {
@@ -678,7 +679,7 @@ Page 70099 "Tender Award Card"
                     //cc    SMTPMail.CreateMessage(SenderName, SenderAddress, Recipients, Subject, Body, true);
 
                     //Report.SaveAsPdf(Report::"Request for Quotation", FileName, SupplierSelect);
-                  /////  FileName := FileMangement.ServerTempFileName('.pdf');
+                    /////  FileName := FileMangement.ServerTempFileName('.pdf');
                     //cc    SMTPMail.AddAttachment(FileName, '');
 
                     //ccSMTPMail.Send();

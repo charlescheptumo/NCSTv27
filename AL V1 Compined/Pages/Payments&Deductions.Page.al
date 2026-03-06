@@ -3,6 +3,7 @@ Page 69006 "Payments & Deductions"
 {
     PageType = List;
     SourceTable = "Assignment Matrix-X";
+    ApplicationArea = All;
 
     layout
     {

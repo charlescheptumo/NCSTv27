@@ -3,6 +3,7 @@ Page 65046 "Grant Funding Application Card"
 {
     PageType = Card;
     SourceTable = "Grant Funding Application";
+    ApplicationArea = All;
 
     layout
     {
@@ -317,7 +318,7 @@ Page 65046 "Grant Funding Application Card"
                 begin
                     Rec.TestField(Rec."Approval Status", Rec."approval status"::"Pending Approval");//status must be open.
                     Rec.TestField(Rec."Created By", UserId); //control so that only the initiator of the document can send for approval
-                 //cc//   ApprovalsMgmt.""(Rec);
+                                                             //cc//   ApprovalsMgmt.""(Rec);
                 end;
             }
             separator(Action65)

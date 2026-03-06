@@ -4,6 +4,7 @@ Report 70025 "Contracts Awarded"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Contracts Awarded.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

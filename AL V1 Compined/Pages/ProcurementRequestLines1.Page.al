@@ -5,6 +5,7 @@ Page 70129 "Procurement Request Lines1"
     Editable = false;
     PageType = ListPart;
     SourceTable = "Procurement Request Lines";
+    ApplicationArea = All;
 
     layout
     {

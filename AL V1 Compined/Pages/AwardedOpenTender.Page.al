@@ -4,6 +4,7 @@ Page 70149 "Awarded Open Tender"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Procurement Request";
+    ApplicationArea = All;
 
     layout
     {

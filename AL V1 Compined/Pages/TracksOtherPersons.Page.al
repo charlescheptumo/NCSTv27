@@ -3,6 +3,7 @@ Page 56084 "Tracks Other Persons"
 {
     PageType = List;
     SourceTable = "Track Other Persons";
+    ApplicationArea = All;
 
     layout
     {

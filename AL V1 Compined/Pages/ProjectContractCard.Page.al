@@ -3,6 +3,7 @@ Page 65078 "Project Contract Card"
 {
     PageType = Card;
     SourceTable = "Project Contract Header";
+    ApplicationArea = All;
 
     layout
     {

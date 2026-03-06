@@ -3,6 +3,7 @@ Report 57003 "Petty Cash Voucher"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Petty Cash Voucher.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

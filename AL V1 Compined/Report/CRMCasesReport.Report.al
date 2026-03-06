@@ -4,6 +4,7 @@ Report 69300 "CRM Cases Report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/CRM Cases Report.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 69130 "Overtime Header Page"
 {
     PageType = Card;
     SourceTable = "Overtime Header";
+    ApplicationArea = All;
 
     layout
     {

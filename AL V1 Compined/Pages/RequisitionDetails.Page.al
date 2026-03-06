@@ -6,6 +6,7 @@ Page 70021 "Requisition Details"
     SourceTable = "Requisition Lines1";
     SourceTableView = where("Requisition Status" = const(Approved),
                             "Request Generated" = const(false));
+    ApplicationArea = All;
 
     layout
     {

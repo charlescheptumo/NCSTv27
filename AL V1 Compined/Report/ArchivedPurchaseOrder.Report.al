@@ -4,6 +4,7 @@ Report 90416 "Archived Purchase Order2"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Archived Purchase Order.rdlc';
     Caption = 'Archived Purchase Order';
+    ApplicationArea = All;
 
     dataset
     {

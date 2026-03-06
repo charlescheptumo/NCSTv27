@@ -3,6 +3,7 @@ Report 70030 "Inspection Acc. Certificate"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Inspection Acc. Certificate.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

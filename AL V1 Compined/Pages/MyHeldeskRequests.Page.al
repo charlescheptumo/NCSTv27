@@ -3,6 +3,7 @@ Page 56121 MyHeldeskRequests
 {
     PageType = List;
     SourceTable = "ICT Helpdesk";
+    ApplicationArea = All;
 
     layout
     {

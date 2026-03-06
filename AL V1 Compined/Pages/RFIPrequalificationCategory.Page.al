@@ -3,6 +3,7 @@ Page 75046 "RFI Prequalification Category"
 {
     PageType = ListPart;
     SourceTable = "RFI Prequalification Category";
+    ApplicationArea = All;
 
     layout
     {

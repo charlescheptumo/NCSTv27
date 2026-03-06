@@ -3,6 +3,7 @@ Page 75129 "IFS Required Document"
 {
     PageType = List;
     SourceTable = "IFS Required Document";
+    ApplicationArea = All;
 
     layout
     {

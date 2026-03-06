@@ -4,6 +4,7 @@ Page 56147 "Helpdesk request List"
     Editable = false;
     PageType = List;
     SourceTable = "ICT Helpdesk";
+    ApplicationArea = All;
 
     layout
     {

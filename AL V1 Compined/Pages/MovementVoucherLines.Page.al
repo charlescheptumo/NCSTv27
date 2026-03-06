@@ -3,6 +3,7 @@ Page 56141 "Movement Voucher Lines"
 {
     PageType = ListPart;
     SourceTable = "ICT Issuance Voucher Lines";
+    ApplicationArea = All;
 
     layout
     {

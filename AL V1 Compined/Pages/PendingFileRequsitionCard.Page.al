@@ -5,6 +5,7 @@ Page 59100 "Pending File Requsition Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "File Movement Header";
+    ApplicationArea = All;
 
     layout
     {

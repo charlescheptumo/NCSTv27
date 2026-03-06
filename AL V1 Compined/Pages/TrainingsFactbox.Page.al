@@ -3,6 +3,7 @@ Page 69222 "Trainings Factbox"
 {
     PageType = CardPart;
     SourceTable = "Training Requests";
+    ApplicationArea = All;
 
     layout
     {
@@ -75,7 +76,7 @@ Page 69222 "Trainings Factbox"
 
     var
         Text1: label 'Training Details';
-        // Text2: ;
-        // Text3: ;
+    // Text2: ;
+    // Text3: ;
 }
 

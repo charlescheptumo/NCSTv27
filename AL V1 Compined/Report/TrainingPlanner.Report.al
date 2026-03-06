@@ -4,6 +4,7 @@ Report 69124 "Training Planner"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Training Planner.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 69135 Dependants
 {
     PageType = List;
     SourceTable = "Employee Beneficiaries";
+    ApplicationArea = All;
 
     layout
     {

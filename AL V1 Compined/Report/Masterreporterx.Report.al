@@ -4,6 +4,7 @@ Report 69012 "Master reporterx"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Master reporterx.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

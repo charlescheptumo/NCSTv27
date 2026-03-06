@@ -3,6 +3,7 @@ Report 69018 "Update Inv"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Update Inv.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

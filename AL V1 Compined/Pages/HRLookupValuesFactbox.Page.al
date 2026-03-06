@@ -4,6 +4,7 @@ Page 69244 "HR Lookup Values Factbox"
     Caption = 'HR Lookup Values Factbox';
     PageType = CardPart;
     SourceTable = "HR Lookup Values";
+    ApplicationArea = All;
 
     layout
     {

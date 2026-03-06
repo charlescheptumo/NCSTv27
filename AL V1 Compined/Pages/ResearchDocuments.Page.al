@@ -3,6 +3,7 @@ Page 65031 "Research Documents"
 {
     PageType = List;
     SourceTable = Documents;
+    ApplicationArea = All;
 
     layout
     {

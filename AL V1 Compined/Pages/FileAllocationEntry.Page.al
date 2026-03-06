@@ -3,6 +3,7 @@ Page 59131 "File Allocation Entry"
 {
     PageType = Card;
     SourceTable = "File Allocation Entries";
+    ApplicationArea = All;
 
     layout
     {

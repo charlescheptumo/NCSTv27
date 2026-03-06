@@ -4,6 +4,7 @@ Report 65020 "Projects List"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Projects List.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

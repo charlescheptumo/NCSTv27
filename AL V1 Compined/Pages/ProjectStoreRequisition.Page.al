@@ -6,6 +6,7 @@ Page 50051 "Project Store Requisition"
     RefreshOnActivate = true;
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = filter("Store Requisition"));
+    ApplicationArea = All;
 
     layout
     {

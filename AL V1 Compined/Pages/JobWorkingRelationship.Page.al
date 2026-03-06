@@ -3,6 +3,7 @@ Page 69113 "Job Working Relationship"
 {
     PageType = ListPart;
     SourceTable = "Job Working Relationships";
+    ApplicationArea = All;
 
     layout
     {

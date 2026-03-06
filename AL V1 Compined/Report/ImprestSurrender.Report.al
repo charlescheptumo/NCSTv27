@@ -3,6 +3,7 @@ Report 57005 "Imprest Surrender"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Imprest Surrender.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

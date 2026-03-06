@@ -3,6 +3,7 @@ Page 59094 "File Location SetUp Card"
 {
     PageType = Card;
     SourceTable = "File Locations Setup";
+    ApplicationArea = All;
 
     layout
     {

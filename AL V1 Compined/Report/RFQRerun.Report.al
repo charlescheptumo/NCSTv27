@@ -3,6 +3,7 @@ Report 70004 "RFQ Rerun"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/RFQ Rerun.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

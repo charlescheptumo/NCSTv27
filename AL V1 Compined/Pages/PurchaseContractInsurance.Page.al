@@ -3,6 +3,7 @@ Page 75286 "Purchase Contract Insurance"
 {
     PageType = List;
     SourceTable = "Purchase Contract Insurance";
+    ApplicationArea = All;
 
     layout
     {

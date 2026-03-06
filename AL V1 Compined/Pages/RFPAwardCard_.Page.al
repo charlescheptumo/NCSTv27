@@ -6,6 +6,7 @@ Page 70091 "RFP Award Card_"
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const(RFP),
                             Status = filter(<> "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {
@@ -657,8 +658,8 @@ Page 70091 "RFP Award Card_"
                                 Contractrec.Code := '';
                                 PSetup.Get;
                                 PSetup.TestField("Contract Nos");
-                               // NoSeriesMgt.InitSeries(PSetup."Contract Nos", xRec."No. Series", 0D, Contractrec.Code, Rec."No. Series");
-                                    Contractrec.Code :=    NoSeriesMgt.getnextno(PSetup."Contract Nos",today,true); 
+                                // NoSeriesMgt.InitSeries(PSetup."Contract Nos", xRec."No. Series", 0D, Contractrec.Code, Rec."No. Series");
+                                Contractrec.Code := NoSeriesMgt.getnextno(PSetup."Contract Nos", today, true);
                                 Contractrec.Date := Today;
                                 Contractrec."User Id" := UserId;
                                 Contractrec."Contract Description" := Rec.Title;
@@ -804,7 +805,7 @@ Page 70091 "RFP Award Card_"
                     //cc SMTPMail.CreateMessage(SenderName, SenderAddress, Recipients, Subject, Body, true);
 
                     //Report.SaveAsPdf(Report::"Request for Quotation", FileName, SupplierSelect);
-                   // FileName := FileMangement.ServerTempFileName('.pdf');
+                    // FileName := FileMangement.ServerTempFileName('.pdf');
                     //cc SMTPMail.AddAttachment(FileName, '');
 
                     //cc SMTPMail.Send();

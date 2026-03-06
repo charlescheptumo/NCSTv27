@@ -3,6 +3,7 @@ Page 69124 Responsibilities
 {
     PageType = List;
     SourceTable = "Job Responsibilities Lines";
+    ApplicationArea = All;
 
     layout
     {

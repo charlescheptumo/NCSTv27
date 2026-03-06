@@ -6,6 +6,7 @@ Page 65112 "Budget Planning Lines"
     PageType = ListPart;
     PromotedActionCategories = 'New,Process,Report,Outlook';
     SourceTable = "Project Budget Planning Line";
+    ApplicationArea = All;
 
     layout
     {

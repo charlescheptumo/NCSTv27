@@ -3,6 +3,7 @@ Page 75120 "BoQ Template Line1"
 {
     PageType = ListPart;
     SourceTable = "BoQ Template Line1";
+    ApplicationArea = All;
 
     layout
     {

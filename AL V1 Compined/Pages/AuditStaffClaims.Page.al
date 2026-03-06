@@ -6,6 +6,7 @@ Page 57117 "Audit Staff Claims"
     PageType = List;
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const("Staff Claim"));
+    ApplicationArea = All;
 
     layout
     {

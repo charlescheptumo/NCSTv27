@@ -4,6 +4,7 @@ Page 59095 "Record Creation"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Record Creation";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Report 69129 "HR Applicant to Employee"
     ProcessingOnly = true;
     UsageCategory = Tasks;
     UseRequestPage = false;
+    ApplicationArea = All;
 
     dataset
     {
@@ -83,13 +84,13 @@ Report 69129 "HR Applicant to Employee"
                                     objNoSeries.SetRange(objNoSeries.Code, HRSetup."Employee Nos.");
                                     //  objNoSeries.SETRANGE(objNoSeries."Series Filter",objEmReq."Global Dimension 2 Code");
                                     if objNoSeries.Find('-') then begin
-                                       // NoSeriesMgt.InitSeries(objNoSeries."Series Code", "HR Job Applications"."No. Series", 0D, "HR Job Applications"."Employee No", "HR Job Applications"."No. Series");
-                                       "HR Job Applications"."Employee No":= NoSeriesMgt.GetNextNo(objNoSeries."Series Code", today, true);
+                                        // NoSeriesMgt.InitSeries(objNoSeries."Series Code", "HR Job Applications"."No. Series", 0D, "HR Job Applications"."Employee No", "HR Job Applications"."No. Series");
+                                        "HR Job Applications"."Employee No" := NoSeriesMgt.GetNextNo(objNoSeries."Series Code", today, true);
                                     end
                                     else begin
                                         // NoSeriesMgt.InitSeries(objNoSeries."Series Code","HR Job Applications"."No. Series",0D,"Employee No","No. Series");
-                                     //   NoSeriesMgt.InitSeries('HREXPAT', "HR Job Applications"."No. Series", 0D, "HR Job Applications"."Employee No", "HR Job Applications"."No. Series");
-                                     "HR Job Applications"."Employee No":= NoSeriesMgt.GetNextNo('HREXPAT', today, true);
+                                        //   NoSeriesMgt.InitSeries('HREXPAT', "HR Job Applications"."No. Series", 0D, "HR Job Applications"."Employee No", "HR Job Applications"."No. Series");
+                                        "HR Job Applications"."Employee No" := NoSeriesMgt.GetNextNo('HREXPAT', today, true);
                                     end
                                 end;
 

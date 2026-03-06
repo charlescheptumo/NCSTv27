@@ -3,6 +3,7 @@ Page 69520 "CRM Training Suppliers"
 {
     PageType = ListPart;
     SourceTable = "CRM Training Suppliers";
+    ApplicationArea = All;
 
     layout
     {

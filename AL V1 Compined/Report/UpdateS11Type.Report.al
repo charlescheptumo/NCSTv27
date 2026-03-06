@@ -3,6 +3,7 @@ Report 99000 "Update S11 Type"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Update S11 Type.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

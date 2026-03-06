@@ -3,6 +3,7 @@ Page 57027 "Imprest Surrender Lines"
 {
     PageType = ListPart;
     SourceTable = "Imprest Lines";
+    ApplicationArea = All;
 
     layout
     {

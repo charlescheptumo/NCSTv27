@@ -2,6 +2,7 @@
 Report 70007 "Prequalification Category"
 {
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

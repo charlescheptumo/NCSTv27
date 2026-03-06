@@ -3,6 +3,7 @@ Page 70027 "Supplier Selection"
 {
     PageType = List;
     SourceTable = "Supplier Selection1";
+    ApplicationArea = All;
 
     layout
     {

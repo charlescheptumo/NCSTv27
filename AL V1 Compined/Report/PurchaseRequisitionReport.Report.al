@@ -3,6 +3,7 @@ Report 70001 "Purchase Requisition Report"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Purchase Requisition Report.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

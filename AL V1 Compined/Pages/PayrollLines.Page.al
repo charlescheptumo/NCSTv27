@@ -3,6 +3,7 @@ Page 69030 "Payroll Lines"
 {
     PageType = List;
     SourceTable = "Payroll Lines";
+    ApplicationArea = All;
 
     layout
     {

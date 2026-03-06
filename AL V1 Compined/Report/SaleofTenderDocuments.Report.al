@@ -4,6 +4,7 @@ Report 70005 "Sale of Tender Documents"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Sale of Tender Documents.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

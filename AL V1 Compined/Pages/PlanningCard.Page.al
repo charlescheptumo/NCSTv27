@@ -5,6 +5,7 @@ Page 69160 "Planning Card"
     InsertAllowed = false;
     PageType = Card;
     SourceTable = "Training Needs";
+    ApplicationArea = All;
 
     layout
     {

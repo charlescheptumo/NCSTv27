@@ -9,6 +9,7 @@ Page 57047 "Approver Imprest Memo"
     SourceTable = "Imprest Memo";
     SourceTableView = where(Status = filter(Released | "Pending Approval"),
                             Posted = const(false));
+    ApplicationArea = All;
 
     layout
     {

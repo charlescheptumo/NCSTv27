@@ -4,6 +4,7 @@ Page 69077 "HR Manager Activities"
     Caption = 'Activities';
     PageType = CardPart;
     SourceTable = "Job Cue";
+    ApplicationArea = All;
 
     layout
     {

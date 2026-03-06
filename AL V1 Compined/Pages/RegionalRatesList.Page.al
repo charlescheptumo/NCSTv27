@@ -3,6 +3,7 @@ Page 69053 "Regional Rates List"
 {
     PageType = List;
     SourceTable = "Regional Rates";
+    ApplicationArea = All;
 
     layout
     {

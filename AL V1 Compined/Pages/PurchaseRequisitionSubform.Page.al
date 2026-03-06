@@ -9,6 +9,7 @@ Page 70060 "Purchase Requisition Subform"
     PageType = ListPart;
     SourceTable = "Purchase Line";
     SourceTableView = where("Document Type" = filter("Purchase Requisition"));
+    ApplicationArea = All;
 
     layout
     {
@@ -189,7 +190,7 @@ Page 70060 "Purchase Requisition Subform"
                 {
                     ApplicationArea = Basic;
                     BlankZero = true;
-                           //cc//    OptionCaption = 'Direct Unit Cost Inc. VAT';
+                    //cc//    OptionCaption = 'Direct Unit Cost Inc. VAT';
                     Visible = false;
 
                     trigger OnValidate()

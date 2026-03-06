@@ -4,6 +4,7 @@ Report 69126 "Bonded Staff Report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Bonded Staff Report.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

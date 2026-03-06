@@ -2,6 +2,7 @@
 Page 69128 "Emergency Contacts"
 {
     PageType = List;
+    ApplicationArea = All;
     // SourceTable = UnknownTable69112;
 
     // layout

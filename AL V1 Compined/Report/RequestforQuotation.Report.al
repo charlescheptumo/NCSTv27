@@ -4,6 +4,7 @@ Report 70002 "Request for Quotation"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Request for Quotation.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

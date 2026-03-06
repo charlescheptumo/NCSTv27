@@ -3,6 +3,7 @@ Page 57161 "Standing Surrender Lines"
 {
     PageType = ListPart;
     SourceTable = "PV Lines";
+    ApplicationArea = All;
 
     layout
     {

@@ -10,6 +10,7 @@ Page 57046 "Special  Imprest Requisition"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const(Imprest),
                             Status = filter(Open | "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75139 "Bid Business Owner"
 {
     PageType = List;
     SourceTable = "Bid Business Owner";
+    ApplicationArea = All;
 
     layout
     {

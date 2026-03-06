@@ -3,6 +3,7 @@ Page 75164 "Supplier Rating Group"
 {
     PageType = List;
     SourceTable = "Supplier Rating Group";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75024 "Procurement Template Card"
 {
     PageType = Card;
     SourceTable = "Procurement Document Template";
+    ApplicationArea = All;
 
     layout
     {

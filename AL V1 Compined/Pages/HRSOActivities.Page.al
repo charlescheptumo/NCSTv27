@@ -4,6 +4,7 @@ Page 69084 "HR SO Activities"
     Caption = 'Activities';
     PageType = CardPart;
     SourceTable = "Job Cue";
+    ApplicationArea = All;
 
     layout
     {

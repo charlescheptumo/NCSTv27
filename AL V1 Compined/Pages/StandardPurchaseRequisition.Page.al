@@ -7,6 +7,7 @@ Page 75237 "Standard Purchase Requisition"
     RefreshOnActivate = true;
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = filter("Purchase Requisition"));
+    ApplicationArea = All;
 
     layout
     {

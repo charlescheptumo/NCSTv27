@@ -4,6 +4,7 @@ Page 56207 "Sup Quartlerly Appraisal"
     Caption = 'Supervisor Quartlerly Appraisal';
     PageType = Card;
     SourceTable = "Quarterly Appraisal";
+    ApplicationArea = All;
 
     layout
     {

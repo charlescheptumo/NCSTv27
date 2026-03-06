@@ -3,6 +3,7 @@ Page 75276 "Final Evaluation Report Line"
 {
     PageType = ListPart;
     SourceTable = "Bid Tabulation Line";
+    ApplicationArea = All;
 
     layout
     {

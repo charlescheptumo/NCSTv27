@@ -5,6 +5,7 @@ Report 89027 "New Payslip"
     // ArrEarningsAmt[1,1]
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/New Payslip.rdlc';
+    ApplicationArea = All;
 
 
     dataset

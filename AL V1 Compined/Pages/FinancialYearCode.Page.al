@@ -4,6 +4,7 @@ Page 65116 "Financial Year Code"
     Caption = 'Financial Year Code';
     PageType = List;
     SourceTable = "Financial Year Code";
+    ApplicationArea = All;
 
     layout
     {

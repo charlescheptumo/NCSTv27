@@ -6,6 +6,7 @@ Page 57084 "Imprest Memo Surrender"
     SourceTableView = where(Status = filter(Open | "Pending Approval"),
                             Posted = const(false),
                             "Document Type" = const("Imprest Surr Memo"));
+    ApplicationArea = All;
 
     layout
     {

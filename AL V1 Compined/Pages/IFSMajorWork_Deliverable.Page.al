@@ -3,6 +3,7 @@ Page 75079 "IFS Major Work_Deliverable"
 {
     PageType = List;
     SourceTable = "IFS Major Work_Deliverable";
+    ApplicationArea = All;
 
     layout
     {

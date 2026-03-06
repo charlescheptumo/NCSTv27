@@ -4,6 +4,7 @@ Page 70013 "Requisition List"
     CardPageID = "Requisition Header";
     PageType = List;
     SourceTable = "Requisition Header1";
+    ApplicationArea = All;
 
     layout
     {

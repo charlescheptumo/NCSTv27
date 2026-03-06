@@ -3,6 +3,7 @@ Page 75172 "RFI Response Card"
 {
     PageType = Card;
     SourceTable = "RFI Response";
+    ApplicationArea = All;
 
     layout
     {

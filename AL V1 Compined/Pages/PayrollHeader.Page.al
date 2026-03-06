@@ -3,6 +3,7 @@ Page 69029 "Payroll Header"
 {
     PageType = Card;
     SourceTable = "Payroll Header";
+    ApplicationArea = All;
 
     layout
     {

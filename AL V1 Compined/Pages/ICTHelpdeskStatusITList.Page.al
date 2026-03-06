@@ -5,6 +5,7 @@ Page 56075 "ICT Helpdesk Status IT List"
     PageType = List;
     SourceTable = "ICT Helpdesk";
     SourceTableView = where(Status = filter(<> " "));
+    ApplicationArea = All;
 
     layout
     {

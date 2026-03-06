@@ -4,6 +4,7 @@ Report 69116 "HR Leave Reimbursements"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/HR Leave Reimbursements.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

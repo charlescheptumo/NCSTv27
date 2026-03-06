@@ -9,6 +9,7 @@ Page 57092 "Imprest Memos Surrender-P"
                             Posted = const(true),
                             "Document Type" = const("Imprest Surr Memo"),
                             Surrendered = const(true));
+    ApplicationArea = All;
 
     layout
     {

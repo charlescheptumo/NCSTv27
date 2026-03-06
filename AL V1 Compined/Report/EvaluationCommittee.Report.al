@@ -3,6 +3,7 @@ Report 70026 "Evaluation Committee"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Evaluation Committee.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

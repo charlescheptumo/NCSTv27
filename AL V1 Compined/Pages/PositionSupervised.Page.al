@@ -3,6 +3,7 @@ Page 69107 "Position Supervised"
 {
     PageType = ListPart;
     SourceTable = "Position Supervisedx";
+    ApplicationArea = All;
 
     layout
     {

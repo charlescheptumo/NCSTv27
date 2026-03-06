@@ -3,6 +3,7 @@ Page 59120 "File Issuance Card"
 {
     PageType = Card;
     SourceTable = "Registry File  Entry";
+    ApplicationArea = All;
 
     layout
     {

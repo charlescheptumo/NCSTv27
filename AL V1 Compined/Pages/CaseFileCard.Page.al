@@ -3,6 +3,7 @@ Page 56038 "Case File Card"
 {
     PageType = Card;
     SourceTable = "Case File";
+    ApplicationArea = All;
 
     layout
     {

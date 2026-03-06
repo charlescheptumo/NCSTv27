@@ -3,6 +3,7 @@ Page 69203 "HR Disciplinary Cases SF"
 {
     PageType = ListPart;
     SourceTable = "HR Disciplinary Cases";
+    ApplicationArea = All;
 
     layout
     {

@@ -4,6 +4,7 @@ Page 56223 "Departmental Objectives App"
     Caption = 'Departmental Objectives';
     PageType = ListPart;
     SourceTable = "Departmental ObjectisAppraisal";
+    ApplicationArea = All;
 
     layout
     {

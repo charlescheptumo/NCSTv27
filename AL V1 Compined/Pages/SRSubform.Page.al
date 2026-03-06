@@ -9,6 +9,7 @@ Page 50052 "SR Subform"
     PageType = ListPart;
     SourceTable = "Purchase Line";
     SourceTableView = where("Document Type" = filter("Store Requisition"));
+    ApplicationArea = All;
 
     layout
     {

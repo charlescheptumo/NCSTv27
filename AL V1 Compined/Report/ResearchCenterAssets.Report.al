@@ -4,6 +4,7 @@ Report 65013 "Research Center Assets"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Research Center Assets.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

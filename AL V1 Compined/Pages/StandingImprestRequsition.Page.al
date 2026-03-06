@@ -6,6 +6,7 @@ Page 57148 "Standing Imprest Requsition"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const("Standing Imprest"),
                             Posted = const(False));
+    ApplicationArea = All;
 
     layout
     {

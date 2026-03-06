@@ -3,6 +3,7 @@ Page 75163 "Supplier Rating Template Card"
 {
     PageType = Card;
     SourceTable = "Supplier Rating Template";
+    ApplicationArea = All;
 
     layout
     {

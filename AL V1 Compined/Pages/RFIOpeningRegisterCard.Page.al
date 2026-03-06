@@ -3,6 +3,7 @@ Page 75343 "RFI Opening Register Card"
 {
     PageType = Card;
     SourceTable = "Bid Opening Register";
+    ApplicationArea = All;
 
     layout
     {
@@ -200,7 +201,7 @@ Page 75343 "RFI Opening Register Card"
 
                     trigger OnAction()
                     begin
-              //CC//          Procurement.PostIFPOpeningRegister(Rec)
+                        //CC//          Procurement.PostIFPOpeningRegister(Rec)
                     end;
                 }
                 action("Unseal Bid")
@@ -217,7 +218,7 @@ Page 75343 "RFI Opening Register Card"
                     begin
                         //Procurement.UnsealBid(Rec);
                         //Procurement.UnsealBid1(Rec,BidOpeningRegisterLine1);
-                      //CC//  Procurement.UnsealIFP(Rec, BidOpeningRegisterLine1);
+                        //CC//  Procurement.UnsealIFP(Rec, BidOpeningRegisterLine1);
                     end;
                 }
                 action("Send Bid Opening Codes")

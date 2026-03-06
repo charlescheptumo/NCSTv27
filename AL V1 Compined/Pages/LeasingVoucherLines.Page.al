@@ -3,6 +3,7 @@ Page 56151 "Leasing Voucher Lines"
 {
     PageType = ListPart;
     SourceTable = "ICT Issuance Voucher Lines";
+    ApplicationArea = All;
 
     layout
     {

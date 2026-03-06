@@ -6,6 +6,7 @@ Page 70153 "Tender Bids A"
     SourceTableView = sorting("Requisition No", "Bidder Name", "Bidder Email", No, "Line No")
                       where("Evaluation Decision" = const(Responsive),
                             "Financial Evaluation Decision" = const(Pass));
+    ApplicationArea = All;
 
     layout
     {

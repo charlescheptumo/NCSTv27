@@ -3,6 +3,7 @@ Report 70003 "Cost Comparison Sheet"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Cost Comparison Sheet.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 59006 "Vehicle Accidents"
 {
     PageType = ListPart;
     SourceTable = "Vehicle Accident Details";
+    ApplicationArea = All;
 
     layout
     {

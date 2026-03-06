@@ -3,6 +3,7 @@ Page 65129 "Cost Reimbursement Card"
 {
     PageType = Card;
     SourceTable = "Project Billable Header";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 90000 "Auditor Role Center"
 {
     Caption = 'Auditor ', Comment = '{Dependency=Match,"ProfileDescription_ACCOUNTINGMANAGER"}';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {

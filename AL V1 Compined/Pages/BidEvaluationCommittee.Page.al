@@ -3,6 +3,7 @@ Page 75160 "Bid Evaluation Committee"
 {
     PageType = List;
     SourceTable = "Bid Evaluation Committee";
+    ApplicationArea = All;
 
     layout
     {

@@ -7,6 +7,7 @@ Page 57140 "Standing Imprest List-Approved"
     SourceTableView = where(Status = filter(Released),
                             Posted = const(false),
                             "Document Type" = const("Standing Imprest"));
+    ApplicationArea = All;
 
     layout
     {

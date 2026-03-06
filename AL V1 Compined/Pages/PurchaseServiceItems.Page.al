@@ -3,6 +3,7 @@ Page 50084 "Purchase Service Items"
 {
     PageType = List;
     SourceTable = "Document Approval Delegation";
+    ApplicationArea = All;
 
     layout
     {

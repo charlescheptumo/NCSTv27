@@ -3,6 +3,7 @@ Page 65002 "Research Sub-Centers  Card"
 {
     PageType = Card;
     SourceTable = "Research Sub-Centers";
+    ApplicationArea = All;
 
     layout
     {

@@ -5,6 +5,7 @@ Page 75121 "Request For Quotation (RFQ)"
     PageType = Document;
     PromotedActionCategories = 'New,Process,Report,Approve,Release,Posting,Prepare,Order,Request Approval,Print/Send,Navigate';
     SourceTable = "Standard Purchase Code";
+    ApplicationArea = All;
 
     layout
     {

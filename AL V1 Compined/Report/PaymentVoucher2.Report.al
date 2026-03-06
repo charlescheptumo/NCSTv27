@@ -3,6 +3,7 @@ Report 57009 "Payment Voucher2"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Payment Voucher2.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Report 70043 "Final Evaluation Report"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Final Evaluation Report.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

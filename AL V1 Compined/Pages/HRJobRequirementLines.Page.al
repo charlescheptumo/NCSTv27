@@ -3,6 +3,7 @@ Page 69238 "HR Job Requirement Lines"
 {
     PageType = List;
     SourceTable = "HR Job Requirements";
+    ApplicationArea = All;
 
     layout
     {

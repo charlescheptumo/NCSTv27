@@ -3,6 +3,7 @@ Page 57054 "Tariff Codes1"
 {
     PageType = List;
     SourceTable = "Tariff Codes1";
+    ApplicationArea = All;
 
     layout
     {

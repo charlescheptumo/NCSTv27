@@ -3,6 +3,7 @@ Page 65123 "Fixed Price Billing Card"
 {
     PageType = Card;
     SourceTable = "Project Billable Header";
+    ApplicationArea = All;
 
     layout
     {

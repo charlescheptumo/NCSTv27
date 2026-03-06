@@ -3,6 +3,7 @@ Page 69200 "HR Disciplinary Cases"
 {
     PageType = Card;
     SourceTable = Employee;
+    ApplicationArea = All;
 
     layout
     {

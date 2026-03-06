@@ -5,6 +5,7 @@ Page 75064 "Closed IFP"
     PageType = List;
     SourceTable = "Request For Information";
     SourceTableView = where("Document Type" = const("Invitation For Prequalification"));
+    ApplicationArea = All;
 
     layout
     {

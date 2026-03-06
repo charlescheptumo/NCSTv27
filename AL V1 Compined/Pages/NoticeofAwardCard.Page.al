@@ -3,6 +3,7 @@ Page 75281 "Notice of Award Card"
 {
     PageType = Card;
     SourceTable = "Bid Tabulation Header";
+    ApplicationArea = All;
 
     layout
     {

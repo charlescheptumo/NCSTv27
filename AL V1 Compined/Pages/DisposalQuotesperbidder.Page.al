@@ -3,6 +3,7 @@ Page 70115 "Disposal Quotes per bidder"
 {
     PageType = List;
     SourceTable = "Disposal Bids Per Line 1";
+    ApplicationArea = All;
 
     layout
     {

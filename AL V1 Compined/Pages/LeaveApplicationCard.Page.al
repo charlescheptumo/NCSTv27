@@ -6,6 +6,7 @@ Page 69207 "Leave Application Card"
     PageType = Card;
     PromotedActionCategories = 'New,Process,Report,Functions,Comments';
     SourceTable = "HR Leave Application";
+    ApplicationArea = All;
 
     layout
     {

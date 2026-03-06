@@ -3,6 +3,7 @@ Page 56048 "Document Registration Card"
 {
     PageType = Card;
     SourceTable = "Document registration";
+    ApplicationArea = All;
 
     layout
     {

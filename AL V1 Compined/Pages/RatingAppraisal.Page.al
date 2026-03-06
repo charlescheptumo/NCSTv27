@@ -5,6 +5,7 @@ Page 56227 "Rating Appraisal"
     PageType = ListPart;
     SourceTable = "Departmental ObjectisAppraisal";
     SourceTableView = where(Rate = filter(true));
+    ApplicationArea = All;
 
     layout
     {

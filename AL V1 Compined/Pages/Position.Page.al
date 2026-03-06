@@ -3,6 +3,7 @@ Page 69105 Position
 {
     PageType = Card;
     SourceTable = "Company Jobs";
+    ApplicationArea = All;
 
     layout
     {

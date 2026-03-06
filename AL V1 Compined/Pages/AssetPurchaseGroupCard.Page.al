@@ -6,6 +6,7 @@ Page 75236 "Asset Purchase Group Card"
     Permissions = TableData "FA Depreciation Book" = rim;
     RefreshOnActivate = true;
     SourceTable = "Fixed Asset";
+    ApplicationArea = All;
 
     layout
     {

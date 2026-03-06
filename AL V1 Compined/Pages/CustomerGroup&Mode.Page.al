@@ -3,6 +3,7 @@ Page 56089 "Customer Group & Mode"
 {
     PageType = List;
     SourceTable = "Customer Group &  Mode";
+    ApplicationArea = All;
 
     layout
     {

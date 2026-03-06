@@ -5,6 +5,7 @@ Page 59112 "Pending Dept Planning  list"
     Editable = false;
     PageType = List;
     SourceTable = Planning;
+    ApplicationArea = All;
 
     layout
     {

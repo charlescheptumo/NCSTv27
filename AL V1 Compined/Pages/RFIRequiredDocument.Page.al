@@ -3,6 +3,7 @@ Page 75049 "RFI Required Document"
 {
     PageType = List;
     SourceTable = "RFI Required Document";
+    ApplicationArea = All;
 
     layout
     {

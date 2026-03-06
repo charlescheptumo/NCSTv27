@@ -4,6 +4,7 @@ Page 56078 "ICT Helpdesk Attend"
     PageType = Card;
     SourceTable = "ICT Helpdesk";
     SourceTableView = where(Status = filter(Pending));
+    ApplicationArea = All;
 
     layout
     {

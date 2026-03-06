@@ -8,6 +8,7 @@ Page 57001 "Payment Voucher"
     SourceTableView = where("Payment Type" = const("Payment Voucher"),
                             Posted = const(False),
                             Status = filter(Open | "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {
@@ -193,6 +194,7 @@ Page 57001 "Payment Voucher"
             }
             part(Control1000000021; "PV Lines")
             {
+            
                 Editable = not OpenApprovalEntriesExist;
                 SubPageLink = No = field("No.");
                 UpdatePropagation = Both;

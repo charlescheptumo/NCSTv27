@@ -5,6 +5,7 @@ Page 59090 "File Movement Header"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "File Movement Header";
+    ApplicationArea = All;
 
     layout
     {

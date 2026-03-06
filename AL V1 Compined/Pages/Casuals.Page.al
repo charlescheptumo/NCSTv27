@@ -3,6 +3,7 @@ Page 57036 Casuals
 {
     PageType = ListPart;
     SourceTable = Casuals;
+    ApplicationArea = All;
 
     layout
     {

@@ -9,6 +9,7 @@ Page 75254 "Bid Response Purchase Lines"
     PageType = ListPart;
     SourceTable = "Purchase Line";
     SourceTableView = where("Document Type" = filter(Quote));
+    ApplicationArea = All;
 
     layout
     {
@@ -73,7 +74,8 @@ Page 75254 "Bid Response Purchase Lines"
 
                     trigger OnLookup(var Text: Text): Boolean
                     begin
-                        Rec.UpdateReferencePriceAndDiscount(); ;
+                        Rec.UpdateReferencePriceAndDiscount();
+                        ;
                         InsertExtendedText(false);
                         NoOnAfterValidate;
                         OnCrossReferenceNoOnLookup(Rec);

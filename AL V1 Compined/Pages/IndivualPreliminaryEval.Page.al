@@ -3,6 +3,7 @@ Page 75291 "Indivual Preliminary Eval"
 {
     PageType = Card;
     SourceTable = "Bid Evaluation Register";
+    ApplicationArea = All;
 
     layout
     {

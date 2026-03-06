@@ -5,6 +5,7 @@ Page 69118 "Employee Card-HR"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = Employee;
+    ApplicationArea = All;
 
     layout
     {

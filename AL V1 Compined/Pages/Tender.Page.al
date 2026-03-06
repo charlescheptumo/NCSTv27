@@ -4,6 +4,7 @@ Page 70036 Tender
     PageType = Card;
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const(Tender));
+    ApplicationArea = All;
 
     layout
     {

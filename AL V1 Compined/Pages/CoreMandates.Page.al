@@ -3,6 +3,7 @@ Page 80003 "Core Mandates"
 {
     PageType = List;
     SourceTable = "Core Mandates";
+    ApplicationArea = All;
 
     layout
     {

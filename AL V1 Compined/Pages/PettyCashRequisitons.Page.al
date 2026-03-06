@@ -6,6 +6,7 @@ Page 57146 "Petty Cash Requisitons"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const("Petty Cash"),
                             Posted = const(False));
+    ApplicationArea = All;
 
     layout
     {

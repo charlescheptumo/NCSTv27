@@ -4,6 +4,7 @@ Page 65000 "Research Center Card"
     Caption = 'Research Center Card';
     PageType = Card;
     SourceTable = "Research Center";
+    ApplicationArea = All;
 
     layout
     {

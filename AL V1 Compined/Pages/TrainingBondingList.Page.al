@@ -3,6 +3,7 @@ Page 69228 "Training Bonding List"
 {
     PageType = List;
     SourceTable = "Training Bonding Conditions";
+    ApplicationArea = All;
 
     layout
     {

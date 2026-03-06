@@ -3,6 +3,7 @@ Page 65030 "GFO Approval Entry Card"
 {
     PageType = Card;
     SourceTable = "GFO Approval Committee Entry";
+    ApplicationArea = All;
 
     layout
     {
@@ -51,7 +52,7 @@ Page 65030 "GFO Approval Entry Card"
                     Promoted = true;
                     PromotedCategory = Process;
                     RunObject = Page "Research Documents";
-                  //cc//  RunPageLink = "Doc No." = field("Entry No");
+                    //cc//  RunPageLink = "Doc No." = field("Entry No");
                 }
             }
         }

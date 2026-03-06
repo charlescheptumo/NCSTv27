@@ -3,6 +3,7 @@ Page 75151 "Bid_Contract Security Register"
 {
     PageType = List;
     SourceTable = "Bid_Contract Security Register";
+    ApplicationArea = All;
 
     layout
     {

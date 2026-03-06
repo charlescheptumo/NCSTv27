@@ -4,6 +4,7 @@ Page 65052 "Funding Decision Reason Card"
     CardPageID = "Funding Decision Reason Card";
     PageType = Card;
     SourceTable = "Funding Decision Reasons";
+    ApplicationArea = All;
 
     layout
     {

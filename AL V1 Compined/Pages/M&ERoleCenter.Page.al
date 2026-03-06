@@ -3,6 +3,7 @@ Page 59059 "M&E Role Center"
 {
     Caption = 'Records Management Role Center', Comment = '{Dependency=Match,"ProfileDescription_ACCOUNTINGMANAGER"}';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {

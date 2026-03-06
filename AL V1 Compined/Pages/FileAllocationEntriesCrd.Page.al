@@ -6,6 +6,7 @@ Page 59138 "File Allocation Entries Crd"
     InsertAllowed = false;
     PageType = Card;
     SourceTable = "File Allocation Entries";
+    ApplicationArea = All;
 
     layout
     {

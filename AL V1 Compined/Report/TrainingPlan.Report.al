@@ -3,6 +3,7 @@ Report 69130 "Training Plan"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Training Plan.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

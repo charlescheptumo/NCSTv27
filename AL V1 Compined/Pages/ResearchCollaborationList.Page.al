@@ -5,6 +5,7 @@ Page 65023 "Research Collaboration List"
     Editable = false;
     PageType = List;
     SourceTable = "Research Output Affiliations";
+    ApplicationArea = All;
 
     layout
     {

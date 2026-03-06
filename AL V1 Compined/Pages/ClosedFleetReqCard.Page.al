@@ -6,6 +6,7 @@ Page 59022 "Closed Fleet Req Card"
     SourceTable = "Transport Requisition";
     SourceTableView = order(ascending)
                       where(Status = const(Closed));
+    ApplicationArea = All;
 
     layout
     {

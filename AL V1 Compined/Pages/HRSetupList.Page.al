@@ -4,6 +4,7 @@ Page 69081 "HR Setup List"
     CardPageID = "Human Resources Setup";
     PageType = List;
     SourceTable = "Human Resources Setup";
+    ApplicationArea = All;
 
     layout
     {

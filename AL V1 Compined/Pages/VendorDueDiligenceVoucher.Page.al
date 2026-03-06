@@ -3,6 +3,7 @@ Page 75299 "Vendor Due Diligence Voucher"
 {
     PageType = Card;
     SourceTable = "Bid Evaluation Register";
+    ApplicationArea = All;
 
     layout
     {

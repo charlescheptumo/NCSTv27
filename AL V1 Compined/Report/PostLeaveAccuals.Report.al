@@ -3,6 +3,7 @@ Report 69102 "Post Leave Accuals"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Post Leave Accuals.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

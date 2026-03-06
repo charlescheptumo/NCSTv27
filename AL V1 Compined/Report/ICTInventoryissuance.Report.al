@@ -4,6 +4,7 @@ Report 56244 "ICT Inventory issuance"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/ICT Inventory issuance.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

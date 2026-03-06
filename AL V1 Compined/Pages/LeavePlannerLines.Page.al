@@ -3,6 +3,7 @@ Page 69230 "Leave Planner Lines"
 {
     PageType = ListPart;
     SourceTable = "HR Leave Planner Lines";
+    ApplicationArea = All;
 
     layout
     {

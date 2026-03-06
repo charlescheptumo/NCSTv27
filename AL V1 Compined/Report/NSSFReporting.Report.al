@@ -3,6 +3,7 @@ Report 69031 "NSSF Reporting"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/NSSF Reporting.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

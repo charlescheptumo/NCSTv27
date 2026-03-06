@@ -7,6 +7,7 @@ Page 69074 "Leave Applications"
     PageType = List;
     SourceTable = "Purchase Header";
     SourceTableView = where("Document Type" = const(8), Status = filter(Open | "Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75255 "Bid Preference & Reservation"
 {
     PageType = List;
     SourceTable = "Bid Preference & Reservation";
+    ApplicationArea = All;
 
     layout
     {

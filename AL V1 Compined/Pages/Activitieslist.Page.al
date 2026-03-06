@@ -3,6 +3,7 @@ Page 59065 "Activities list"
 {
     PageType = List;
     SourceTable = "Strategic Activities";
+    ApplicationArea = All;
 
     layout
     {

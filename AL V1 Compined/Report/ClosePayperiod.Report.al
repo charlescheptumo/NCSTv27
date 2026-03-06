@@ -3,6 +3,7 @@ Report 69006 "Close Pay period"
 {
     ProcessingOnly = true;
     UseRequestPage = false;
+    ApplicationArea = All;
 
     dataset
     {

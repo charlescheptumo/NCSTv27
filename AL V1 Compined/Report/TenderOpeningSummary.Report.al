@@ -3,6 +3,7 @@ Report 70040 "Tender Opening Summary"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Tender Opening Summary.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

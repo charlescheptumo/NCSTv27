@@ -8,6 +8,7 @@ Page 59020 "Pending Requisition Card"
     PageType = Card;
     SourceTable = "Transport Requisition";
     SourceTableView = where(Status = filter("Pending Approval"));
+    ApplicationArea = All;
 
     layout
     {

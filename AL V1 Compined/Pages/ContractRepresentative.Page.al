@@ -3,6 +3,7 @@ Page 75289 "Contract Representative"
 {
     PageType = List;
     SourceTable = "Contract Representative";
+    ApplicationArea = All;
 
     layout
     {

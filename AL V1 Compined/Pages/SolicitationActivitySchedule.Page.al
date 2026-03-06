@@ -4,6 +4,7 @@ Page 75027 "Solicitation Activity Schedule"
     Caption = 'Procurement Activity Schedule';
     PageType = List;
     SourceTable = "Solicitation Activity Schedule";
+    ApplicationArea = All;
 
     layout
     {

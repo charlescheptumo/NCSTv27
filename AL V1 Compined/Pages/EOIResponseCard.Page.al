@@ -3,6 +3,7 @@ Page 75219 "EOI Response Card"
 {
     PageType = Card;
     SourceTable = "RFI Response";
+    ApplicationArea = All;
 
     layout
     {

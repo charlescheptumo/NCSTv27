@@ -4,6 +4,7 @@ Report 69082 "Payroll Reconciliation Details"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Payroll Reconciliation Details.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

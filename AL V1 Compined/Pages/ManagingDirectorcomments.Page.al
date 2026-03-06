@@ -4,6 +4,7 @@ Page 56236 "Managing Director comments"
     PageType = ListPart;
     SourceTable = "Appraisal Comments";
     SourceTableView = where(Type = filter("Managing Director"));
+    ApplicationArea = All;
 
     layout
     {

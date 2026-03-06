@@ -3,6 +3,7 @@ Page 59063 "Strategic Obj List"
 {
     PageType = List;
     SourceTable = "Strategies Objective";
+    ApplicationArea = All;
 
     layout
     {

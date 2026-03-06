@@ -6,6 +6,7 @@ Page 50076 "Store Requisition"
     PageType = Document;
     RefreshOnActivate = true;
     SourceTable = "Purchase Header";
+    ApplicationArea = All;
 
     layout
     {

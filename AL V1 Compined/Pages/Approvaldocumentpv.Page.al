@@ -5,6 +5,7 @@ Page 57114 "Approval document pv"
     PageType = Card;
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const("Payment Voucher"));
+    ApplicationArea = All;
 
     layout
     {

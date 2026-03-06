@@ -3,6 +3,7 @@ Page 75157 "Bid Opening Bidder Attendance"
 {
     PageType = List;
     SourceTable = "Bid Opening Bidder Attendance";
+    ApplicationArea = All;
 
     layout
     {

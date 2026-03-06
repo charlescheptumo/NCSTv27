@@ -3,6 +3,7 @@ Report 69010 "Update Loan Recovery"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Update Loan Recovery.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

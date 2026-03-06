@@ -6,6 +6,7 @@ Page 55013 "Published Board Meetings List"
     PageType = List;
     SourceTable = "Board Meetings1";
     SourceTableView = where(Published = filter(true));
+    ApplicationArea = All;
 
     layout
     {

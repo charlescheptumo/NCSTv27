@@ -3,6 +3,7 @@ Page 69180 "Disciplinary Cases"
 {
     PageType = List;
     SourceTable = "Disciplinary Cases";
+    ApplicationArea = All;
 
     layout
     {

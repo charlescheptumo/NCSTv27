@@ -3,6 +3,7 @@ Page 69209 "HR Leave Applications Factbox"
 {
     PageType = CardPart;
     SourceTable = Employee;
+    ApplicationArea = All;
 
     layout
     {

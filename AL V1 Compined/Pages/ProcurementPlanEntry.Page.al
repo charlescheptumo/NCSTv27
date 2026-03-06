@@ -3,6 +3,7 @@ Page 75012 "Procurement Plan Entry"
 {
     PageType = List;
     SourceTable = "Procurement Plan Entry";
+    ApplicationArea = All;
 
     layout
     {

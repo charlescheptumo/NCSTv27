@@ -3,6 +3,7 @@ Report 56200 "Customer Feedback"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Customer Feedback.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -7,6 +7,7 @@ Page 57015 "Approved Imprest Requisition"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const(Imprest),
                             Status = filter(Released));
+    ApplicationArea = All;
 
     layout
     {

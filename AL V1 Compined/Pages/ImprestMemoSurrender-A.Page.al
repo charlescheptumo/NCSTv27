@@ -7,6 +7,7 @@ Page 57091 "Imprest Memo Surrender-A"
     SourceTableView = where(Status = const(Released),
                             Posted = const(false),
                             "Document Type" = const("Imprest Surr Memo"));
+    ApplicationArea = All;
 
     layout
     {

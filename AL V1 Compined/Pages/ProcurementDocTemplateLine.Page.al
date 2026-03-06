@@ -4,6 +4,7 @@ Page 75025 "Procurement Doc Template Line"
     Caption = 'Procurement Document Template Line';
     PageType = List;
     SourceTable = "Procurement Doc Template Line";
+    ApplicationArea = All;
 
     layout
     {

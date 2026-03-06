@@ -5,6 +5,7 @@ Page 50059 "Service Items List"
     Editable = false;
     PageType = List;
     SourceTable = "Service Items";
+    ApplicationArea = All;
 
     layout
     {

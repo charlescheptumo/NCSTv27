@@ -4,6 +4,7 @@ Page 70127 "Awarded Quotation"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Procurement Request";
+    ApplicationArea = All;
 
     layout
     {

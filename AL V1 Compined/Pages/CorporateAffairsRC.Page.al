@@ -3,6 +3,7 @@ Page 56215 "Corporate Affairs  RC"
 {
     Caption = 'Role Center';
     PageType = RoleCenter;
+    ApplicationArea = All;
 
     layout
     {

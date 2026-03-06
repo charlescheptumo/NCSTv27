@@ -4,6 +4,7 @@ Page 59009 "Vehicle Model Card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Vehicle Model";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 69253 "HR Applicant Referees"
 {
     PageType = List;
     SourceTable = "HR Applicant Referees";
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75105 "Project Staff Template Line"
 {
     PageType = ListPart;
     SourceTable = "Project Staff Template Line";
+    ApplicationArea = All;
 
     layout
     {

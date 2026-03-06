@@ -5,6 +5,7 @@ Page 59074 "Directorates Planning  list"
     Editable = false;
     PageType = List;
     SourceTable = Planning;
+    ApplicationArea = All;
 
     layout
     {

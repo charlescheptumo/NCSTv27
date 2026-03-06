@@ -4,6 +4,7 @@ Report 69131 "Complaint Register"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Complaint Register.rdlc';
     UsageCategory = Lists;
+    ApplicationArea = All;
 
     dataset
     {

@@ -5,6 +5,7 @@ Page 69013 "Loan Applications"
     Editable = false;
     PageType = List;
     SourceTable = "Loan Application";
+    ApplicationArea = All;
 
     layout
     {

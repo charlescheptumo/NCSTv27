@@ -4,6 +4,7 @@ Page 70045 "Specially Permitted Procuremen"
     PageType = Card;
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const("Specially Permitted"));
+    ApplicationArea = All;
 
     layout
     {

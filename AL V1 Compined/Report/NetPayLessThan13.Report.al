@@ -4,6 +4,7 @@ Report 69081 "Net Pay Less Than 1/3"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Net Pay Less Than 13.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

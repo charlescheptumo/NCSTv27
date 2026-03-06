@@ -4,6 +4,7 @@ Page 56214 "Employee service Activities"
     Caption = 'Activities';
     PageType = CardPart;
     SourceTable = "Service Cue";
+    ApplicationArea = All;
 
     layout
     {

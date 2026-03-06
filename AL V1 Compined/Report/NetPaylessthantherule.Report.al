@@ -3,6 +3,7 @@ Report 89029 "Net Pay less than the rule"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Net Pay less than the rule.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

@@ -3,6 +3,7 @@ Page 75263 "Bid Evaluation Register Card"
 {
     PageType = Card;
     SourceTable = "Bid Evaluation Register";
+    ApplicationArea = All;
 
     layout
     {

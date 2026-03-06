@@ -4,6 +4,7 @@ Report 70021 "Tender Register"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Tender Register.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

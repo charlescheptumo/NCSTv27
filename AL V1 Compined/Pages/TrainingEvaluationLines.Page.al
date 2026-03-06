@@ -3,6 +3,7 @@ Page 69226 "Training Evaluation Lines"
 {
     PageType = ListPart;
     SourceTable = "Training Evaluation Lines";
+    ApplicationArea = All;
 
     layout
     {

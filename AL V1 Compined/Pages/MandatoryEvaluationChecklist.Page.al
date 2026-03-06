@@ -3,6 +3,7 @@ Page 70074 "Mandatory Evaluation Checklist"
 {
     PageType = List;
     SourceTable = "RFQ Evaluation Lists";
+    ApplicationArea = All;
 
     layout
     {

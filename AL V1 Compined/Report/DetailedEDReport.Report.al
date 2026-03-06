@@ -3,6 +3,7 @@ Report 69084 "Detailed E/D Report"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Detailed ED Report.rdlc';
+    ApplicationArea = All;
 
     dataset
     {
@@ -254,7 +255,7 @@ Report 69084 "Detailed E/D Report"
         ERROR('');
         */
 
-       //cc// ExcelBuf.CreateBookAndOpenExcel('Earn/Ded', Text002, Text001, COMPANYNAME, UserId);
+        //cc// ExcelBuf.CreateBookAndOpenExcel('Earn/Ded', Text002, Text001, COMPANYNAME, UserId);
         Error('');
 
     end;

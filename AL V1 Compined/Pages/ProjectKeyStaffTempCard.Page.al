@@ -3,6 +3,7 @@ Page 75104 "Project Key Staff Temp Card"
 {
     PageType = Card;
     SourceTable = "Project Key Staff Template";
+    ApplicationArea = All;
 
     layout
     {

@@ -6,6 +6,7 @@ Page 70104 "Asset Disposal Quotations List"
     PageType = List;
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const("Low Value"));
+    ApplicationArea = All;
 
     layout
     {

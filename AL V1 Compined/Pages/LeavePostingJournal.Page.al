@@ -6,6 +6,7 @@ Page 69167 "Leave Posting Journal"
     SourceTableView = sorting("Employee No", "Leave Code", "Posting  Date")
                       order(ascending)
                       where(Posted = const(false));
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 70024 "Tender Specifications"
 {
     PageType = List;
     SourceTable = "Tender Specifications";
+    ApplicationArea = All;
 
     layout
     {

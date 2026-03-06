@@ -3,6 +3,7 @@ Page 75144 "Bid Audited Balance Sheet"
 {
     PageType = List;
     SourceTable = "Bid Audited Balance Sheet";
+    ApplicationArea = All;
 
     layout
     {

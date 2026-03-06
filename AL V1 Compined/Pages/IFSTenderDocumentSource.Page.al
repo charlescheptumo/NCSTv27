@@ -3,6 +3,7 @@ Page 75125 "IFS Tender Document Source"
 {
     PageType = List;
     SourceTable = "IFS Tender Document Source";
+    ApplicationArea = All;
 
     layout
     {

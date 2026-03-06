@@ -4,6 +4,7 @@ Page 56025 "Applicant onboarding card"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Applicant onboarding Table";
+    ApplicationArea = All;
 
     layout
     {

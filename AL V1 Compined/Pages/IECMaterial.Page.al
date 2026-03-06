@@ -6,6 +6,7 @@ Page 50088 "IEC Material"
     PromotedActionCategories = 'New,Process,Report,Item,History,Special Prices & Discounts,Approve,Request Approval';
     RefreshOnActivate = true;
     SourceTable = Item;
+    ApplicationArea = All;
 
     layout
     {
@@ -1589,7 +1590,7 @@ Page 50088 "IEC Material"
 
                         trigger OnAction()
                         begin
-                      //cc//       Rec.ShowTimelineFromItem(Rec);
+                            //cc//       Rec.ShowTimelineFromItem(Rec);
                         end;
                     }
                 }
@@ -2024,7 +2025,7 @@ Page 50088 "IEC Material"
 
     trigger OnOpenPage()
     begin
-       //cc//  IsFoundationEnabled := ApplicationAreaSetup.IsFoundationEnabled;
+        //cc//  IsFoundationEnabled := ApplicationAreaSetup.IsFoundationEnabled;
         EnableControls;
     end;
 
@@ -2277,8 +2278,8 @@ Page 50088 "IEC Material"
             //cc//   end;
 
             // Enforce FIFO costing method for Foundation
-           //cc//  if ApplicationAreaSetup.IsFoundationEnabled then
-               //cc//  Item.Validate("Costing Method", Rec."costing method"::FIFO);
+            //cc//  if ApplicationAreaSetup.IsFoundationEnabled then
+            //cc//  Item.Validate("Costing Method", Rec."costing method"::FIFO);
 
             NewMode := false;
         end;

@@ -4,6 +4,7 @@ Report 69137 "Sacco Master report"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Sacco Master report.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

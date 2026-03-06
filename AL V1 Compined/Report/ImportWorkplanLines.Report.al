@@ -2,6 +2,7 @@
 Report 80000 "Import Workplan Lines"
 {
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
@@ -14,7 +15,7 @@ Report 80000 "Import Workplan Lines"
             trigger OnPreDataItem()
             begin
                 ExcelBuffer.LockTable;
-              //cc  ExcelBuffer.OpenBook(ServerFileName, SheetName);
+                //cc  ExcelBuffer.OpenBook(ServerFileName, SheetName);
                 ExcelBuffer.ReadSheet;
                 //getlastRowandColumnId;
 
@@ -56,10 +57,10 @@ Report 80000 "Import Workplan Lines"
             Text001: label 'Do you want to upload?';
         begin
             if CloseAction = Action::OK then begin
-               // ServerFileName := FIleManagement.UploadFile(Text001, ExcelExt);
+                // ServerFileName := FIleManagement.UploadFile(Text001, ExcelExt);
                 if ServerFileName = '' then
                     exit(false);
-             //   SheetName := ExcelBuffer.SelectSheetsName(ServerFileName);
+                //   SheetName := ExcelBuffer.SelectSheetsName(ServerFileName);
                 if SheetName = '' then
                     exit(true);
             end;

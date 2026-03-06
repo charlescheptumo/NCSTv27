@@ -9,6 +9,7 @@ Page 75067 "Purchase Requisition Subpage"
     PageType = ListPart;
     SourceTable = "Purchase Line";
     SourceTableView = where("Document Type" = filter("Purchase Requisition"));
+    ApplicationArea = All;
 
     layout
     {

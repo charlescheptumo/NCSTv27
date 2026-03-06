@@ -4,6 +4,7 @@ Report 69127 "Positions (Occupied)"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Positions (Occupied).rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

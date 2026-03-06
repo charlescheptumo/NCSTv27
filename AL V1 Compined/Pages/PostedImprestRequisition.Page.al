@@ -8,6 +8,7 @@ Page 57056 "Posted Imprest Requisition"
     SourceTable = Payments;
     SourceTableView = where("Payment Type" = const(Imprest),
                             Status = filter(Released));
+    ApplicationArea = All;
 
     layout
     {

@@ -3,6 +3,7 @@ Page 75039 "Vendor Staff Experience"
 {
     PageType = List;
     SourceTable = "Vendor Staff Experience";
+    ApplicationArea = All;
 
     layout
     {

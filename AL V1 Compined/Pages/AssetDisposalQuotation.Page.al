@@ -4,6 +4,7 @@ Page 70105 "Asset Disposal Quotation"
     PageType = Card;
     SourceTable = "Procurement Request";
     SourceTableView = where("Process Type" = const("Low Value"));
+    ApplicationArea = All;
 
     layout
     {

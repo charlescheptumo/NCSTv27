@@ -2,6 +2,7 @@
 Page 90002 "Board Member Card"
 {
     SourceTable = "Board Of Directors";
+    ApplicationArea = All;
 
     layout
     {

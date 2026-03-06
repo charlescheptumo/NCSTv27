@@ -4,6 +4,7 @@ Report 57017 "Imprest Register"
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Imprest Register.rdlc';
     UsageCategory = ReportsandAnalysis;
+    ApplicationArea = All;
 
     dataset
     {

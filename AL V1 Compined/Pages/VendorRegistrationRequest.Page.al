@@ -6,6 +6,7 @@ Page 75169 "Vendor Registration Request"
     PageType = ListPlus;
     PromotedActionCategories = 'New,Process,Report,Navigate';
     SourceTable = Contact;
+    ApplicationArea = All;
 
     layout
     {
@@ -528,7 +529,7 @@ Page 75169 "Vendor Registration Request"
 
                     trigger OnAction()
                     begin
-                         //cc//       Rec.ShowCustVendBank;
+                        //cc//       Rec.ShowCustVendBank;
                     end;
                 }
                 action("Online Map")

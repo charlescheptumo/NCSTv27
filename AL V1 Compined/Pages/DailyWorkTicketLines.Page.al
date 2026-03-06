@@ -3,6 +3,7 @@ Page 59016 "Daily Work Ticket Lines"
 {
     PageType = ListPart;
     SourceTable = "Daily Work Ticket Lines";
+    ApplicationArea = All;
 
     layout
     {

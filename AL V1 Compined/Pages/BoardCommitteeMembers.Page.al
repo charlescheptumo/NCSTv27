@@ -4,6 +4,7 @@ Page 55001 "Board Committee Members"
     CardPageID = "Committee Member Card";
     PageType = List;
     SourceTable = "Committee Board Members";
+    ApplicationArea = All;
 
     layout
     {

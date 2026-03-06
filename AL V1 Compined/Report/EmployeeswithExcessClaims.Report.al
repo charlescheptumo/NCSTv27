@@ -3,6 +3,7 @@ Report 69136 "Employees with Excess Claims"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Employees with Excess Claims.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

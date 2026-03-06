@@ -3,6 +3,7 @@ Page 56230 "Annual Appraisal Sup 2 Card"
 {
     PageType = Card;
     SourceTable = "Annual Appraisal";
+    ApplicationArea = All;
 
     layout
     {

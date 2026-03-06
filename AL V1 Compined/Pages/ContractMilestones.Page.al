@@ -3,6 +3,7 @@ Page 70054 "Contract Milestones"
 {
     PageType = List;
     SourceTable = "Contract Milestones";
+    ApplicationArea = All;
 
     layout
     {

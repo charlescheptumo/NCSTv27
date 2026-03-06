@@ -3,6 +3,7 @@ Page 69109 "Job Requirement Lines"
 {
     PageType = ListPart;
     SourceTable = "Job Requirementx";
+    ApplicationArea = All;
 
     layout
     {

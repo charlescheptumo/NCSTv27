@@ -4,6 +4,7 @@ Page 70017 "Procurement Plan Header"
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Procurement Header";
+    ApplicationArea = All;
 
     layout
     {

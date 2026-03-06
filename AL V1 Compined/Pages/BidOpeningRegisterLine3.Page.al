@@ -3,6 +3,7 @@ Page 70157 "Bid Opening Register Line3"
 {
     PageType = ListPart;
     SourceTable = "Bid Opening Register Lines2";
+    ApplicationArea = All;
 
     layout
     {

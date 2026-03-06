@@ -6,6 +6,7 @@ Page 65115 "Budget Plan Card-Original"
     PromotedActionCategories = 'New,Process,Report,Prices';
     RefreshOnActivate = true;
     SourceTable = "Project Budget Header";
+    ApplicationArea = All;
 
     layout
     {

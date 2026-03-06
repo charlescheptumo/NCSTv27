@@ -3,6 +3,7 @@ Page 59076 "Planning Setup"
 {
     PageType = Card;
     SourceTable = "Planning Setups";
+    ApplicationArea = All;
 
     layout
     {

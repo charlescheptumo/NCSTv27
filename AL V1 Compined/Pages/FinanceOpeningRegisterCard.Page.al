@@ -3,6 +3,7 @@ Page 75273 "Finance Opening Register Card"
 {
     PageType = Card;
     SourceTable = "Bid Opening Register";
+    ApplicationArea = All;
 
     layout
     {

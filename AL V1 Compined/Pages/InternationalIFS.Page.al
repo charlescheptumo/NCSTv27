@@ -6,6 +6,7 @@ Page 75212 "International IFS"
     PageType = List;
     SourceTable = "Standard Purchase Code";
     SourceTableView = where("Target Bidder Group" = const("International Bidders"));
+    ApplicationArea = All;
 
     layout
     {

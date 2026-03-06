@@ -3,6 +3,7 @@ Page 75116 "Proc Standing Committee Member"
 {
     PageType = ListPart;
     SourceTable = "Proc Standing Committee Member";
+    ApplicationArea = All;
 
     layout
     {

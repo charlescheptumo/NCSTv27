@@ -11,6 +11,7 @@ Page 50063 "Approved Stock Returns2"
                             Replenishment = const(false),
                             "Fully Issued" = const(false),
                             "Requisition Type" = const("Stock Return"));
+    ApplicationArea = All;
 
     layout
     {

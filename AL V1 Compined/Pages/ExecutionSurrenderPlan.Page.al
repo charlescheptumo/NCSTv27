@@ -3,6 +3,7 @@ Page 57086 "Execution Surrender Plan"
 {
     PageType = ListPart;
     SourceTable = "Execution Plan";
+    ApplicationArea = All;
 
     layout
     {

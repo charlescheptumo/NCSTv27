@@ -3,6 +3,7 @@ Page 69026 "Loan Repayment Schedule"
 {
     PageType = List;
     SourceTable = "Loan Repayment Schedule";
+    ApplicationArea = All;
 
     layout
     {

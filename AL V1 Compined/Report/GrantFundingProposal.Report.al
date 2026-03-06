@@ -3,6 +3,7 @@ Report 65021 "Grant Funding Proposal"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Layouts/Grant Funding Proposal.rdlc';
+    ApplicationArea = All;
 
     dataset
     {

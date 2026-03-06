@@ -3,6 +3,7 @@ Page 59119 "Registry File Entries"
 {
     PageType = List;
     SourceTable = "Registry File  Entry";
+    ApplicationArea = All;
 
     layout
     {

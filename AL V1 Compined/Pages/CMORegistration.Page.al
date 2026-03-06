@@ -3,6 +3,7 @@ Page 56056 "CMO Registration"
 {
     PageType = Card;
     SourceTable = "CMO Registration";
+    ApplicationArea = All;
 
     layout
     {
