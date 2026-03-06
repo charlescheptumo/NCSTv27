@@ -1,4 +1,4 @@
-#pragma warning disable AA0005, AA0008, AA0018, AA0021, AA0072, AA0137, AA0201, AA0204, AA0206, AA0218, AA0228, AL0254, AL0424, AS0011, AW0006 // ForNAV settings
+#pragma warning disable AA0005, AA0008, AA0018, AA0021, AA0072, AA0137, AA0201, AA0206, AA0218, AA0228, AL0254, AL0424, AW0006 // ForNAV settings
 Table 69656 "Application Qualification"
 {
     Caption = 'Applicant Qualification';
@@ -10,6 +10,11 @@ Table 69656 "Application Qualification"
             Caption = 'Candidate No.';
             NotBlank = true;
             TableRelation = Applicant;
+            trigger OnValidate()
+            begin
+                ApplicantQualification.Get("Candidate No.");
+                "Previous Salary" := ApplicantQualification."Previous Salary";
+            end;
         }
         field(2; "Line No."; Integer)
         {
@@ -19,7 +24,8 @@ Table 69656 "Application Qualification"
         field(3; "Qualification Code"; Code[50])
         {
             Caption = 'Qualification Code';
-            TableRelation = Qualification;// where(Field69600 = field("Qualification Category"));
+            //muga
+            //TableRelation = Qualification where("Qualification Category" = field("Qualification Category"));
 
             trigger OnValidate()
             begin
@@ -89,7 +95,7 @@ Table 69656 "Application Qualification"
         field(16; "Specialized Domain Area"; Code[30])
         {
             DataClassification = ToBeClassified;
-            //    TableRelation = Table69618;
+            TableRelation = "Domain Area";
         }
         field(17; "Qualification Category"; Option)
         {
@@ -104,7 +110,7 @@ Table 69656 "Application Qualification"
         field(19; "Application No."; Code[30])
         {
             DataClassification = ToBeClassified;
-            // TableRelation = Table69646;
+            TableRelation = "Job Applications";
         }
         field(22; "Education Level"; Option)
         {
@@ -155,7 +161,7 @@ Table 69656 "Application Qualification"
             DataClassification = ToBeClassified;
             OptionCaption = ' ,Permanent and Pensionable,Contract,Casual,Internship';
             OptionMembers = " ","Permanent and Pensionable",Contract,Casual,Internship;
-            // TableRelation = Table69617;
+            TableRelation = "Terms of Service";
         }
         field(33; "Experience Years"; Text[30])
         {
@@ -168,6 +174,13 @@ Table 69656 "Application Qualification"
         field(35; "Proffessional Qualification"; Text[250])
         {
             DataClassification = ToBeClassified;
+        }
+        field(36; "Previous Salary"; Integer)
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "Job Applicants Qualification" where("Candidate No." = field("Candidate No."));
+
+
         }
     }
 
@@ -193,4 +206,6 @@ Table 69656 "Application Qualification"
         Text000: label 'You cannot delete employee qualification information if there are comments associated with it.';
         Qualification: Record Qualification;
         Employee: Record Employee;
+        ApplicantQualification: Record "Job Applicants Qualification";
 }
+
