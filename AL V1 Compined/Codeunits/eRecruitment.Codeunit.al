@@ -1618,6 +1618,7 @@ Codeunit 50101 eRecruitment
     //     end;
 
     // end;
+    
 
     // procedure FnCreateCandidateDocumentsLink(applicantNo: Code[50]; ApplicationNo: Code[50]; FileName: Text; FileLink: Text) status: Text
     // var
