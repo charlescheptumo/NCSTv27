@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>1b9496b1-f830-45d7-ae85-aff6729dc41a</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Textbox Name="Textbox2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">Customer Feedback Form</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>Underline</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">Thank you for visiting the Kenya Medical Research Institute (KEMRI). We value all our customers and strive to meet everyone's needs. This Customer Service Feedback Form is used to gauge your level of satisfaction with the quality of products/services we provide. Please take a few moments to review and complete the form. You may return it immediately to the Customer Information Desk Officer(s)or choose to post on e-mail </Value>
+                    <Style>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">corporate@kemri.org</Value>
+                    <Style>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>Underline</TextDecoration>
+                      <Color>DarkBlue</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value EvaluationMode="Auto"> or by fax to</Value>
+                    <Style>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto"> 254-020 720030</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox2</rd:DefaultName>
+            <Top>0.30461in</Top>
+            <Left>0.35639in</Left>
+            <Height>0.9375in</Height>
+            <Width>9.82639in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox3">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">1. Department Visited.......................................... Date:....................</Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Label>Date</Label>
+                    <Value EvaluationMode="Auto">=First(Fields!Datecreated_CustomerFeedbackS.Value, "DataSet_Result")</Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">........................................Gender:...................................................................</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Label>Gender</Label>
+                    <Value EvaluationMode="Auto">=First(Fields!Gender_CustomerFeedbackS.Value, "DataSet_Result")</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto" />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto" />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">2. Which Organization do you represent..................</Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Label>Organization</Label>
+                    <Value EvaluationMode="Auto">=First(Fields!Organization_CustomerFeedbackS.Value, "DataSet_Result")</Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">..............................Email ..................</Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Label>email</Label>
+                    <Value EvaluationMode="Auto">=First(Fields!Email_CustomerFeedbackS.Value, "DataSet_Result")</Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">....................... </Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">Tel:........................</Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Label>Phone</Label>
+                    <Value EvaluationMode="Auto">=First(Fields!PhoneNo_CustomerFeedbackS.Value, "DataSet_Result")</Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">...........................</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>1.37406in</Top>
+            <Left>0.35639in</Left>
+            <Height>1.0565in</Height>
+            <Width>9.82639in</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>2.43056in</Height>
+        <Style />
+      </Body>
+      <Width>10.58333in</Width>
+      <Page>
+        <PageHeader>
+          <Height>1.3365in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Image Name="Image1">
+              <Source>Database</Source>
+              <Value>=First(Fields!Picture.Value, "DataSet_Result")</Value>
+              <MIMEType>image/bmp</MIMEType>
+              <Sizing>Fit</Sizing>
+              <Top>0cm</Top>
+              <Left>11.51614cm</Left>
+              <Height>2.38689cm</Height>
+              <Width>3.84938cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+              </Style>
+            </Image>
+            <Textbox Name="Textbox1">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value EvaluationMode="Auto">In Search of Better Health</Value>
+                      <Style>
+                        <FontStyle>Italic</FontStyle>
+                        <Color>Brown</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox1</rd:DefaultName>
+              <Top>1.00917in</Top>
+              <Left>4.16889in</Left>
+              <Height>0.25in</Height>
+              <Width>2.25in</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>1in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="ReportForNavId_1">
+          <DataField>ReportForNavId_1</DataField>
+        </Field>
+        <Field Name="Picture">
+          <DataField>Picture</DataField>
+        </Field>
+        <Field Name="Address_1">
+          <DataField>Address_1</DataField>
+        </Field>
+        <Field Name="Address_2">
+          <DataField>Address_2</DataField>
+        </Field>
+        <Field Name="City">
+          <DataField>City</DataField>
+        </Field>
+        <Field Name="Phone_No">
+          <DataField>Phone_No</DataField>
+        </Field>
+        <Field Name="Phone_No2">
+          <DataField>Phone_No2</DataField>
+        </Field>
+        <Field Name="No_CustomerFeedbackS">
+          <DataField>No_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="CustomerName_CustomerFeedbackS">
+          <DataField>CustomerName_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="FeedbackDate_CustomerFeedbackS">
+          <DataField>FeedbackDate_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Description_CustomerFeedbackS">
+          <DataField>Description_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Action_CustomerFeedbackS">
+          <DataField>Action_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="CreatedBy_CustomerFeedbackS">
+          <DataField>CreatedBy_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Datecreated_CustomerFeedbackS">
+          <DataField>Datecreated_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Timecreated_CustomerFeedbackS">
+          <DataField>Timecreated_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="NoSeries_CustomerFeedbackS">
+          <DataField>NoSeries_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Gender_CustomerFeedbackS">
+          <DataField>Gender_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Age_CustomerFeedbackS">
+          <DataField>Age_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Age_CustomerFeedbackSFormat">
+          <DataField>Age_CustomerFeedbackSFormat</DataField>
+        </Field>
+        <Field Name="Organization_CustomerFeedbackS">
+          <DataField>Organization_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Email_CustomerFeedbackS">
+          <DataField>Email_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="PhoneNo_CustomerFeedbackS">
+          <DataField>PhoneNo_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Reception_CustomerFeedbackS">
+          <DataField>Reception_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="PromptServices_CustomerFeedbackS">
+          <DataField>PromptServices_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="ReceptionFacilities_CustomerFeedbackS">
+          <DataField>ReceptionFacilities_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Professionalism_CustomerFeedbackS">
+          <DataField>Professionalism_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="GeneralPresentation_CustomerFeedbackS">
+          <DataField>GeneralPresentation_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Efficiency_CustomerFeedbackS">
+          <DataField>Efficiency_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Quality_CustomerFeedbackS">
+          <DataField>Quality_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Knowledge_CustomerFeedbackS">
+          <DataField>Knowledge_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="RecommendationLikelihood_CustomerFeedbackS">
+          <DataField>RecommendationLikelihood_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="ServicesSought_CustomerFeedbackS">
+          <DataField>ServicesSought_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="AnyProblems_CustomerFeedbackS">
+          <DataField>AnyProblems_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Overallsatisfaction_CustomerFeedbackS">
+          <DataField>Overallsatisfaction_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Comments_CustomerFeedbackS">
+          <DataField>Comments_CustomerFeedbackS</DataField>
+        </Field>
+        <Field Name="Improvement_CustomerFeedbackS">
+          <DataField>Improvement_CustomerFeedbackS</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

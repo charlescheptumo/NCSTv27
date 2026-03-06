@@ -1,0 +1,45 @@
+#pragma warning disable AA0005, AA0008, AA0018, AA0021, AA0072, AA0137, AA0201, AA0204, AA0206, AA0218, AA0228, AL0254, AL0424, AS0011, AW0006 // ForNAV settings
+Page 90006 "Agenda Lines"
+{
+    PageType = ListPart;
+    SourceTable = "Agenda Lines";
+    SourceTableView = order(ascending);
+
+    layout
+    {
+        area(content)
+        {
+            repeater(Control2)
+            {
+                field("Board Meeting No"; Rec."Board Meeting No")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Agenda No"; Rec."Agenda No")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Agenda Item"; Rec."Agenda Item")
+                {
+                    ApplicationArea = Basic;
+                }
+                field(Responsibility; Rec.Responsibility)
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Action taken"; Rec."Action taken")
+                {
+                    ApplicationArea = Basic;
+                }
+                field(Comments; Rec.Comments)
+                {
+                    ApplicationArea = Basic;
+                }
+            }
+        }
+    }
+
+    actions
+    {
+    }
+}

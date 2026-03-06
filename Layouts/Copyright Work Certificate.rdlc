@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Rectangle Name="Rectangle1">
+            <ReportItems>
+              <Textbox Name="Textbox1">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>CR 001</Value>
+                        <Style>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox1</rd:DefaultName>
+                <Top>0.58333in</Top>
+                <Left>5.76043in</Left>
+                <Height>0.25in</Height>
+                <Width>1in</Width>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox2">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>CERTIFICATE OF
+REGISTRATION OF A COPYRIGHT WORK
+</Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Algerian</FontFamily>
+                          <FontSize>18pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox2</rd:DefaultName>
+                <Top>1.08332in</Top>
+                <Height>1in</Height>
+                <Width>6.83334in</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox3">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>It is hereby certified that a Copyright Work in the </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=Fields!CopyrightCategoryDescription_ServiceItem.Value</Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>category, entitled </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=Fields!CopyrightTitle_ServiceItem.Value</Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>and numbered </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=Fields!No_ServiceItem.Value</Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>, has been registered in the name of </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=Fields!Name_ServiceItem.Value</Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value> of </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=Fields!Address_ServiceItem.Value</Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=Fields!City_ServiceItem.Value</Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Baskerville Old Face</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox3</rd:DefaultName>
+                <Top>2.37499in</Top>
+                <Height>2.06251in</Height>
+                <Width>6.91667in</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Line Name="Line1">
+                <Top>1.89582in</Top>
+                <Left>0.20833in</Left>
+                <Height>0in</Height>
+                <Width>6.62501in</Width>
+                <ZIndex>3</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>Solid</Style>
+                  </Border>
+                </Style>
+              </Line>
+              <Textbox Name="Textbox4">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Dated at Nairobi, </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Century</FontFamily>
+                          <FontSize>21pt</FontSize>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=Fields!DateofFixationReduction_ServiceItem.Value</Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontFamily>Century</FontFamily>
+                          <FontSize>21pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <Format>dd MMMM yyyy</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox4</rd:DefaultName>
+                <Top>5.70832in</Top>
+                <Left>0.05209in</Left>
+                <Height>0.51042in</Height>
+                <Width>6.78125in</Width>
+                <ZIndex>4</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Image Name="Image1">
+                <Source>Database</Source>
+                <Value>=First(Fields!CompanyinfoPicture.Value, "DataSet_Result")</Value>
+                <MIMEType>image/bmp</MIMEType>
+                <Sizing>FitProportional</Sizing>
+                <Top>7.02083in</Top>
+                <Left>0.56251in</Left>
+                <Height>1.125in</Height>
+                <Width>1.5in</Width>
+                <ZIndex>5</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Textbox Name="Textbox5">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontFamily>Segoe UI</FontFamily>
+                          <FontSize>12pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontFamily>Segoe UI</FontFamily>
+                          <FontSize>12pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>........................................................</Value>
+                        <Style>
+                          <FontFamily>Segoe UI</FontFamily>
+                          <FontSize>12pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Executive Director</Value>
+                        <Style>
+                          <FontFamily>Century</FontFamily>
+                          <FontSize>14pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>The Kenya Copyright Board</Value>
+                        <Style>
+                          <FontFamily>Century</FontFamily>
+                          <FontSize>14pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox5</rd:DefaultName>
+                <Top>7.04166in</Top>
+                <Left>4.60417in</Left>
+                <Height>1.22917in</Height>
+                <Width>2.22917in</Width>
+                <ZIndex>6</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox6">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Seal of the Board</Value>
+                        <Style>
+                          <FontFamily>Century</FontFamily>
+                          <FontSize>14pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox6</rd:DefaultName>
+                <Top>8.40625in</Top>
+                <Left>0.32293in</Left>
+                <Height>0.25in</Height>
+                <Width>1.86458in</Width>
+                <ZIndex>7</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+            </ReportItems>
+            <KeepTogether>true</KeepTogether>
+            <Top>0.79043in</Top>
+            <Left>0.67583in</Left>
+            <Height>10.13541in</Height>
+            <Width>6.95958in</Width>
+            <Style>
+              <Border>
+                <Style>Double</Style>
+                <Width>4.5pt</Width>
+              </Border>
+              <TopBorder>
+                <Color>Black</Color>
+                <Style>Double</Style>
+                <Width>4.5pt</Width>
+              </TopBorder>
+              <BottomBorder>
+                <Color>Black</Color>
+                <Style>Double</Style>
+                <Width>4.5pt</Width>
+              </BottomBorder>
+              <LeftBorder>
+                <Color>Black</Color>
+                <Style>Double</Style>
+                <Width>4.5pt</Width>
+              </LeftBorder>
+              <RightBorder>
+                <Color>Black</Color>
+                <Style>Double</Style>
+                <Width>4.5pt</Width>
+              </RightBorder>
+            </Style>
+          </Rectangle>
+        </ReportItems>
+        <Height>11.66542in</Height>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Body>
+      <Width>8.20833in</Width>
+      <Page>
+        <PageHeight>11.69in</PageHeight>
+        <PageWidth>8.27in</PageWidth>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="ReportForNavId_1">
+          <DataField>ReportForNavId_1</DataField>
+        </Field>
+        <Field Name="CompanyinfoName">
+          <DataField>CompanyinfoName</DataField>
+        </Field>
+        <Field Name="CompanyinfoPicture">
+          <DataField>CompanyinfoPicture</DataField>
+        </Field>
+        <Field Name="CompanyinfoRubberStamp">
+          <DataField>CompanyinfoRubberStamp</DataField>
+        </Field>
+        <Field Name="Description_ServiceItem">
+          <DataField>Description_ServiceItem</DataField>
+        </Field>
+        <Field Name="Description2_ServiceItem">
+          <DataField>Description2_ServiceItem</DataField>
+        </Field>
+        <Field Name="Type_ServiceItem">
+          <DataField>Type_ServiceItem</DataField>
+        </Field>
+        <Field Name="CustomerType_ServiceItem">
+          <DataField>CustomerType_ServiceItem</DataField>
+        </Field>
+        <Field Name="CompanyRegNo_ServiceItem">
+          <DataField>CompanyRegNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="IDNo_ServiceItem">
+          <DataField>IDNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="PIN_ServiceItem">
+          <DataField>PIN_ServiceItem</DataField>
+        </Field>
+        <Field Name="Title_ServiceItem">
+          <DataField>Title_ServiceItem</DataField>
+        </Field>
+        <Field Name="Capturedby_ServiceItem">
+          <DataField>Capturedby_ServiceItem</DataField>
+        </Field>
+        <Field Name="Created_ServiceItem">
+          <DataField>Created_ServiceItem</DataField>
+        </Field>
+        <Field Name="RegistrationDate_ServiceItem">
+          <DataField>RegistrationDate_ServiceItem</DataField>
+        </Field>
+        <Field Name="CreatedBy_ServiceItem">
+          <DataField>CreatedBy_ServiceItem</DataField>
+        </Field>
+        <Field Name="CopyrightTitle_ServiceItem">
+          <DataField>CopyrightTitle_ServiceItem</DataField>
+        </Field>
+        <Field Name="CopyrightWorkCategory_ServiceItem">
+          <DataField>CopyrightWorkCategory_ServiceItem</DataField>
+        </Field>
+        <Field Name="CopyrightWorkSubCategory_ServiceItem">
+          <DataField>CopyrightWorkSubCategory_ServiceItem</DataField>
+        </Field>
+        <Field Name="CopyrightCategoryDescription_ServiceItem">
+          <DataField>CopyrightCategoryDescription_ServiceItem</DataField>
+        </Field>
+        <Field Name="CopyrightSubCategoryDesc_ServiceItem">
+          <DataField>CopyrightSubCategoryDesc_ServiceItem</DataField>
+        </Field>
+        <Field Name="DateofFixationReduction_ServiceItem">
+          <DataField>DateofFixationReduction_ServiceItem</DataField>
+        </Field>
+        <Field Name="Language_ServiceItem">
+          <DataField>Language_ServiceItem</DataField>
+        </Field>
+        <Field Name="CopyrightWorkAbstract_ServiceItem">
+          <DataField>CopyrightWorkAbstract_ServiceItem</DataField>
+        </Field>
+        <Field Name="AgentFirstName_ServiceItem">
+          <DataField>AgentFirstName_ServiceItem</DataField>
+        </Field>
+        <Field Name="AgentSurname_ServiceItem">
+          <DataField>AgentSurname_ServiceItem</DataField>
+        </Field>
+        <Field Name="AgentMiddleName_ServiceItem">
+          <DataField>AgentMiddleName_ServiceItem</DataField>
+        </Field>
+        <Field Name="AgentAddress_ServiceItem">
+          <DataField>AgentAddress_ServiceItem</DataField>
+        </Field>
+        <Field Name="AgentAddress2_ServiceItem">
+          <DataField>AgentAddress2_ServiceItem</DataField>
+        </Field>
+        <Field Name="AgentCity_ServiceItem">
+          <DataField>AgentCity_ServiceItem</DataField>
+        </Field>
+        <Field Name="AgentContact_ServiceItem">
+          <DataField>AgentContact_ServiceItem</DataField>
+        </Field>
+        <Field Name="AgentPhoneNo_ServiceItem">
+          <DataField>AgentPhoneNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="AgentIDNo_ServiceItem">
+          <DataField>AgentIDNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="AgentPIN_ServiceItem">
+          <DataField>AgentPIN_ServiceItem</DataField>
+        </Field>
+        <Field Name="AuthorFirstName_ServiceItem">
+          <DataField>AuthorFirstName_ServiceItem</DataField>
+        </Field>
+        <Field Name="AuthorAgentSurname_ServiceItem">
+          <DataField>AuthorAgentSurname_ServiceItem</DataField>
+        </Field>
+        <Field Name="AuthorMiddleName_ServiceItem">
+          <DataField>AuthorMiddleName_ServiceItem</DataField>
+        </Field>
+        <Field Name="AuthorAddress_ServiceItem">
+          <DataField>AuthorAddress_ServiceItem</DataField>
+        </Field>
+        <Field Name="AuthorAddress2_ServiceItem">
+          <DataField>AuthorAddress2_ServiceItem</DataField>
+        </Field>
+        <Field Name="AuthorCity_ServiceItem">
+          <DataField>AuthorCity_ServiceItem</DataField>
+        </Field>
+        <Field Name="AuthorContact_ServiceItem">
+          <DataField>AuthorContact_ServiceItem</DataField>
+        </Field>
+        <Field Name="AuthorPhoneNo_ServiceItem">
+          <DataField>AuthorPhoneNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="AuthorIDNo_ServiceItem">
+          <DataField>AuthorIDNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="AuthorPIN_ServiceItem">
+          <DataField>AuthorPIN_ServiceItem</DataField>
+        </Field>
+        <Field Name="ProdPubName_ServiceItem">
+          <DataField>ProdPubName_ServiceItem</DataField>
+        </Field>
+        <Field Name="ProdPubIDNoCompanyRegNo_ServiceItem">
+          <DataField>ProdPubIDNoCompanyRegNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="ProdPubPIN_ServiceItem">
+          <DataField>ProdPubPIN_ServiceItem</DataField>
+        </Field>
+        <Field Name="AssignmentLicenseDate_ServiceItem">
+          <DataField>AssignmentLicenseDate_ServiceItem</DataField>
+        </Field>
+        <Field Name="V1stCountryofProduction_ServiceItem">
+          <DataField>V1stCountryofProduction_ServiceItem</DataField>
+        </Field>
+        <Field Name="ISBN_ServiceItem">
+          <DataField>ISBN_ServiceItem</DataField>
+        </Field>
+        <Field Name="ProductionCategory_ServiceItem">
+          <DataField>ProductionCategory_ServiceItem</DataField>
+        </Field>
+        <Field Name="ProdPubPhoneNo_ServiceItem">
+          <DataField>ProdPubPhoneNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="ProdPubEmail_ServiceItem">
+          <DataField>ProdPubEmail_ServiceItem</DataField>
+        </Field>
+        <Field Name="ApplicantAccount_ServiceItem">
+          <DataField>ApplicantAccount_ServiceItem</DataField>
+        </Field>
+        <Field Name="ReceiptNo_ServiceItem">
+          <DataField>ReceiptNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="ReceiptAmount_ServiceItem">
+          <DataField>ReceiptAmount_ServiceItem</DataField>
+        </Field>
+        <Field Name="ReceiptAmount_ServiceItemFormat">
+          <DataField>ReceiptAmount_ServiceItemFormat</DataField>
+        </Field>
+        <Field Name="PayemntReferenceNo_ServiceItem">
+          <DataField>PayemntReferenceNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="No_ServiceItem">
+          <DataField>No_ServiceItem</DataField>
+        </Field>
+        <Field Name="SerialNo_ServiceItem">
+          <DataField>SerialNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="Name_ServiceItem">
+          <DataField>Name_ServiceItem</DataField>
+        </Field>
+        <Field Name="Address_ServiceItem">
+          <DataField>Address_ServiceItem</DataField>
+        </Field>
+        <Field Name="Address2_ServiceItem">
+          <DataField>Address2_ServiceItem</DataField>
+        </Field>
+        <Field Name="PhoneNo_ServiceItem">
+          <DataField>PhoneNo_ServiceItem</DataField>
+        </Field>
+        <Field Name="City_ServiceItem">
+          <DataField>City_ServiceItem</DataField>
+        </Field>
+        <Field Name="userSignature">
+          <DataField>userSignature</DataField>
+        </Field>
+        <Field Name="regDate">
+          <DataField>regDate</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

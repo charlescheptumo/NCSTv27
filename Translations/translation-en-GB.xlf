@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-GB" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2898742243 - NamedType 1952667054" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Individuals</source>
+          <target>Individuals</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Applicant onboarding Table - NamedType Individuals</note>
+        </trans-unit>
+        <trans-unit id="Table 413670513 - Field 513339096 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open,Pending Approval,Released,Canceled,Rejected</source>
+          <target>New,Archived,Released</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Procurement Request - Field Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 3446476983 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot award more than one Supplier, Supplier %1 has already been awarded</source>
+          <target>You cannot award more than one Supplier, Supplier %1 has already been awarded</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Supplier Selection1 - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Table 296604956 - Field 1878130204 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Non Stock,Item,Asset,Maintenance</source>
+          <target> ,G/L Account,Item</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Requisition Lines1 - Field Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1033783826 - Field 1878130204 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Non Stock,Item,Asset,Maintenance</source>
+          <target> ,G/L Account,Item</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Disposal Requisition Lines - Field Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 628333776 - NamedType 1161008230" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Drag n' Drop not supported on %1</source>
+          <target>Drag n' Drop not supported on %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NavXtenderAddLink - NamedType ltcUnsupportedCardError</note>
+        </trans-unit>
+        <trans-unit id="Page 3792433812 - Control 1654273938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employment Info</source>
+          <target>Employment Info</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Complaints Card - Control Employment Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2966553608 - Control 1654273938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employment Info</source>
+          <target>Employment Info</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Escalated Complaints Card - Control Employment Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3767052022 - Control 1654273938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employment Info</source>
+          <target>Employment Info</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Closed Complaints Card - Control Employment Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2455715804 - Control 1654273938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employment Info</source>
+          <target>Employment Info</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Resolved Complaints Card - Control Employment Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2779067000 - Control 1654273938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employment Info</source>
+          <target>Employment Info</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Crm log card - Control Employment Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1953736173 - Control 1654273938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employment Info</source>
+          <target>Employment Info</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cases Card - Control Employment Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2799639469 - Control 1654273938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employment Info</source>
+          <target>Employment Info</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cases Assigned card - Control Employment Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3786039087 - Control 1654273938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employment Info</source>
+          <target>Employment Info</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Potential Opportunity Card - Control Employment Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523865684 - Control 1654273938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employment Info</source>
+          <target>Employment Info</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Lead card - Control Employment Info - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

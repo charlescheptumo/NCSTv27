@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="tr-TR" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="TableExtension 1159850793 - Field 3487389225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use SSL</source>
+          <target>SSL Kullan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension0 - Field Use SSL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1159850793 - Field 3455630760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Server Port</source>
+          <target>Sunucu Bağlatı Noktası</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension0 - Field Server Port - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1159850793 - Field 2043757855 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Connection Timeout</source>
+          <target>Bağlantı Süre Aşımı</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension0 - Field Connection Timeout - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

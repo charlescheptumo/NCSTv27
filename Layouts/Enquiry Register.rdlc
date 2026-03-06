@@ -1,0 +1,1288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>250b60fc-9613-416e-a2ad-259967fa2b31</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Image Name="Image1">
+            <Source>Database</Source>
+            <Value>=First(Fields!Logo.Value, "DataSet_Result")</Value>
+            <MIMEType>image/jpeg</MIMEType>
+            <Sizing>FitProportional</Sizing>
+            <Left>3.905in</Left>
+            <Height>1.09375in</Height>
+            <Width>1.39583in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Image>
+          <Textbox Name="Textbox1">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">=First(Fields!Name.Value, "DataSet_Result")</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>Underline</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <Top>1.2175in</Top>
+            <Height>0.25in</Height>
+            <Width>8.98833in</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">ENQUIRY REGISTER</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>Underline</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox2</rd:DefaultName>
+            <Top>1.62375in</Top>
+            <Height>0.25in</Height>
+            <Width>8.98833in</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.32292in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.5625in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox3">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">Enquiry No</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox3</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox5">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">Received From</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox5</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox7">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">Description</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox7</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox9">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">Assigned Officer</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox9</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox11">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">Status</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox11</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox17">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">Date Received</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox17</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox13">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">Date Closed</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox13</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="EnquiryNumber_CasesManagement">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">=Fields!EnquiryNumber_CasesManagement.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>EnquiryNumber_CasesManagement</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="ReceivedFrom_CasesManagement">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">=Fields!ReceivedFrom_CasesManagement.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>ReceivedFrom_CasesManagement</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox8">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">=Fields!CaseDescription_CasesManagement.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox8</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox10">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">=Fields!AssignedOfficerName_CasesManagement.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox10</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Status_CasesManagement">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">=Fields!Status_CasesManagement.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Status_CasesManagement</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox18">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">=Fields!DateofComplaint_CasesManagement.Value</Value>
+                                  <Style>
+                                    <Format>d</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox18</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox14">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">=Fields!DateResolved_CasesManagement.Value</Value>
+                                  <Style>
+                                    <Format>d</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox14</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                </TablixMember>
+                <TablixMember>
+                  <Group Name="Details" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet_Result</DataSetName>
+            <Top>2.0925in</Top>
+            <Left>0.10292in</Left>
+            <Height>0.5in</Height>
+            <Width>8.88542in</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+        </ReportItems>
+        <Height>2.73958in</Height>
+        <Style />
+      </Body>
+      <Width>8.98834in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="ReportForNavId_1">
+          <DataField>ReportForNavId_1</DataField>
+        </Field>
+        <Field Name="Name">
+          <DataField>Name</DataField>
+        </Field>
+        <Field Name="Logo">
+          <DataField>Logo</DataField>
+        </Field>
+        <Field Name="EnquiryNumber_CasesManagement">
+          <DataField>EnquiryNumber_CasesManagement</DataField>
+        </Field>
+        <Field Name="DateofComplaint_CasesManagement">
+          <DataField>DateofComplaint_CasesManagement</DataField>
+        </Field>
+        <Field Name="Typeofcases_CasesManagement">
+          <DataField>Typeofcases_CasesManagement</DataField>
+        </Field>
+        <Field Name="RecommendedAction_CasesManagement">
+          <DataField>RecommendedAction_CasesManagement</DataField>
+        </Field>
+        <Field Name="CaseDescription_CasesManagement">
+          <DataField>CaseDescription_CasesManagement</DataField>
+        </Field>
+        <Field Name="Accuser_CasesManagement">
+          <DataField>Accuser_CasesManagement</DataField>
+        </Field>
+        <Field Name="Resource1_CasesManagement">
+          <DataField>Resource1_CasesManagement</DataField>
+        </Field>
+        <Field Name="Resource2_CasesManagement">
+          <DataField>Resource2_CasesManagement</DataField>
+        </Field>
+        <Field Name="ActionTaken_CasesManagement">
+          <DataField>ActionTaken_CasesManagement</DataField>
+        </Field>
+        <Field Name="DateToSettleCase_CasesManagement">
+          <DataField>DateToSettleCase_CasesManagement</DataField>
+        </Field>
+        <Field Name="DocumentLink_CasesManagement">
+          <DataField>DocumentLink_CasesManagement</DataField>
+        </Field>
+        <Field Name="SolutionRemarks_CasesManagement">
+          <DataField>SolutionRemarks_CasesManagement</DataField>
+        </Field>
+        <Field Name="Comments_CasesManagement">
+          <DataField>Comments_CasesManagement</DataField>
+        </Field>
+        <Field Name="CaseSolved_CasesManagement">
+          <DataField>CaseSolved_CasesManagement</DataField>
+        </Field>
+        <Field Name="BodyHandlingTheComplaint_CasesManagement">
+          <DataField>BodyHandlingTheComplaint_CasesManagement</DataField>
+        </Field>
+        <Field Name="Recomendations_CasesManagement">
+          <DataField>Recomendations_CasesManagement</DataField>
+        </Field>
+        <Field Name="Implications_CasesManagement">
+          <DataField>Implications_CasesManagement</DataField>
+        </Field>
+        <Field Name="SupportDocuments_CasesManagement">
+          <DataField>SupportDocuments_CasesManagement</DataField>
+        </Field>
+        <Field Name="PolicyGuidlinesInEffect_CasesManagement">
+          <DataField>PolicyGuidlinesInEffect_CasesManagement</DataField>
+        </Field>
+        <Field Name="Status_CasesManagement">
+          <DataField>Status_CasesManagement</DataField>
+        </Field>
+        <Field Name="ModeofLodgingtheComplaint_CasesManagement">
+          <DataField>ModeofLodgingtheComplaint_CasesManagement</DataField>
+        </Field>
+        <Field Name="NoSeries_CasesManagement">
+          <DataField>NoSeries_CasesManagement</DataField>
+        </Field>
+        <Field Name="ResourceAssigned_CasesManagement">
+          <DataField>ResourceAssigned_CasesManagement</DataField>
+        </Field>
+        <Field Name="Selected_CasesManagement">
+          <DataField>Selected_CasesManagement</DataField>
+        </Field>
+        <Field Name="ClosedBy_CasesManagement">
+          <DataField>ClosedBy_CasesManagement</DataField>
+        </Field>
+        <Field Name="CallerRefferedTo_CasesManagement">
+          <DataField>CallerRefferedTo_CasesManagement</DataField>
+        </Field>
+        <Field Name="ReceivedFrom_CasesManagement">
+          <DataField>ReceivedFrom_CasesManagement</DataField>
+        </Field>
+        <Field Name="DateSent_CasesManagement">
+          <DataField>DateSent_CasesManagement</DataField>
+        </Field>
+        <Field Name="TimeSent_CasesManagement">
+          <DataField>TimeSent_CasesManagement</DataField>
+        </Field>
+        <Field Name="SentBy_CasesManagement">
+          <DataField>SentBy_CasesManagement</DataField>
+        </Field>
+        <Field Name="SLA_CasesManagement">
+          <DataField>SLA_CasesManagement</DataField>
+        </Field>
+        <Field Name="CaseReceivedDate_CasesManagement">
+          <DataField>CaseReceivedDate_CasesManagement</DataField>
+        </Field>
+        <Field Name="ResponsibilityCenter_CasesManagement">
+          <DataField>ResponsibilityCenter_CasesManagement</DataField>
+        </Field>
+        <Field Name="FOSAAccount_CasesManagement">
+          <DataField>FOSAAccount_CasesManagement</DataField>
+        </Field>
+        <Field Name="AccountName_CasesManagement">
+          <DataField>AccountName_CasesManagement</DataField>
+        </Field>
+        <Field Name="LoanNo_CasesManagement">
+          <DataField>LoanNo_CasesManagement</DataField>
+        </Field>
+        <Field Name="ReceiveUser_CasesManagement">
+          <DataField>ReceiveUser_CasesManagement</DataField>
+        </Field>
+        <Field Name="Receivedate_CasesManagement">
+          <DataField>Receivedate_CasesManagement</DataField>
+        </Field>
+        <Field Name="ReceiveTime_CasesManagement">
+          <DataField>ReceiveTime_CasesManagement</DataField>
+        </Field>
+        <Field Name="ResolvedUser_CasesManagement">
+          <DataField>ResolvedUser_CasesManagement</DataField>
+        </Field>
+        <Field Name="ResolvedDate_CasesManagement">
+          <DataField>ResolvedDate_CasesManagement</DataField>
+        </Field>
+        <Field Name="ResolvedTime_CasesManagement">
+          <DataField>ResolvedTime_CasesManagement</DataField>
+        </Field>
+        <Field Name="CompanyNo_CasesManagement">
+          <DataField>CompanyNo_CasesManagement</DataField>
+        </Field>
+        <Field Name="CompanyName_CasesManagement">
+          <DataField>CompanyName_CasesManagement</DataField>
+        </Field>
+        <Field Name="CompanyAddress_CasesManagement">
+          <DataField>CompanyAddress_CasesManagement</DataField>
+        </Field>
+        <Field Name="Companypostalcode_CasesManagement">
+          <DataField>Companypostalcode_CasesManagement</DataField>
+        </Field>
+        <Field Name="CompanyTelephone_CasesManagement">
+          <DataField>CompanyTelephone_CasesManagement</DataField>
+        </Field>
+        <Field Name="CompanyEmail_CasesManagement">
+          <DataField>CompanyEmail_CasesManagement</DataField>
+        </Field>
+        <Field Name="Companywebsite_CasesManagement">
+          <DataField>Companywebsite_CasesManagement</DataField>
+        </Field>
+        <Field Name="EmploymentInfo_CasesManagement">
+          <DataField>EmploymentInfo_CasesManagement</DataField>
+        </Field>
+        <Field Name="OthersDetails_CasesManagement">
+          <DataField>OthersDetails_CasesManagement</DataField>
+        </Field>
+        <Field Name="EmploymentTerms_CasesManagement">
+          <DataField>EmploymentTerms_CasesManagement</DataField>
+        </Field>
+        <Field Name="EmployerType_CasesManagement">
+          <DataField>EmployerType_CasesManagement</DataField>
+        </Field>
+        <Field Name="EmployerAddress_CasesManagement">
+          <DataField>EmployerAddress_CasesManagement</DataField>
+        </Field>
+        <Field Name="DateofEmployment_CasesManagement">
+          <DataField>DateofEmployment_CasesManagement</DataField>
+        </Field>
+        <Field Name="PositionHeld_CasesManagement">
+          <DataField>PositionHeld_CasesManagement</DataField>
+        </Field>
+        <Field Name="ExpectedMonthlyIncome_CasesManagement">
+          <DataField>ExpectedMonthlyIncome_CasesManagement</DataField>
+        </Field>
+        <Field Name="ExpectedMonthlyIncome_CasesManagementFormat">
+          <DataField>ExpectedMonthlyIncome_CasesManagementFormat</DataField>
+        </Field>
+        <Field Name="NatureOfBusiness_CasesManagement">
+          <DataField>NatureOfBusiness_CasesManagement</DataField>
+        </Field>
+        <Field Name="Industry_CasesManagement">
+          <DataField>Industry_CasesManagement</DataField>
+        </Field>
+        <Field Name="BusinessName_CasesManagement">
+          <DataField>BusinessName_CasesManagement</DataField>
+        </Field>
+        <Field Name="PhysicalBusinessLocation_CasesManagement">
+          <DataField>PhysicalBusinessLocation_CasesManagement</DataField>
+        </Field>
+        <Field Name="YearofCommence_CasesManagement">
+          <DataField>YearofCommence_CasesManagement</DataField>
+        </Field>
+        <Field Name="JobTaskNo_CasesManagement">
+          <DataField>JobTaskNo_CasesManagement</DataField>
+        </Field>
+        <Field Name="EmployerName_CasesManagement">
+          <DataField>EmployerName_CasesManagement</DataField>
+        </Field>
+        <Field Name="TermsofEmployment_CasesManagement">
+          <DataField>TermsofEmployment_CasesManagement</DataField>
+        </Field>
+        <Field Name="Occupation_CasesManagement">
+          <DataField>Occupation_CasesManagement</DataField>
+        </Field>
+        <Field Name="Department_CasesManagement">
+          <DataField>Department_CasesManagement</DataField>
+        </Field>
+        <Field Name="RefereeMemberNo_CasesManagement">
+          <DataField>RefereeMemberNo_CasesManagement</DataField>
+        </Field>
+        <Field Name="RefereeName_CasesManagement">
+          <DataField>RefereeName_CasesManagement</DataField>
+        </Field>
+        <Field Name="RefereeIDNo_CasesManagement">
+          <DataField>RefereeIDNo_CasesManagement</DataField>
+        </Field>
+        <Field Name="RefereeMobilePhoneNo_CasesManagement">
+          <DataField>RefereeMobilePhoneNo_CasesManagement</DataField>
+        </Field>
+        <Field Name="LeadStatus_CasesManagement">
+          <DataField>LeadStatus_CasesManagement</DataField>
+        </Field>
+        <Field Name="CapturedBy_CasesManagement">
+          <DataField>CapturedBy_CasesManagement</DataField>
+        </Field>
+        <Field Name="CapturedOn_CasesManagement">
+          <DataField>CapturedOn_CasesManagement</DataField>
+        </Field>
+        <Field Name="LeadRegion_CasesManagement">
+          <DataField>LeadRegion_CasesManagement</DataField>
+        </Field>
+        <Field Name="PhysicalMeetingLocation_CasesManagement">
+          <DataField>PhysicalMeetingLocation_CasesManagement</DataField>
+        </Field>
+        <Field Name="DateofEscalation_CasesManagement">
+          <DataField>DateofEscalation_CasesManagement</DataField>
+        </Field>
+        <Field Name="TimeofEscalation_CasesManagement">
+          <DataField>TimeofEscalation_CasesManagement</DataField>
+        </Field>
+        <Field Name="DateResolved_CasesManagement">
+          <DataField>DateResolved_CasesManagement</DataField>
+        </Field>
+        <Field Name="TimeResolved_CasesManagement">
+          <DataField>TimeResolved_CasesManagement</DataField>
+        </Field>
+        <Field Name="MemberNo_CasesManagement">
+          <DataField>MemberNo_CasesManagement</DataField>
+        </Field>
+        <Field Name="MemberName_CasesManagement">
+          <DataField>MemberName_CasesManagement</DataField>
+        </Field>
+        <Field Name="PayrollNo_CasesManagement">
+          <DataField>PayrollNo_CasesManagement</DataField>
+        </Field>
+        <Field Name="LoanBalance_CasesManagement">
+          <DataField>LoanBalance_CasesManagement</DataField>
+        </Field>
+        <Field Name="LoanBalance_CasesManagementFormat">
+          <DataField>LoanBalance_CasesManagementFormat</DataField>
+        </Field>
+        <Field Name="CurrentDeposits_CasesManagement">
+          <DataField>CurrentDeposits_CasesManagement</DataField>
+        </Field>
+        <Field Name="CurrentDeposits_CasesManagementFormat">
+          <DataField>CurrentDeposits_CasesManagementFormat</DataField>
+        </Field>
+        <Field Name="HolidaySavings_CasesManagement">
+          <DataField>HolidaySavings_CasesManagement</DataField>
+        </Field>
+        <Field Name="HolidaySavings_CasesManagementFormat">
+          <DataField>HolidaySavings_CasesManagementFormat</DataField>
+        </Field>
+        <Field Name="Description_CasesManagement">
+          <DataField>Description_CasesManagement</DataField>
+        </Field>
+        <Field Name="ShareCapital_CasesManagement">
+          <DataField>ShareCapital_CasesManagement</DataField>
+        </Field>
+        <Field Name="ShareCapital_CasesManagementFormat">
+          <DataField>ShareCapital_CasesManagementFormat</DataField>
+        </Field>
+        <Field Name="IDNo_CasesManagement">
+          <DataField>IDNo_CasesManagement</DataField>
+        </Field>
+        <Field Name="Gender_CasesManagement">
+          <DataField>Gender_CasesManagement</DataField>
+        </Field>
+        <Field Name="EscalatedUserEmail_CasesManagement">
+          <DataField>EscalatedUserEmail_CasesManagement</DataField>
+        </Field>
+        <Field Name="Priority_CasesManagement">
+          <DataField>Priority_CasesManagement</DataField>
+        </Field>
+        <Field Name="FollowupAction_CasesManagement">
+          <DataField>FollowupAction_CasesManagement</DataField>
+        </Field>
+        <Field Name="ComplaintNo_CasesManagement">
+          <DataField>ComplaintNo_CasesManagement</DataField>
+        </Field>
+        <Field Name="CustomerType_CasesManagement">
+          <DataField>CustomerType_CasesManagement</DataField>
+        </Field>
+        <Field Name="CustomerGroupCode_CasesManagement">
+          <DataField>CustomerGroupCode_CasesManagement</DataField>
+        </Field>
+        <Field Name="ReceivingOfficer_CasesManagement">
+          <DataField>ReceivingOfficer_CasesManagement</DataField>
+        </Field>
+        <Field Name="ModeofLodgingComplaintsCod_CasesManagement">
+          <DataField>ModeofLodgingComplaintsCod_CasesManagement</DataField>
+        </Field>
+        <Field Name="CustomerGroup_CasesManagement">
+          <DataField>CustomerGroup_CasesManagement</DataField>
+        </Field>
+        <Field Name="ModeofLodgingComplaints_CasesManagement">
+          <DataField>ModeofLodgingComplaints_CasesManagement</DataField>
+        </Field>
+        <Field Name="AssignedOfficerEmail_CasesManagement">
+          <DataField>AssignedOfficerEmail_CasesManagement</DataField>
+        </Field>
+        <Field Name="AssignedOfficerName_CasesManagement">
+          <DataField>AssignedOfficerName_CasesManagement</DataField>
+        </Field>
+        <Field Name="AssignedOfficer_CasesManagement">
+          <DataField>AssignedOfficer_CasesManagement</DataField>
+        </Field>
+        <Field Name="SubmittedBy_CasesManagement">
+          <DataField>SubmittedBy_CasesManagement</DataField>
+        </Field>
+        <Field Name="DateSubmitted_CasesManagement">
+          <DataField>DateSubmitted_CasesManagement</DataField>
+        </Field>
+        <Field Name="TimeSubmitted_CasesManagement">
+          <DataField>TimeSubmitted_CasesManagement</DataField>
+        </Field>
+        <Field Name="CreatedBy_CasesManagement">
+          <DataField>CreatedBy_CasesManagement</DataField>
+        </Field>
+        <Field Name="DateCreated_CasesManagement">
+          <DataField>DateCreated_CasesManagement</DataField>
+        </Field>
+        <Field Name="TimeCreated_CasesManagement">
+          <DataField>TimeCreated_CasesManagement</DataField>
+        </Field>
+        <Field Name="Enquiry_CasesManagement">
+          <DataField>Enquiry_CasesManagement</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

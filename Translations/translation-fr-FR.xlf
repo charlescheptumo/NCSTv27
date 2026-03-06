@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 135784409 - NamedType 1328893987" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no purchase review documents to process.  Please select the appropriate Decision and enter Target No. to process documents.</source>
+          <target>Il n'y a pas de documents de révision des achats à traiter..  Veuillez sélectionner la « Décision » appropriée et saisir le N° cible pour traiter les documents.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText01</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 3241983838" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No line were eligible for posting encumbrances - check line statuses.</source>
+          <target>Aucune ligne ne permet la comptabilisation des charges- vérifier les statuts de ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText02</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 2604287221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Purchase Order %1 you are appending to does not exist.</source>
+          <target>La commande %1 que vous joigniez n'existe pas.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText03</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 3710771432" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a %1 purchase line.</source>
+          <target>Vous ne pouvez pas annuler une ligne d'achat %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText04</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 3073074815" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advanced Budgeting is not licensed or activated in Source Codes.</source>
+          <target>Pas de licence ou d'activation dans les codes source pour le « Budget avancé » </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText05</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 691197370" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a submitted for approval purchase line, Document %1 Line %2.</source>
+          <target>Vous ne pouvez pas annuler une ligne d'achat envoyée pour approbation, Document %1 ligne %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText06</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 53500753" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reversed Requisition Fulfillment &amp; Canceled line, Document %1 Line %2.</source>
+          <target>Réalisation de demande inversée et ligne annulée, document %1, ligne %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText07</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 2773196244" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Delete instead of Cancel Line for purchase line, Document %1 Line %2.</source>
+          <target>Utiliser « Supprimer » plutôt que « Annuler la ligne » pour une ligne d'achat, document %1 , ligne %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText08</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 2135499627" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a new purchase line, Document %1 Line %2 - Delete Line instead.</source>
+          <target>Vous ne pouvez pas annuler une nouvelle ligne d'achat, Document %1 ligne %2 - supprimez plutôt cette ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText09</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 1710846683" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commitment Posting is not activated.</source>
+          <target>La comptabilisation des engagements n'est pas activée.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText10</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 2348543300" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Encumbrance Posting is not activated.</source>
+          <target>La validation des charges n'est pas activée.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText11</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 2986239917" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no lines with status New and an Amount to check.</source>
+          <target>Il n'y a pas de lignes avec le statut « Nouveau » et un montant à vérifier.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText12</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 3623936534" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nothing to Submit.</source>
+          <target>Rien à envoyer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText13</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 3455027511" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requisition %1 has submitted lines - cannot be deleted.</source>
+          <target>La demande %1 a des lignes envoyées - ne peuvent pas être supprimées.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText14</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 4092724128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to cancel for Line %1.  Delete line instead.</source>
+          <target>Il n'y a rien à annuler sur la ligne %1. Supprimez plutôt la ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText15</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 435453449" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a Requisition %1 Line %2 that is %3.</source>
+          <target>Vous ne pouvez pas annuler une demande %1 ligne %2 qui soit %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText16</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 1073150066" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a Deposit %1 Line %2 that is %3.</source>
+          <target>Vous ne pouvez pas annuler un dépôt %1 ligne %2 qui soit %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText17</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 904241043" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no lines to check.</source>
+          <target>Il n'y a pas de lignes à vérifier.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText18</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 1541937660" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no lines to cancel.</source>
+          <target>Il n'y a pas de lignes à annuler.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText19</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 1451110414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are outstanding Orders that must be fully Invoiced or Canceled first.</source>
+          <target>Il y a des commandes en suspens qui doivent être d'abord totalement facturées ou annulées.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText20</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 813413797" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Should Blanket Order %1, Line No. %2 be re-encumbered?</source>
+          <target>La commande ouverte %1, ligne N° %2, devrait-elle être re-grevée ?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText21</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 175717180" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blanket Order Status %1 is not valid </source>
+          <target>L'état de la commande ouverte %1 n'est pas valide</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText22</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 3832987859" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The line has been submitted for approval.  Confirm cancellation?</source>
+          <target>La ligne a été envoyée pour approbation.  Confirmer l'annulation ?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText23</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 3195291242" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel Line has been stopped.  Document %1 Line %2.</source>
+          <target>L'annulation de ligne a été stoppé..  Document %1 ligne %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText24</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 2557594625" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting is not allowed for proposed Vendors.  Vendor No.=%1.</source>
+          <target>Comptabilisation non autorisée pour les vendeurs proposés.  Vendeur N° = %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText25</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 1919898008" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing is not allowed for proposed Vendors.  Vendor No.=%1.</source>
+          <target>Le traitement n'est pas autorisé pour les vendeurs proposés.  Vendeur N° = %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText26</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 1282201391" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No lines were eligible for posting commitments - check line statuses.</source>
+          <target>Aucune ligne ne permet la comptabilisation des engagements - vérifier les statuts de ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText27</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 2257716054" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase tolerance check failed.  Document No.=%1, Line No.=%2.</source>
+          <target>La vérification de la tolérance d'achat a échoué.  Document N° = %1, ligne N° = %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText28</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 1620019437" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reclassification not permitted for document %1, line %2.</source>
+          <target>Reclassification interdite pour le document %1, ligne %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText29</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 1174578141" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status must be Approval Pending, Transfer Budget Pending or Disapproved.</source>
+          <target>Le statut doit être « En attente d'approbation », « En attente de virement budgétaire » ou « Désapprouvé »</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText30</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 1812274758" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no lines to reset.</source>
+          <target>Il n'y a pas de lignes à réinitialiser.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText31</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 4194152203" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a new sales line, Document %1 Line %2 - Delete Line instead.</source>
+          <target>Vous ne pouvez pas annuler une nouvelle ligne de ventes, Document %1 ligne %2 - supprimez plutôt cette ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText32</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 536881524" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a %1 sales line.</source>
+          <target>Vous ne pouvez pas annuler une ligne de ventes %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText33</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 2918758969" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are %1 failed validations.  Preview Distributions to resolve.</source>
+          <target>Il y a eu %1 validations en échec.  Prévisualiser les distributions à résoudre.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType SNText34</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 2361213527" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reserve for Commitments</source>
+          <target>Réserver pour les engagements</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType CommitmentDescription</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 227004993" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reserve for Encumbrances</source>
+          <target>Réserve pour les charges</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType EncumbranceDescription</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 135784409 - NamedType 4225219890" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Conversion of  %1 to %2.</source>
+          <target>Conversion de  %1 en %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Requisition Management - NamedType ConversionDescription</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 1328893987" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no purchase review documents to process.  Please select the appropriate Decision and enter Target No. to process documents.</source>
+          <target>Il n'y a pas de documents de révision des achats à traiter..  Veuillez sélectionner la « Décision » appropriée et saisir le N° cible pour traiter les documents.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText01</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 3241983838" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No line were eligible for posting encumbrances - check line statuses.</source>
+          <target>Aucune ligne ne permet la comptabilisation des charges- vérifier les statuts de ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText02</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 2604287221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Purchase Order %1 you are appending to does not exist.</source>
+          <target>La commande %1 que vous joigniez n'existe pas.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText03</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 3710771432" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a %1 purchase line.</source>
+          <target>Vous ne pouvez pas annuler une ligne d'achat %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText04</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 3073074815" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advanced Budgeting is not licensed or activated in Source Codes.</source>
+          <target>Pas de licence ou d'activation dans les codes source pour le « Budget avancé » </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText05</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 691197370" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a submitted for approval purchase line, Document %1 Line %2.</source>
+          <target>Vous ne pouvez pas annuler une ligne d'achat envoyée pour approbation, Document %1 ligne %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText06</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 53500753" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reversed Requisition Fulfillment &amp; Canceled line, Document %1 Line %2.</source>
+          <target>Réalisation de demande inversée et ligne annulée, document %1, ligne %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText07</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 2773196244" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Delete instead of Cancel Line for purchase line, Document %1 Line %2.</source>
+          <target>Utiliser « Supprimer » plutôt que « Annuler la ligne » pour une ligne d'achat, document %1 , ligne %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText08</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 2135499627" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a new purchase line, Document %1 Line %2 - Delete Line instead.</source>
+          <target>Vous ne pouvez pas annuler une nouvelle ligne d'achat, Document %1 ligne %2 - supprimez plutôt cette ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText09</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 1710846683" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commitment Posting is not activated.</source>
+          <target>La comptabilisation des engagements n'est pas activée.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText10</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 2348543300" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Encumbrance Posting is not activated.</source>
+          <target>La validation des charges n'est pas activée.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText11</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 2986239917" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no lines with status New and an Amount to check.</source>
+          <target>Il n'y a pas de lignes avec le statut « Nouveau » et un montant à vérifier.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText12</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 3623936534" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nothing to Submit.</source>
+          <target>Rien à envoyer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText13</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 3455027511" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requisition %1 has submitted lines - cannot be deleted.</source>
+          <target>La demande %1 a des lignes envoyées - ne peuvent pas être supprimées.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText14</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 4092724128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to cancel for Line %1.  Delete line instead.</source>
+          <target>Il n'y a rien à annuler sur la ligne %1. Supprimez plutôt la ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText15</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 435453449" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a Requisition %1 Line %2 that is %3.</source>
+          <target>Vous ne pouvez pas annuler une demande %1 ligne %2 qui soit %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText16</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 1073150066" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a Deposit %1 Line %2 that is %3.</source>
+          <target>Vous ne pouvez pas annuler un dépôt %1 ligne %2 qui soit %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText17</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 904241043" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no lines to check.</source>
+          <target>Il n'y a pas de lignes à vérifier.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText18</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 1541937660" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no lines to cancel.</source>
+          <target>Il n'y a pas de lignes à annuler.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText19</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 1451110414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are outstanding Orders that must be fully Invoiced or Canceled first.</source>
+          <target>Il y a des commandes en suspens qui doivent être d'abord totalement facturées ou annulées.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText20</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 813413797" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Should Blanket Order %1, Line No. %2 be re-encumbered?</source>
+          <target>La commande ouverte %1, ligne N° %2, devrait-elle être re-grevée ?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText21</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 175717180" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blanket Order Status %1 is not valid </source>
+          <target>L'état de la commande ouverte %1 n'est pas valide</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText22</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 3832987859" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The line has been submitted for approval.  Confirm cancellation?</source>
+          <target>La ligne a été envoyée pour approbation.  Confirmer l'annulation ?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText23</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 3195291242" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel Line has been stopped.  Document %1 Line %2.</source>
+          <target>L'annulation de ligne a été stoppé..  Document %1 ligne %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText24</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 2557594625" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting is not allowed for proposed Vendors.  Vendor No.=%1.</source>
+          <target>Comptabilisation non autorisée pour les vendeurs proposés.  Vendeur N° = %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText25</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 1919898008" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing is not allowed for proposed Vendors.  Vendor No.=%1.</source>
+          <target>Le traitement n'est pas autorisé pour les vendeurs proposés.  Vendeur N° = %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText26</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 1282201391" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No lines were eligible for posting commitments - check line statuses.</source>
+          <target>Aucune ligne ne permet la comptabilisation des engagements - vérifier les statuts de ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText27</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 2257716054" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase tolerance check failed.  Document No.=%1, Line No.=%2.</source>
+          <target>La vérification de la tolérance d'achat a échoué.  Document N° = %1, ligne N° = %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText28</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 1620019437" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reclassification not permitted for document %1, line %2.</source>
+          <target>Reclassification interdite pour le document %1, ligne %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText29</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 1174578141" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status must be Approval Pending, Transfer Budget Pending or Disapproved.</source>
+          <target>Le statut doit être « En attente d'approbation », « En attente de virement budgétaire » ou « Désapprouvé »</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText30</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 1812274758" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no lines to reset.</source>
+          <target>Il n'y a pas de lignes à réinitialiser.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText31</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 4194152203" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a new sales line, Document %1 Line %2 - Delete Line instead.</source>
+          <target>Vous ne pouvez pas annuler une nouvelle ligne de ventes, Document %1 ligne %2 - supprimez plutôt cette ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText32</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 536881524" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel a %1 sales line.</source>
+          <target>Vous ne pouvez pas annuler une ligne de ventes %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText33</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 2918758969" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are %1 failed validations.  Preview Distributions to resolve.</source>
+          <target>Il y a eu %1 validations en échec.  Prévisualiser les distributions à résoudre.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType SNText34</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 2361213527" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reserve for Commitments</source>
+          <target>Réserver pour les engagements</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType CommitmentDescription</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 227004993" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reserve for Encumbrances</source>
+          <target>Réserve pour les charges</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType EncumbranceDescription</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 467456771 - NamedType 4225219890" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Conversion of  %1 to %2.</source>
+          <target>Conversion de  %1 en %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Purchase Requisition MGT - NamedType ConversionDescription</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
