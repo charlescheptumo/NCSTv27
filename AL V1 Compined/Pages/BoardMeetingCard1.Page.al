@@ -162,7 +162,7 @@ Page 55012 "Board Meeting Card1"
                                         BoardMemb.SetRange(Code, BoardMembers."Member No");
                                         if BoardMemb.FindFirst() then
                                             Email1 := BoardMemb.Email;
-                                        Email2 := 'mosesotieno@dynasoft.co.ke';
+                                        Email2 := 'erickamau@dynasoft.co.ke'+'charlescheptumo@dynasoft.co.ke';
                                         Message('Email 1%', Email1);
                                         if Email1 <> '' then begin
                                             //   SMTP.CreateMessage('NACOSTI', Email2,
