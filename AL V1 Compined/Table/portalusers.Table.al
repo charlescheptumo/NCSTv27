@@ -57,6 +57,7 @@ Table 56900 portalusers
     }
 
     fieldgroups
+    
     {
     }
 }
