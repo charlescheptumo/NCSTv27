@@ -372,7 +372,7 @@ Table 69124 "Training Needs"
         HrSetup.Get;
         HrSetup.TestField(HrSetup."Training Need Nos.");
         if "No." = '' then
-          // NoSeriesMgt.InitSeries(HrSetup."Training Need Nos.", xRec."No. Series", 0D, "No.", "No. Series");
+            // NoSeriesMgt.InitSeries(HrSetup."Training Need Nos.", xRec."No. Series", 0D, "No.", "No. Series");
             "No." := NoSeriesMgt.GetNextNo(HrSetup."Training Need Nos.", Today, true);
         /*
         IF "Application Code" = '' THEN BEGIN
