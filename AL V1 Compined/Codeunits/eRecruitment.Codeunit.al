@@ -105,7 +105,7 @@ Codeunit 50101 eRecruitment
         end;
     end;
 
-    procedure FnApplicantProfileRegistration(prefix: Integer; applicantNumber: Text; surname: Text; firstname: Text; othernames: Text; gender: Integer; idnumber: Integer; passportnumber: Text; nationality: Text; religion: Option; dateofbirth: Date; countyofresidence: Text; countyoforigin: Text; ethnicity: Text; nhif: Text; nssf: Text; mobilephonenumber: Text; krapin: Text; maritalstatus: Integer; address: Code[50]; disabilitycertificate: Code[50]; disabilitysummary: Text[50]; phonenumber2: Text; isdisable: Boolean; postalcodes: Code[50]) status: Text
+    procedure FnApplicantProfileRegistration(prefix: Integer; applicantNumber: Text; surname: Text; firstname: Text; othernames: Text; gender: Integer; idnumber: Integer; passportnumber: Text; nationality: Text; religion: Option; dateofbirth: DateTime; countyofresidence: Text; countyoforigin: Text; ethnicity: Text; nhif: Text; nssf: Text; mobilephonenumber: Text; krapin: Text; maritalstatus: Integer; address: Code[50]; disabilitycertificate: Code[50]; disabilitysummary: Text[50]; phonenumber2: Text; isdisable: Boolean; postalcodes: Code[50]) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -126,7 +126,8 @@ Codeunit 50101 eRecruitment
             Applicant."Passport No." := passportnumber;
             Applicant.Nationality := nationality;
             Applicant.Religion := religion;
-            Applicant."Birth Date" := dateofbirth;
+            //Applicant."Birth Date" := dateofbirth;
+            Applicant."Birth Date" := dt2date(dateofbirth);
             Applicant."County of Birth" := countyoforigin;
             Applicant."Ethnic Group" := ethnicity;
             Applicant.Nationality := nationality;
@@ -164,7 +165,7 @@ Codeunit 50101 eRecruitment
             Applicant."Passport No." := passportnumber;
             Applicant.Nationality := nationality;
             Applicant.Religion := religion;
-            Applicant."Birth Date" := dateofbirth;
+            Applicant."Birth Date" := dt2date(dateofbirth);
             Applicant."County of Birth" := countyoforigin;
             Applicant."Ethnic Group" := ethnicity;
             Applicant.Nationality := nationality;
@@ -192,7 +193,7 @@ Codeunit 50101 eRecruitment
         exit(status);
     end;
 
-    procedure FnAcademicQualifications(applicantNumber: Text; educationlevel: Integer; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Date; enddate: Date) status: Text
+    procedure FnAcademicQualifications(applicantNumber: Text; educationlevel: Integer; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Datetime; enddate: Datetime) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -214,8 +215,9 @@ Codeunit 50101 eRecruitment
         JobApplicantsQualification."Institution/Company" := institutionname;
         //muga
         //JobApplicantsQualification.Type := JobApplicantsQualification.Type::"1";
-        JobApplicantsQualification."From Date" := startdate;
-        JobApplicantsQualification."To Date" := enddate;
+        //JobApplicantsQualification."From Date" := startdate;
+        JobApplicantsQualification."From Date" := dt2date(startdate);
+        JobApplicantsQualification."To Date" := DT2Date(enddate);
         JobApplicantsQualification.Description := qualificationtitle;
         if JobApplicantsQualification.Insert(true) then begin
             status := 'success*Details were successfully submitted';
@@ -226,7 +228,7 @@ Codeunit 50101 eRecruitment
         exit(status);
     end;
 
-    procedure FnUpdateAcademicQualifications(applicantNumber: Text; EntryNumber: Integer; educationlevel: Integer; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Date; enddate: Date) status: Text
+    procedure FnUpdateAcademicQualifications(applicantNumber: Text; EntryNumber: Integer; educationlevel: Integer; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Datetime; enddate: Datetime) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -249,8 +251,8 @@ Codeunit 50101 eRecruitment
             JobApplicantsQualification."Institution/Company" := institutionname;
             //muga
             //JobApplicantsQualification.Type := JobApplicantsQualification.Type::"1";
-            JobApplicantsQualification."From Date" := startdate;
-            JobApplicantsQualification."To Date" := enddate;
+            JobApplicantsQualification."From Date" := DT2Date(startdate);
+            JobApplicantsQualification."To Date" := DT2Date(enddate);
             JobApplicantsQualification.Description := qualificationtitle;
             if JobApplicantsQualification.Modify(true) then begin
                 status := 'success*The Academic Details were successfully Saved';
@@ -263,7 +265,7 @@ Codeunit 50101 eRecruitment
         exit(status);
     end;
 
-    procedure FnApplicationAcademicQualifications(applicantNumber: Text; jobApplicationNo: Text; educationlevel: Integer; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Date; enddate: Date) status: Text
+    procedure FnApplicationAcademicQualifications(applicantNumber: Text; jobApplicationNo: Text; educationlevel: Integer; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Datetime; enddate: Datetime) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -286,8 +288,8 @@ Codeunit 50101 eRecruitment
         ApplicationQualification."Attained Score" := attainedscore;
         ApplicationQualification."Graduation Year" := graduationyear;
         ApplicationQualification."Institution/Company" := institutionname;
-        ApplicationQualification."From Date" := startdate;
-        ApplicationQualification."To Date" := enddate;
+        ApplicationQualification."From Date" := DT2Date(startdate);
+        ApplicationQualification."To Date" := DT2Date(enddate);
         ApplicationQualification.Description := qualificationtitle;
         if ApplicationQualification.Insert(true) then begin
             status := 'success*Details were successfully submitted';
@@ -298,7 +300,7 @@ Codeunit 50101 eRecruitment
         exit(status);
     end;
 
-    procedure FnUpdateApplicationAcademicQualifications(applicantNumber: Text; EntryNumber: Integer; jobApplicationNo: Text; educationlevel: Integer; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Date; enddate: Date) status: Text
+    procedure FnUpdateApplicationAcademicQualifications(applicantNumber: Text; EntryNumber: Integer; jobApplicationNo: Text; educationlevel: Integer; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Datetime; enddate: Datetime) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -322,8 +324,8 @@ Codeunit 50101 eRecruitment
             ApplicationQualification."Attained Score" := attainedscore;
             ApplicationQualification."Graduation Year" := graduationyear;
             ApplicationQualification."Institution/Company" := institutionname;
-            ApplicationQualification."From Date" := startdate;
-            ApplicationQualification."To Date" := enddate;
+            ApplicationQualification."From Date" := DT2Date(startdate);
+            ApplicationQualification."To Date" := DT2Date(enddate);
             ApplicationQualification.Description := qualificationtitle;
             if ApplicationQualification.Modify(true) then begin
                 status := 'success*The Academic Details were successfully saved';
@@ -336,7 +338,7 @@ Codeunit 50101 eRecruitment
         exit(status);
     end;
 
-    procedure FnProffessionalQualifications(applicantNumber: Text; educationlevel: Text; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Date; enddate: Date) status: Text
+    procedure FnProffessionalQualifications(applicantNumber: Text; educationlevel: Text; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Datetime; enddate: Datetime) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -357,8 +359,8 @@ Codeunit 50101 eRecruitment
         //muga
         //JobApplicantsQualification.Type := JobApplicantsQualification.Type::"1";
         JobApplicantsQualification."Institution/Company" := institutionname;
-        JobApplicantsQualification."From Date" := startdate;
-        JobApplicantsQualification."To Date" := enddate;
+        JobApplicantsQualification."From Date" := DT2Date(startdate);
+        JobApplicantsQualification."To Date" := DT2Date(enddate);
         JobApplicantsQualification.Description := qualificationtitle;
         if JobApplicantsQualification.Insert(true) then begin
             status := 'success*Details were successfully submitted';
@@ -404,7 +406,7 @@ Codeunit 50101 eRecruitment
         exit(status);
     end;
 
-    procedure FnApplicationProffessionalQualifications(applicantNumber: Text; JobApplicationNo: Text; proffesionalQualification: Text; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Date; enddate: Date) status: Text
+    procedure FnApplicationProffessionalQualifications(applicantNumber: Text; JobApplicationNo: Text; proffesionalQualification: Text; institutionname: Text; country: Text; qualificationtitle: Text; specializationarea: Text; attainedscore: Integer; graduationyear: Text; startdate: Datetime; enddate: Datetime) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -426,8 +428,8 @@ Codeunit 50101 eRecruitment
         ApplicationQualification."Attained Score" := attainedscore;
         ApplicationQualification."Graduation Year" := graduationyear;
         ApplicationQualification."Institution/Company" := institutionname;
-        ApplicationQualification."From Date" := startdate;
-        ApplicationQualification."To Date" := enddate;
+        ApplicationQualification."From Date" := DT2Date(startdate);
+        ApplicationQualification."To Date" := DT2Date(enddate);
         ApplicationQualification.Description := qualificationtitle;
         if ApplicationQualification.Insert(true) then begin
             status := 'success*Details were successfully submitted';
@@ -437,7 +439,7 @@ Codeunit 50101 eRecruitment
         exit(status);
     end;
 
-    procedure FnProffessionaBodies(applicantNumber: Text; professionalbody: Text; registrationNumber: Text; MembershipType: Text; RenewalDate: Date; licensingNumber: Text; LicenseRenewalDate: Date) status: Text
+    procedure FnProffessionaBodies(applicantNumber: Text; professionalbody: Text; registrationNumber: Text; MembershipType: Text; RenewalDate: Datetime; licensingNumber: Text; LicenseRenewalDate: Datetime) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -450,12 +452,12 @@ Codeunit 50101 eRecruitment
         JobApplicantsQualification."Institution/Company" := professionalbody;
         //muga
         //JobApplicantsQualification."Qualification Category" := JobApplicantsQualification."qualification category"::"7";
-        JobApplicantsQualification."Member Renewal Date" := RenewalDate;
+        JobApplicantsQualification."Member Renewal Date" := DT2Date(RenewalDate);
         JobApplicantsQualification."Membership Registration No" := registrationNumber;
         ;
         JobApplicantsQualification."Membership Type" := MembershipType;
         JobApplicantsQualification."Licensing Number" := licensingNumber;
-        JobApplicantsQualification."Licensing Renewal Date" := LicenseRenewalDate;
+        JobApplicantsQualification."Licensing Renewal Date" := DT2Date(LicenseRenewalDate);
         if JobApplicantsQualification.Insert(true) then begin
             status := 'success*Details were successfully submitted';
         end else begin
@@ -466,7 +468,7 @@ Codeunit 50101 eRecruitment
 
     end;
 
-    procedure FnUpdateProffessionaBodies(EntryNumber: Integer; applicantNumber: Text; professionalbody: Text; registrationNumber: Text; MembershipType: Text; RenewalDate: Date; licensingNumber: Text; LicenseRenewalDate: Date) status: Text
+    procedure FnUpdateProffessionaBodies(EntryNumber: Integer; applicantNumber: Text; professionalbody: Text; registrationNumber: Text; MembershipType: Text; RenewalDate: Datetime; licensingNumber: Text; LicenseRenewalDate: Datetime) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -481,12 +483,12 @@ Codeunit 50101 eRecruitment
             JobApplicantsQualification."Institution/Company" := professionalbody;
             //muga
             //JobApplicantsQualification."Qualification Category" := JobApplicantsQualification."qualification category"::"7";
-            JobApplicantsQualification."Member Renewal Date" := RenewalDate;
+            JobApplicantsQualification."Member Renewal Date" := DT2Date(RenewalDate);
             JobApplicantsQualification."Membership Registration No" := registrationNumber;
             ;
             JobApplicantsQualification."Membership Type" := MembershipType;
             JobApplicantsQualification."Licensing Number" := licensingNumber;
-            JobApplicantsQualification."Licensing Renewal Date" := LicenseRenewalDate;
+            JobApplicantsQualification."Licensing Renewal Date" := DT2Date(LicenseRenewalDate);
             if JobApplicantsQualification.Modify(true) then begin
                 status := 'success*Details were successfully submitted';
             end else begin
@@ -497,7 +499,7 @@ Codeunit 50101 eRecruitment
 
     end;
 
-    procedure FnApplicationProffessionaBodies(applicantNumber: Text; JobApplicationNo: Text; professionalbody: Text; registrationNumber: Text; MembershipType: Text; RenewalDate: Date; licensingNumber: Text; LicenseRenewalDate: Date) status: Text
+    procedure FnApplicationProffessionaBodies(applicantNumber: Text; JobApplicationNo: Text; professionalbody: Text; registrationNumber: Text; MembershipType: Text; RenewalDate: Datetime; licensingNumber: Text; LicenseRenewalDate: Datetime) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -513,12 +515,12 @@ Codeunit 50101 eRecruitment
         ApplicationQualification."Institution/Company" := professionalbody;
         //muga
         //ApplicationQualification."Qualification Category" := ApplicationQualification."qualification category"::"7";
-        ApplicationQualification."Member Renewal Date" := RenewalDate;
+        ApplicationQualification."Member Renewal Date" := DT2Date(RenewalDate);
         ApplicationQualification."Membership Registration No" := registrationNumber;
         ;
         ApplicationQualification."Membership Type" := MembershipType;
         ApplicationQualification."Licensing Number" := licensingNumber;
-        ApplicationQualification."Licensing Renewal Date" := LicenseRenewalDate;
+        ApplicationQualification."Licensing Renewal Date" := DT2Date(LicenseRenewalDate);
         if ApplicationQualification.Insert(true) then begin
             status := 'success*Details were successfully submitted';
         end else begin
@@ -528,7 +530,7 @@ Codeunit 50101 eRecruitment
 
     end;
 
-    procedure FnWorkExperience(applicantNumber: Text; employerName: Text; jobdesignation: Text; employmentstartdate: Date; employmentenddate: Date; termsofservice: Integer; experienceyears: Text; dutiesresponsibilities: Text) status: Text
+    procedure FnWorkExperience(applicantNumber: Text; employerName: Text; jobdesignation: Text; employmentstartdate: Datetime; employmentenddate: Datetime; termsofservice: Integer; experienceyears: Text; dutiesresponsibilities: Text) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -542,8 +544,8 @@ Codeunit 50101 eRecruitment
         JobApplicantsQualification."Institution/Company" := employerName;
         //muga
         //JobApplicantsQualification."Qualification Category" := JobApplicantsQualification."qualification category"::"4";
-        JobApplicantsQualification."From Date" := employmentstartdate;
-        JobApplicantsQualification."To Date" := employmentenddate;
+        JobApplicantsQualification."From Date" := DT2Date(employmentstartdate);
+        JobApplicantsQualification."To Date" := DT2Date(employmentenddate);
         ;
         JobApplicantsQualification."Terms of Service" := termsofservice;
         JobApplicantsQualification."Experience Years" := experienceyears;
@@ -557,7 +559,7 @@ Codeunit 50101 eRecruitment
 
     end;
 
-    procedure FnUpdateWorkExperience(EntryNumber: Integer; applicantNumber: Text; employerName: Text; jobdesignation: Text; employmentstartdate: Date; employmentenddate: Date; termsofservice: Integer; experienceyears: Text; dutiesresponsibilities: Text) status: Text
+    procedure FnUpdateWorkExperience(EntryNumber: Integer; applicantNumber: Text; employerName: Text; jobdesignation: Text; employmentstartdate: Datetime; employmentenddate: Datetime; termsofservice: Integer; experienceyears: Text; dutiesresponsibilities: Text) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -573,8 +575,8 @@ Codeunit 50101 eRecruitment
             JobApplicantsQualification."Institution/Company" := employerName;
             //muga
             //JobApplicantsQualification."Qualification Category" := JobApplicantsQualification."qualification category"::"4";
-            JobApplicantsQualification."From Date" := employmentstartdate;
-            JobApplicantsQualification."To Date" := employmentenddate;
+            JobApplicantsQualification."From Date" := DT2Date(employmentstartdate);
+            JobApplicantsQualification."To Date" := DT2Date(employmentenddate);
             ;
             JobApplicantsQualification."Terms of Service" := termsofservice;
             JobApplicantsQualification."Experience Years" := experienceyears;
@@ -589,7 +591,7 @@ Codeunit 50101 eRecruitment
 
     end;
 
-    procedure FnApplicationWorkExperience(applicantNumber: Text; JobApplicationNo: Text; employerName: Text; jobdesignation: Text; employmentstartdate: Date; employmentenddate: Date; termsofservice: Integer; experienceyears: Text; dutiesresponsibilities: Text) status: Text
+    procedure FnApplicationWorkExperience(applicantNumber: Text; JobApplicationNo: Text; employerName: Text; jobdesignation: Text; employmentstartdate: Datetime; employmentenddate: Datetime; termsofservice: Integer; experienceyears: Text; dutiesresponsibilities: Text) status: Text
     var
         ApplicantProfile: Record Contact;
         Contact: Record Contact;
@@ -606,8 +608,8 @@ Codeunit 50101 eRecruitment
         ApplicationQualification."Institution/Company" := employerName;
         //muga
         //ApplicationQualification."Qualification Category" := ApplicationQualification."qualification category"::"4";
-        ApplicationQualification."From Date" := employmentstartdate;
-        ApplicationQualification."To Date" := employmentenddate;
+        ApplicationQualification."From Date" := DT2Date(employmentstartdate);
+        ApplicationQualification."To Date" := DT2Date(employmentenddate);
         ;
         ApplicationQualification."Terms of Service" := termsofservice;
         ApplicationQualification."Experience Years" := experienceyears;
