@@ -147,8 +147,8 @@ Codeunit 50101 eRecruitment
             Applicant."Post Code" := postalcodes;
             Applicant."Disability Certificate No" := disabilitycertificate;
             Applicant."Disability Description" := disabilitysummary;
-            Applicant."Last Date Modified" := Today;
-            Applicant."Last Modified Date Time" := CurrentDatetime;
+            //Applicant."Last Date Modified" := Today;
+            //."Last Modified Date Time" := CurrentDatetime;
             if Applicant.Modify(true) then begin
                 status := 'success*Your Aplicant account was successfully created. Please proceed to complete your profile!';
             end else begin
@@ -1672,5 +1672,24 @@ Codeunit 50101 eRecruitment
                 status := 'error*An error occured during the process of creating link';
             end
         end;
+    end;
+
+    procedure FnGenerateVacancyAdvert(VcancyNo: Code[20]) status: Text
+    var
+        VacancyAdvert: Record "Recruitment Requisition Header";
+    begin
+
+        VacancyAdvert.Reset;
+        VacancyAdvert.SetRange("Document No.", VcancyNo);
+
+        if VacancyAdvert.FindSet then begin
+            // if FILE.Exists(FILEPATH + VcancyNo + '.pdf') then
+            //     FILE.Erase(FILEPATH + VcancyNo + '.pdf');
+            // Report.SaveAsPdf(69605, FILEPATH + VcancyNo + '.pdf', VacancyAdvert);
+            status := 'success*Generated*Files\' + VcancyNo + '.pdf';
+
+        end else begin
+            status := 'danger*The Report Could not be generated';
+        end
     end;
 }

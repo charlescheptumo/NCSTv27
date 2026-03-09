@@ -18,6 +18,7 @@ Query 50076 "Job Responsibilities"
             column(Entry_No; "Entry No.")
             {
             }
+
         }
     }
 }
