@@ -15,6 +15,7 @@ Table 59649 Applicantr
         field(3; "Middle Name"; Text[30])
         {
             Caption = 'Middle Name';
+            
         }
         field(4; "Last Name"; Text[30])
         {
